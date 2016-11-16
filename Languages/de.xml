@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="de" intName="German (DE)" localName="Deutsch (DE)" lcid="7" culture="de-DE">
+  <creator>
+    <name>Soeteman software</name>
+    <link>https://github.com/rsoeteman/seochecker-resources</link>
+  </creator>
+  <area alias="sections">
+    <key alias="seochecker">SEO Checker</key>
+  </area>
+  <area alias="seoCheckerGeneral">
+    <key alias="nodePickerChoose">Wählen...</key>
+  </area>
+  <area alias="seoCheckerValidate">
+    <key alias="validationTitle">Seiten überprüfen</key>
+    <key alias="validationIntro">Adds the selected documents to validation queue. Only documents that are published and have a template assigned will be validated</key>
+    <key alias="rootNode">Ausgangspunkt</key>
+    <key alias="validateChildren">Untergeordnete Elemente einschließen</key>
+    <key alias="validationStart"></key>
+  </area>
+  <area alias="seoCheckerValidationQueue">
+    <key alias="title">Warteschlange für die Seitenüberprüfung</key>
+    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; Dokumente warten auf eine Überprüfung. Die Übersicht zeigt ihnen die ersten 100 Dokumente der Warteschlange an.</key>
+    <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Im Folgenden finden Sie &lt;strong&gt;{0} Seiten&lt;/strong&gt;, die auf eine Überprüfung warten.</key>
+    <key alias="clearQueue">Clear all</key>
+    <key alias="gridTitle">Document</key>
+    <key alias="gridUrl">Url</key>
+    <key alias="gridDate">Added</key>
+    <key alias="noRecords">Die Warteschlange für Überprüfungen ist leer</key>
+    <key alias="confirmMessage">Are you sure you want to remove all items from the validation queue?</key>
+    <key alias="clearedDescription">All items are removed from the validation queue</key>
+    <key alias="clearedHeader">Cleared...</key>
+  </area>
+</language>

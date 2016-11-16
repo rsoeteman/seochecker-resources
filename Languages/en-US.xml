@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en_us" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+    <creator>
+        <name>Soeteman software</name>
+      <link>https://github.com/rsoeteman/seochecker-resources</link>
+    </creator>
+  <area alias="sections">
+    <key alias="seochecker">SEO Checker</key>
+  </area>
+  <area alias="seoCheckerGeneral">
+    <key alias="nodePickerChoose">Select...</key>
+    </area>
+  <area alias="seoCheckerValidate">
+    <key alias="validationTitle">Validate pages</key>
+    <key alias="validationIntro">Add the selected documents to validation queue. Only documents that are published and have a template assigned will be validated!</key>
+    <key alias="rootNode">Start location</key>
+    <key alias="validateChildren">Include children</key>
+    <key alias="validationStart">Validate</key>
+  </area>
+  <area alias="seoCheckerValidationQueue">
+    <key alias="title">Validation queue</key>
+    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; documents are queued for validation. The overview below shows the first 100 documents that are queued.</key>
+    <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Below you find the &lt;strong&gt;{0} documents&lt;/strong&gt; that are queued for validation.</key>
+    <key alias="clearQueue">Clear all</key>
+    <key alias="gridTitle">Document</key>
+    <key alias="gridUrl">Url</key>
+    <key alias="gridDate">Added</key>
+    <key alias="noRecords">The validation queue is empty</key>
+    <key alias="confirmMessage">Are you sure you want to remove all items from the validation queue?</key>
+    <key alias="clearedDescription">All items are removed from the validation queue</key>
+    <key alias="clearedHeader">Cleared...</key>
+  </area>
+</language>

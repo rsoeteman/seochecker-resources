@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="nl" intName="Dutch" localName="Nederlands" lcid="19" culture="nl-NL">
+  <creator>
+    <name>Soeteman software</name>
+    <link>https://github.com/rsoeteman/seochecker-resources</link>
+  </creator>
+  <area alias="sections">
+    <key alias="seochecker">SEO Checker</key>
+  </area>
+  <area alias="seoCheckerGeneral">
+    <key alias="nodePickerChoose">Selecteer...</key>
+  </area>
+  <area alias="seoCheckerValidate">
+    <key alias="validationTitle">Valideer documenten</key>
+    <key alias="validationIntro">Voeg de geselecteerde documenten toe aan de validatie wachtrij. Alleen documenten die gepubliceerd zijn en een geldige template gekoppeld hebben worden gevalideerd.</key>
+    <key alias="rootNode">Start locatie</key>
+    <key alias="validateChildren">Inclusief kinderen</key>
+    <key alias="validationStart">Valideer</key>
+  </area>
+  <area alias="seoCheckerValidationQueue">
+    <key alias="title">Validatie wachtrij</key>
+    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; documenten wachten op validatie. Dit overzicht zal alleen de eerste 100 documenten tonen.</key>
+    <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Onderstaand vind u &lt;strong&gt;{0} documenten&lt;/strong&gt; die wachten op validatie.</key>
+    <key alias="clearQueue">Clear all</key>
+    <key alias="gridTitle">Document</key>
+    <key alias="gridUrl">Url</key>
+    <key alias="gridDate">Toegevoegd op</key>
+    <key alias="noRecords">De validatie wachtrij is leeg</key>
+    <key alias="confirmMessage">Weet u zeker dat u alle items wilt verwijderen?</key>
+    <key alias="clearedDescription">Alle items zijn verwijderd uit de validation queue</key>
+    <key alias="clearedHeader">Verwijderd..</key>
+  </area>
+</language>
