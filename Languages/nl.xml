@@ -9,6 +9,7 @@
   </area>
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Selecteer...</key>
+	<key alias="notificationError">Fout</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
@@ -16,6 +17,10 @@
     <key alias="rootNode">Start locatie</key>
     <key alias="validateChildren">Inclusief kinderen</key>
     <key alias="validationStart">Valideer</key>
+	<key alias="notificationHeader">Pagina's toegevoegd</key>
+	<key alias="notificationDescription">De pagina's zijn toegevoegd aan de validatie wachtrij</key>
+	<key alias="notificationErrorDescription">Fout tijdens valideren </key>
+	<key alias="rootnodeValidationError">Selecteer een start locatie</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validatie wachtrij</key>
@@ -29,5 +34,7 @@
     <key alias="confirmMessage">Weet u zeker dat u alle items wilt verwijderen?</key>
     <key alias="clearedDescription">Alle items zijn verwijderd uit de validation queue</key>
     <key alias="clearedHeader">Verwijderd..</key>
+	<key alias="queueException">Sorry,  maar een fout trad op tijdens het valideren van de pagina's .&lt;br/&gt;Neem contact op met Soeteman Software via  e-mail: &lt;a href="mailto:support@soetemansoftware.nl"&gt;support@soetemansoftware.nl&lt;/a&gt;</key>
+	<key alias="queueNotRunning">De Validatie HTTP Module draait momenteel niet, dit betekend dat pagina's niet gevalideerd kunnen worden. Raadpleeg de handleiding hoe dit opgelost kan worden.</key>  
   </area>
 </language>

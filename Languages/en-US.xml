@@ -9,6 +9,7 @@
   </area>
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Select...</key>
+	<key alias="notificationError">Error</key>
     </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
@@ -16,6 +17,10 @@
     <key alias="rootNode">Start location</key>
     <key alias="validateChildren">Include children</key>
     <key alias="validationStart">Validate</key>
+	<key alias="notificationHeader">Pages added</key>
+	<key alias="notificationDescription">The selected page(s) are added to the validation queue</key>
+	<key alias="notificationErrorDescription">Error adding pages to the validation queue</key>
+	<key alias="rootnodeValidationError">Select a start location</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validation queue</key>
@@ -27,7 +32,10 @@
     <key alias="gridDate">Added</key>
     <key alias="noRecords">The validation queue is empty</key>
     <key alias="confirmMessage">Are you sure you want to remove all items from the validation queue?</key>
-    <key alias="clearedDescription">All items are removed from the validation queue</key>
-    <key alias="clearedHeader">Cleared...</key>
+    <key alias="clearedDescription">and process is canceled for remaining documents</key>
+    <key alias="clearedHeader">Items are removed from the validation queue</key>
+	<key alias="queueException">We are very sorry, an error occured while validating the pages.&lt;br/&gt;Please contact Soeteman Software via  e-mail: &lt;a href="mailto:support@soetemansoftware.nl"&gt;support@soetemansoftware.nl&lt;/a&gt;</key>
+	<key alias="queueNotRunning">The validation queue HTTP module is not running, this means validation tasks will not execute. Check the user manual how you can configure validation queue HTTP module manually.</key>
+	
   </area>
 </language>

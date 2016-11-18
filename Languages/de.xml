@@ -9,13 +9,18 @@
   </area>
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Wählen...</key>
+	<key alias="notificationError">Error</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
     <key alias="validationIntro">Adds the selected documents to validation queue. Only documents that are published and have a template assigned will be validated</key>
     <key alias="rootNode">Ausgangspunkt</key>
     <key alias="validateChildren">Untergeordnete Elemente einschließen</key>
-    <key alias="validationStart"></key>
+    <key alias="validationStart">Starten</key>
+	<key alias="notificationHeader">Pages added</key>
+	<key alias="notificationDescription">The selected page(s) are added to the validation queue</key>
+	<key alias="notificationErrorDescription">Error adding pages to the validation queue</key>
+	<key alias="rootnodeValidationError">Select a start location</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Warteschlange für die Seitenüberprüfung</key>
@@ -27,7 +32,10 @@
     <key alias="gridDate">Added</key>
     <key alias="noRecords">Die Warteschlange für Überprüfungen ist leer</key>
     <key alias="confirmMessage">Are you sure you want to remove all items from the validation queue?</key>
-    <key alias="clearedDescription">All items are removed from the validation queue</key>
-    <key alias="clearedHeader">Cleared...</key>
+    <key alias="clearedDescription">and process is canceled for remaining documents</key>
+    <key alias="clearedHeader">Items are removed from the validation queue</key>
+	<key alias="queueException">Leider ist ein Fehler beim Überprüfen der Seiten aufgetreten.&lt;br /&gt;Bitte kontaktieren Sie Soeteman Software via E-Mail: &lt;a href="mailto:support@soetemansoftware.nl"&gt;support@soetemansoftware.nl&lt;/a&gt;</key>
+	<key alias="queueNotRunning">Das HTTP Modul für die zu überprüfenden Inhalte läuft nicht, deshalb können Überprüfungs-Aufträge nicht ausgeführt werden. Im Handbuch erfahren Sie, wie Sie das Modul manuell konfigurieren können.</key>
+	
   </area>
 </language>
