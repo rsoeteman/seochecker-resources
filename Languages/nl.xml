@@ -10,6 +10,12 @@
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Selecteer...</key>
 	<key alias="notificationError">Fout</key>
+	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+  </area>
+    <area alias="seoCheckerTree">
+  <key alias="Tree_Validation">Valideer documenten</key>
+  <key alias="Tree_Queue">Validatie wachtrij</key>
+  <key alias="Tree_Notifications">Mijn notificaties</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
@@ -19,7 +25,6 @@
     <key alias="validationStart">Valideer</key>
 	<key alias="notificationHeader">Pagina's toegevoegd</key>
 	<key alias="notificationDescription">De pagina's zijn toegevoegd aan de validatie wachtrij</key>
-	<key alias="notificationErrorDescription">Fout tijdens valideren </key>
 	<key alias="rootnodeValidationError">Selecteer een start locatie</key>
   </area>
   <area alias="seoCheckerValidationQueue">
@@ -36,5 +41,22 @@
     <key alias="clearedHeader">Verwijderd..</key>
 	<key alias="queueException">Sorry,  maar een fout trad op tijdens het valideren van de pagina's .&lt;br/&gt;Neem contact op met Soeteman Software via  e-mail: &lt;a href="mailto:support@soetemansoftware.nl"&gt;support@soetemansoftware.nl&lt;/a&gt;</key>
 	<key alias="queueNotRunning">De Validatie HTTP Module draait momenteel niet, dit betekend dat pagina's niet gevalideerd kunnen worden. Raadpleeg de handleiding hoe dit opgelost kan worden.</key>  
+  </area>
+  <area alias="seoCheckerMyNotifications">
+    <key alias="title">Notificaties</key>
+	<key alias="intro">Wanneer u notificaties aanzet zult u email notificaties ontvangen op de ingestelde tijd.&lt;br/&gt; E-mails worden verstuurd naar het e-mailadres is toegewezen aan uw account '{0}'.</key>
+	<key alias="notificationHeader">Notificatie instellingen</key>
+	<key alias="notificationDescription">Notificatie instellingen opgeslagen</key>
+  </area>
+  <area alias="seoCheckernotificationOptions">
+	<key alias="executeTime">Time</key>
+	<key alias="sendDays">Verstuur elke</key>
+	<key alias="mondayOption">Maandag</key>
+	<key alias="tuesdayOption">Dinsdag</key>
+	<key alias="wednesdayOption">Woensdag</key>
+	<key alias="thursdayOption">Donderdag</key>
+	<key alias="fridayOption">Vrijdag</key>		
+	<key alias="saturdayOption">Zaterdag</key>
+	<key alias="sundayOption">Zondag</key>
   </area>
 </language>

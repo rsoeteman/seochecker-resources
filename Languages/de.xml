@@ -10,6 +10,12 @@
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Wählen...</key>
 	<key alias="notificationError">Error</key>
+	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+  </area>
+    <area alias="seoCheckerTree">
+  <key alias="Tree_Validation">Seiten überprüfen</key>
+  <key alias="Tree_Queue">Zu überprüfende Elemente</key>
+  <key alias="Tree_Notifications">Meine Benachrichtigungen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
@@ -19,7 +25,6 @@
     <key alias="validationStart">Starten</key>
 	<key alias="notificationHeader">Pages added</key>
 	<key alias="notificationDescription">The selected page(s) are added to the validation queue</key>
-	<key alias="notificationErrorDescription">Error adding pages to the validation queue</key>
 	<key alias="rootnodeValidationError">Select a start location</key>
   </area>
   <area alias="seoCheckerValidationQueue">
@@ -36,6 +41,22 @@
     <key alias="clearedHeader">Items are removed from the validation queue</key>
 	<key alias="queueException">Leider ist ein Fehler beim Überprüfen der Seiten aufgetreten.&lt;br /&gt;Bitte kontaktieren Sie Soeteman Software via E-Mail: &lt;a href="mailto:support@soetemansoftware.nl"&gt;support@soetemansoftware.nl&lt;/a&gt;</key>
 	<key alias="queueNotRunning">Das HTTP Modul für die zu überprüfenden Inhalte läuft nicht, deshalb können Überprüfungs-Aufträge nicht ausgeführt werden. Im Handbuch erfahren Sie, wie Sie das Modul manuell konfigurieren können.</key>
-	
+  </area>
+  <area alias="seoCheckerMyNotifications">
+    <key alias="title">My notifications</key>
+	<key alias="intro">Wenn Sie die Benachrichtigungen aktivieren, werden Sie bei Fehlern bei einer geplanten Überprüfung auftreten.&lt;br/&gt;E-Mails werden an die Adresse gesendet, die in den ihrem Server Account '{0}' zugewiesen ist.</key>
+	<key alias="notificationHeader">Einstellungen gespeichert</key>
+	<key alias="notificationDescription">Die Benachrichtigungs-Einstellungen wurden gespeichert.</key>
+  </area>  
+  <area alias="seoCheckernotificationOptions">
+	<key alias="executeTime">Uhrzeit</key>
+	<key alias="sendDays">Send every</key>
+	<key alias="mondayOption">Montag</key>
+	<key alias="tuesdayOption">Dienstag</key>
+	<key alias="wednesdayOption">Mittwoch</key>
+	<key alias="thursdayOption">Donnerstag</key>	
+	<key alias="fridayOption">Freitag</key>	
+	<key alias="saturdayOption">Samstag</key>	
+	<key alias="sundayOption">Sonntag</key>
   </area>
 </language>
