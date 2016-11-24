@@ -16,6 +16,10 @@
   <key alias="Tree_Validation">Validate pages</key>
   <key alias="Tree_Queue">Validation queue</key>
   <key alias="Tree_Notifications">My notifications</key>
+  <key alias="Tree_Settings">Settings</key>
+  <key alias="Tree_Settings_Email">Email settings</key>
+  <key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
+  <key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>

@@ -16,6 +16,10 @@
   <key alias="Tree_Validation">Valideer documenten</key>
   <key alias="Tree_Queue">Validatie wachtrij</key>
   <key alias="Tree_Notifications">Mijn notificaties</key>
+  <key alias="Tree_Settings">Instellingen</key>
+  <key alias="Tree_Settings_Email">Email instellingen</key>
+  <key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
+  <key alias="Tree_Settings_Email_UserNotification">Notificatie emails</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>

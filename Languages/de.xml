@@ -16,6 +16,10 @@
   <key alias="Tree_Validation">Seiten überprüfen</key>
   <key alias="Tree_Queue">Zu überprüfende Elemente</key>
   <key alias="Tree_Notifications">Meine Benachrichtigungen</key>
+  <key alias="Tree_Settings">Einstellungen</key>
+  <key alias="Tree_Settings_Email">E-Mail Einstellungen</key>
+  <key alias="Tree_Settings_Email_ScheduledTask">E-Mails zu geplante Aufgaben</key>
+  <key alias="Tree_Settings_Email_UserNotification">E-Mails zu Benutzer Benachrichtigungen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
