@@ -8,9 +8,13 @@
     <key alias="seochecker">SEO Checker</key>
   </area>
   <area alias="seoCheckerGeneral">
+  <key alias="defaultTab">Default</key>
     <key alias="nodePickerChoose">Wählen...</key>
 	<key alias="notificationError">Error</key>
+	<key alias="notificationSaved">Saved</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+	<key alias="requiredSuffix">is required</key>
+	<key alias="invalidSuffix">is invalid</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Seiten überprüfen</key>
@@ -20,6 +24,7 @@
   <key alias="Tree_Settings_Email">E-Mail Einstellungen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">E-Mails zu geplante Aufgaben</key>
   <key alias="Tree_Settings_Email_UserNotification">E-Mails zu Benutzer Benachrichtigungen</key>
+  <key alias="Tree_Settings_Domain">Domain Einstellungen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
@@ -52,6 +57,20 @@
 	<key alias="notificationHeader">Einstellungen gespeichert</key>
 	<key alias="notificationDescription">Die Benachrichtigungs-Einstellungen wurden gespeichert.</key>
   </area>  
+  <area alias="seoCheckerEmailSettings">
+    <key alias="scheduledValidationTitle">E-Mail Einstellungen für geplante Überprüfungen</key>
+	<key alias="scheduledValidationDescription">Ändern Sie die Einstellung für E-Mails, die bei einer geplanten Überprüfung und beim Hinzufügen von Dokumenten zu den zu überprüfenden Inhalten an den Benutzer gesendet werden.</key>
+	<key alias="notificationTitle">E-Mail Einstellungen für Benachrichtigungen</key>
+	<key alias="notificationDescription">Ändern Sie die Einstellung für E-Mails, die bei einer Benachrichtigung an den Benutzer gesendet werden.</key>
+	<key alias="settingsSaved">Fehler beim Speichern der E-Mail Einstellungen.</key>
+	<key alias="fromName">Absendername</key>
+	<key alias="fromAddress">Absenderadresse<</key>
+	<key alias="emailSubject">Email subject</key>
+	<key alias="emailTemplate">Vorlage wählen</key>
+	<key alias="emailTemplateDescription">Wählen Sie ein Razor Template zur Ausgabe der E-Mail Nachricht</key>
+	<key alias="defaultNotificationSubject">SEO Problembericht</key>
+	<key alias="defaultScheduledTaskSubject">Geplante Überprüfung ausgeführt</key>
+  </area>   
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
 	<key alias="sendDays">Send every</key>

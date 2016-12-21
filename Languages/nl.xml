@@ -8,8 +8,12 @@
     <key alias="seochecker">SEO Checker</key>
   </area>
   <area alias="seoCheckerGeneral">
+  <key alias="defaultTab">Default</key>
     <key alias="nodePickerChoose">Selecteer...</key>
 	<key alias="notificationError">Fout</key>
+	<key alias="notificationSaved">Saved</key>
+	<key alias="requiredSuffix">is verplicht</key>
+	<key alias="invalidSuffix">is niet correct ingevuld</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
   </area>
     <area alias="seoCheckerTree">
@@ -20,6 +24,7 @@
   <key alias="Tree_Settings_Email">Email instellingen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
   <key alias="Tree_Settings_Email_UserNotification">Notificatie emails</key>
+  <key alias="Tree_Settings_Domain">Domein instellingen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
@@ -52,6 +57,29 @@
 	<key alias="notificationHeader">Notificatie instellingen</key>
 	<key alias="notificationDescription">Notificatie instellingen opgeslagen</key>
   </area>
+  <area alias="seoCheckerEmailSettings">
+    <key alias="scheduledValidationTitle">Geplande validatie email instellingen</key>
+	<key alias="scheduledValidationDescription">Wijzig e-mail instellingen voor de e-mail die wordt verstuurd wanneer een geplande validatie wordt uitgevoerd en documenten worden toegevoegd aan de validatie wachtrij.</key>
+	<key alias="notificationTitle">Notificatie email instellingen</key>
+	<key alias="notificationDescription">Wijzig e-mail instellingen wanneer een e-mailbericht naar de gebruiker wordt gestuurd.</key>
+	<key alias="settingsSaved">Email instellingen zijn opgeslagen.</key>
+	<key alias="fromName">Afzender</key>
+	<key alias="fromAddress">Afzender adres</key>
+	<key alias="emailSubject">Onderwerp</key>
+	<key alias="emailTemplate">Template</key>
+	<key alias="emailTemplateDescription">Selecteer een template voor het genereren van het email bericht.</key>
+	<key alias="defaultNotificationSubject">SEO fouten rapport</key>
+	<key alias="defaultScheduledTaskSubject">Geplande validatie taak uitgevoerd</key>
+  </area>  
+   <area alias="seoCheckerdomainSettings">
+   <key alias="title">Domein instellingen</key>
+   <key alias="canonicalTitle">Domein instellingen</key>
+   <key alias="canonicalDescription">Dit domein zal worden gebruikt om de &lt;a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank"&gt; Canonical meta tag te genereren &lt;/a&gt; . Zorg ervoor dat dit het productie domein bevat. &lt;br/&gt; Laat leeg als u geen Canonical domein wilt gebruiken.</key>
+   <key alias="notFoundDescription">Specificeer de 404 pagina voor {0}.</key>
+   <key alias="robotsTxtTitle">Robots.txt</key>
+   <key alias="robotsTxtdescription">Om meer te leren over de robots.txt bestand bezoek &lt;a href="http://www.robotstxt.org/" target="_blank"&gt; robotstxt.org &lt;/a&gt;. {0}. {HTTP_HOST} wordt vervangen door de domainnaam.</key>
+  </area>  
+  
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Verstuur elke</key>

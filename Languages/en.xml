@@ -10,9 +10,13 @@
   <area alias="seoCheckerGeneral">
     <key alias="nodePickerChoose">Select...</key>
 	<key alias="notificationError">Error</key>
+	<key alias="notificationSaved">Saved</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+	<key alias="requiredSuffix">is required</key>
+	<key alias="invalidSuffix">is invalid</key>
   </area>
   <area alias="seoCheckerTree">
+  <key alias="defaultTab">Default</key>
   <key alias="Tree_Validation">Validate pages</key>
   <key alias="Tree_Queue">Validation queue</key>
   <key alias="Tree_Notifications">My notifications</key>
@@ -20,6 +24,7 @@
   <key alias="Tree_Settings_Email">Email settings</key>
   <key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
   <key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
+  <key alias="Tree_Settings_Domain">Domain settings</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
@@ -52,6 +57,20 @@
 	<key alias="notificationHeader">Notification settings</key>
 	<key alias="notificationDescription">Your notification options are saved</key>
   </area>
+  <area alias="seoCheckerEmailSettings">
+    <key alias="scheduledValidationTitle">Scheduled validation email settings</key>
+	<key alias="scheduledValidationDescription">Change email settings for the email that gets sent when a scheduled validation occured and documents are added to the validation queue.</key>
+	<key alias="notificationTitle">User notification email settings</key>
+	<key alias="/umbraco/backoffice/seochecker/seocheckervalidateapi/initialize">Change email settings for the email that gets sent when a notification email is sent to the user.</key>
+	<key alias="settingsSaved">Email settings are saved.</key>
+	<key alias="fromName">From name</key>
+	<key alias="fromAddress">From address</key>
+	<key alias="emailSubject">Email subject</key>
+	<key alias="emailTemplate">Template</key>
+	<key alias="emailTemplateDescription">Select the mail template to render the body for the email</key>
+	<key alias="defaultNotificationSubject">SEO issue report</key>
+	<key alias="defaultScheduledTaskSubject">Scheduled validation finished</key>
+  </area>  
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Send every</key>
