@@ -71,6 +71,17 @@
 	<key alias="defaultNotificationSubject">SEO Problembericht</key>
 	<key alias="defaultScheduledTaskSubject">Geplante Überprüfung ausgeführt</key>
   </area>   
+  <area alias="seoCheckerDomainSettings">
+	<key alias="title">Domain Einstellungen</key>
+	<key alias="canonicalDomainTab">Canonical Einstellungen</key>
+	<key alias="notFoundTab">Fehler-Seite</key>
+	<key alias="robotsTxtTab">Robots.txt Einstellungen</key>
+	<key alias="canonicalDomain">Canonical domain</key>
+	<key alias="canonicalDomainDescription">Diese Domain wird benutzt, um die &lt;a href="https://support.google.com/webmasters/answer/139066?hl=de" target="_blank"&gt;kanonischen Meta Tags&lt;/a&gt; zu erstellen. Stellen Sie sicher, dass Sie die produktive Domain der Webseite eingeben.&lt;br/&gt;&lt;br/&gt;Lassen Sie das Feld frei, wenn Sie keine kanonischen URLs benutzen wollen.</key>
+	<key alias="notFoundPageDescription">Geben Sie eine Fehler-Seite für die Sprache '{0}' an.</key>
+	<key alias="robotsTxt">Robots.txt</key>
+	<key alias="robotsTxtDescription">Ergänzen oder löschen Sie Einträge in der robots.txt Datei für '{0}'. Ohne Anpassungen wird die Standard robots.txt verwendet. &lt;a href="http://www.robotstxt.org/" target="_blank"&gt;Erfahren Sie auf robotstxt.org mehr über die robots.txt Datei.&lt;/a&gt;</key>
+  </area>   
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
 	<key alias="sendDays">Send every</key>

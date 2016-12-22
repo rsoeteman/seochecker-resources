@@ -71,7 +71,18 @@
 	<key alias="emailTemplateDescription">Select the mail template to render the body for the email</key>
 	<key alias="defaultNotificationSubject">SEO issue report</key>
 	<key alias="defaultScheduledTaskSubject">Scheduled validation finished</key>
-  </area> 
+  </area>   
+  <area alias="seoCheckerDomainSettings">
+	<key alias="title">Domain settings</key>
+	<key alias="canonicalDomainTab">Canonical settings</key>
+	<key alias="notFoundTab">404 settings</key>
+	<key alias="robotsTxtTab">Robots.txt file</key>
+	<key alias="canonicalDomain">Canonical domain</key>
+	<key alias="canonicalDomainDescription">This domain will be used to generate the &lt;a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank"&gt;Canonical meta tag&lt;/a&gt;. Make sure to enter the production domain of the website.&lt;br/&gt;&lt;br/&gt; Leave empty if you don't want to use Canonical domains.</key>
+	<key alias="notFoundPageDescription">Specify a not found page the {0} language.</key>
+	<key alias="robotsTxt">Robots.txt</key>
+	<key alias="robotsTxtDescription">Add or remove entries to the robots.txt file for '{0}'. When not modified the default robots.txt template will be used. To learn more about the robots.txt file visit &lt;a href="http://www.robotstxt.org/" target="_blank"&gt;robotstxt.org&lt;/a&gt;.{1}</key>
+  </area>  
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Send every</key>

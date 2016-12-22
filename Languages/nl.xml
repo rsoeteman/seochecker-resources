@@ -71,15 +71,18 @@
 	<key alias="defaultNotificationSubject">SEO fouten rapport</key>
 	<key alias="defaultScheduledTaskSubject">Geplande validatie taak uitgevoerd</key>
   </area>  
-   <area alias="seoCheckerdomainSettings">
-   <key alias="title">Domein instellingen</key>
-   <key alias="canonicalTitle">Domein instellingen</key>
-   <key alias="canonicalDescription">Dit domein zal worden gebruikt om de &lt;a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank"&gt; Canonical meta tag te genereren &lt;/a&gt; . Zorg ervoor dat dit het productie domein bevat. &lt;br/&gt; Laat leeg als u geen Canonical domein wilt gebruiken.</key>
-   <key alias="notFoundDescription">Specificeer de 404 pagina voor {0}.</key>
-   <key alias="robotsTxtTitle">Robots.txt</key>
-   <key alias="robotsTxtdescription">Om meer te leren over de robots.txt bestand bezoek &lt;a href="http://www.robotstxt.org/" target="_blank"&gt; robotstxt.org &lt;/a&gt;. {0}. {HTTP_HOST} wordt vervangen door de domainnaam.</key>
-  </area>  
-  
+  <area alias="seoCheckerDomainSettings">
+	<key alias="title">Domein instellingen</key>
+	<key alias="canonicalDomainTab">Canonical instellingen</key>
+	<key alias="notFoundTab">404 instellingen</key>
+	<key alias="robotsTxtTab">Robots.txt bestand</key>
+	<key alias="canonicalDomain">Canonical domein</key>
+	<key alias="canonicalDomainDescription">Dit domein zal worden gebruikt om de &lt;a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank"&gt; Canonical meta tag te genereren &lt;/a&gt; . Zorg ervoor dat dit het productie domein bevat. &lt;br/&gt; Laat leeg als u geen Canonical domein wilt gebruiken.</key>
+	<key alias="notFoundPageDescription">Specificeer de 404 pagina voor {0}.</key>
+	<key alias="robotsTxt">Robots.txt</key>
+	<key alias="robotsTxtDescription">Wijzig de instellingen voor het robots.txt bestand voor '{0}'. Indien ongewijzigd zal de standaard robots.txt temnplate gebruikt worden. Om meer te leren over de robots.txt bestand bezoek &lt;a href="http://www.robotstxt.org/" target="_blank"&gt; robotstxt.org &lt;/a&gt;. {1}</key>
+  </area>   
+ 
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Verstuur elke</key>
