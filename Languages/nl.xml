@@ -80,10 +80,11 @@
 	<key alias="canonicalDomainDescription">Dit domein zal worden gebruikt om de &lt;a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank"&gt; Canonical meta tag te genereren &lt;/a&gt; . Zorg ervoor dat dit het productie domein bevat. &lt;br/&gt; Laat leeg als u geen Canonical domein wilt gebruiken.</key>
 	<key alias="notFoundPageDescription">Specificeer de 404 pagina voor {0}.</key>
 	<key alias="robotsTxt">Robots.txt</key>
-	<key alias="robotsTxtDescription">Wijzig de instellingen voor het robots.txt bestand voor '{0}'. Indien ongewijzigd zal de standaard robots.txt temnplate gebruikt worden. Om meer te leren over de robots.txt bestand bezoek &lt;a href="http://www.robotstxt.org/" target="_blank"&gt; robotstxt.org &lt;/a&gt;. {1}</key>
+	<key alias="robotsTxtDescription">Wijzig de instellingen voor het robots.txt bestand. Indien ongewijzigd zal de standaard robots.txt temnplate gebruikt worden. Om meer te leren over de robots.txt bestand bezoek &lt;a href="http://www.robotstxt.org/" target="_blank"&gt; robotstxt.org &lt;/a&gt;.</key>
+	<key alias="notificationHeader">Domein instellingen</key>
+	<key alias="notificationDescription">Domein instellingen zijn opgeslagen</key>
   </area>   
- 
-  <area alias="seoCheckernotificationOptions">
+   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Verstuur elke</key>
 	<key alias="mondayOption">Maandag</key>

@@ -80,7 +80,9 @@
 	<key alias="canonicalDomainDescription">Diese Domain wird benutzt, um die &lt;a href="https://support.google.com/webmasters/answer/139066?hl=de" target="_blank"&gt;kanonischen Meta Tags&lt;/a&gt; zu erstellen. Stellen Sie sicher, dass Sie die produktive Domain der Webseite eingeben.&lt;br/&gt;&lt;br/&gt;Lassen Sie das Feld frei, wenn Sie keine kanonischen URLs benutzen wollen.</key>
 	<key alias="notFoundPageDescription">Geben Sie eine Fehler-Seite für die Sprache '{0}' an.</key>
 	<key alias="robotsTxt">Robots.txt</key>
-	<key alias="robotsTxtDescription">Ergänzen oder löschen Sie Einträge in der robots.txt Datei für '{0}'. Ohne Anpassungen wird die Standard robots.txt verwendet. &lt;a href="http://www.robotstxt.org/" target="_blank"&gt;Erfahren Sie auf robotstxt.org mehr über die robots.txt Datei.&lt;/a&gt;</key>
+	<key alias="robotsTxtDescription">Ergänzen oder löschen Sie Einträge in der robots.txt Datei . Ohne Anpassungen wird die Standard robots.txt verwendet. &lt;a href="http://www.robotstxt.org/" target="_blank"&gt;Erfahren Sie auf robotstxt.org mehr über die robots.txt Datei.&lt;/a&gt;</key>
+	<key alias="notificationHeader">Domain Einstellungen</key>
+	<key alias="notificationDescription">Domain Einstellungen wurden gespeichert</key>
   </area>   
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>

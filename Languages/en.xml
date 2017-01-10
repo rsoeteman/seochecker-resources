@@ -81,6 +81,8 @@
 	<key alias="notFoundPageDescription">Specify a not found page the {0} language.</key>
 	<key alias="robotsTxt">Robots.txt</key>
 	<key alias="robotsTxtDescription">Add or remove entries to the robots.txt file for '{0}'. When not modified the default robots.txt template will be used. To learn more about the robots.txt file visit &lt;a href="http://www.robotstxt.org/" target="_blank"&gt;robotstxt.org&lt;/a&gt;.{1}</key>
+	<key alias="notificationHeader">Domain settings</key>
+	<key alias="notificationDescription">Domain settings are saved</key>
   </area>   
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
