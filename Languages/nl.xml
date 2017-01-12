@@ -21,6 +21,7 @@
   <key alias="Tree_Queue">Validatie wachtrij</key>
   <key alias="Tree_Notifications">Mijn notificaties</key>
   <key alias="Tree_Settings">Instellingen</key>
+  <key alias="Tree_Settings_GeneralSettings">Algemene instellingen</key>
   <key alias="Tree_Settings_Email">Email instellingen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
   <key alias="Tree_Settings_Email_UserNotification">Notificatie emails</key>
@@ -84,6 +85,34 @@
 	<key alias="notificationHeader">Domein instellingen</key>
 	<key alias="notificationDescription">Domein instellingen zijn opgeslagen</key>
   </area>   
+    <area alias="seoCheckerConfigSettings">
+	<key alias="title">Algemene configuratie instellingen</key>
+  <key alias="validationSettingsTab">Validatie instellingen</key>
+  <key alias="redirectSettingsTab">Redirect instellingen</key>
+  <key alias="urlRewritingSettingsTab">URL Rewriting</key>
+  <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="validateAfterPublish">Valideer na publiceren</key>
+  <key alias="validateAfterPublishDescription">Wanneer geselecteerd zal de pagina na publiceren gevalideerd worden en issues te zien zijn in de issues lijst.</key>
+  <key alias="validateEmptyAltAttributeOnImages">Valideer alt attributen in templates</key>
+  <key alias="validateEmptyAltAttributeOnImagesDescription">Standaard worden lege alt attributen alleen voor content items gevalideerd. Wanneer deze optie aanstaat geldt de validatie ook voor templates.</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemap">Exclusief umbracoNaviHide</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemapDescription">Wanneer geselecteerd worden alle documenten en kinderen niet meegenomen in de XML Sitemap.</key>
+  <key alias="rewriteWWWPrefix">Forceer www in domeinnaam</key>
+  <key alias="rewriteWWWPrefixDescription">Zoekmachines behandelen url's met en zonder www als verschillende url's.&lt;br/&gt;Dit kan duplicate content fouten tot gevolg hebben.</key>
+  <key alias="rewriteWWWOptionTrue">Forceer het gebruik van www in url's  (www.example.com)</key>
+  <key alias="rewriteWWWOptionFalse">Forceer het verwijderen  van www in url's  (example.com)</key>
+  <key alias="rewriteWWWOptionIgnore">Negeren (niet aanbevolen)</key>
+  <key alias="rewriteTrailingSlash">Slash in url</key>
+  <key alias="rewriteTrailingSlashDescription">Zoekmachines behandelen URL's met en zonder slash (/) op het eind als verschillende url's. &lt;br/&gt;Dit kan duplicate content fouten tot gevolg hebben.</key>
+  <key alias="redirectStoreDomain">Gebruik domein</key>
+  <key alias="redirectStoreDomainDescription">Wanneer ingeschakeld zal het domein worden opgeslagen in het geval van een niet gevonden url. Dit stelt u in staat om redirecten naar een andere pagina voor de verschillende domeinen (www.example.com/contact en clients.example.com/contact). &lt;br/&gt; De domeinnaam kan worden verwijderd of gewijzigd bij het bewerken van de redirect.</key>  
+  <key alias="redirectStoreQueryString">Gebruik querystring voor niet gevonden urls</key>
+  <key alias="redirectStoreQueryStringDescription">Gebruik de query string bij een niet gevonden URL. Hierdoor kunt u dezelfde pagina redirect met een andere query string naar een andere Umbraco pagina. Bijvoorbeeld /page.php?id=234 omleiden naar / nieuws / en page.php? Id = 432 redirect naar / contact / &lt;br/&gt; De query string kan worden verwijderd of gewijzigd bij het bewerken van de redirect.</key>  
+  <key alias="redirectForwardQueryString">Stuur querystring door</key>
+  <key alias="redirectForwardQueryStringDescription">Wanneer geselecteerd zal de querystring van de originele pagina doorgegeven worden naar de pagina waarheen redirect gaat worden.</key>  
+  <key alias="redirectWhenNodeExists">Redirect wanneer node bestaat</key>
+  <key alias="redirectWhenNodeExistsDescription">Wanneer geactiveerd zal SEOChecker de redirect url voorrang geven op de normale url en daarmee dus altijd naar de redirect pagina gaan ook als de url bestaat.</key>  
+  </area>
    <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Verstuur elke</key>

@@ -21,6 +21,7 @@
 	<key alias="Tree_Queue">Validation queue</key>
 	<key alias="Tree_Notifications">My notifications</key>
 	<key alias="Tree_Settings">Settings</key>
+	<key alias="Tree_Settings_GeneralSettings">General settings</key>
     <key alias="Tree_Settings_Email">Email settings</key>
 	<key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
 	<key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
@@ -85,6 +86,34 @@
 	<key alias="notificationHeader">Domain settings</key>
 	<key alias="notificationDescription">Domain settings are saved</key>
   </area>  
+<area alias="seoCheckerConfigSettings">
+  <key alias="title">General config settings</key>
+  <key alias="validationSettingsTab">Validation settings</key>
+  <key alias="redirectSettingsTab">Redirect settings</key>
+  <key alias="urlRewritingSettingsTab">URL Rewriting</key>
+  <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="validateAfterPublish">Validate a page when published</key>
+  <key alias="validateAfterPublishDescription">When selected the page will be validated after publish and issues will be added to the issues list</key>
+  <key alias="validateEmptyAltAttributeOnImages">Validate alt attributes on template</key>
+  <key alias="validateEmptyAltAttributeOnImagesDescription">By default only empty alt attributes on user edited content will be validated. When this option is enabled the check also occurs on images created in templates.</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemap">Exclude umbracoNaviHide</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemapDescription">When selected all documents (and children) with property umbracoNaviHide set to true will be excluded from the generated Xml Sitemap</key>
+  <key alias="rewriteWWWPrefix">www prefix</key>
+  <key alias="rewriteWWWPrefixDescription">Search engines treat the URLs with or without www as different. This is causing duplicate content issues. Only select ignore when you solve this issue using your own URLRewriting module!</key>
+  <key alias="rewriteWWWOptionTrue">Force using www in url's (www.example.com)</key>
+  <key alias="rewriteWWWOptionFalse">Force remove www from url's (example.com)</key>
+  <key alias="rewriteWWWOptionIgnore">Ignore (not recommended)</key>
+  <key alias="rewriteTrailingSlash">Trailing slash</key>
+  <key alias="rewriteTrailingSlashDescription">Search engines treat the URLs with or without trailing slash as different. This is causing duplicate content issues.Only select ignore when you solve this issue using URLRewriting!</key>
+  <key alias="redirectStoreDomain">Store domain for  not found urls</key>
+  <key alias="redirectStoreDomainDescription">When enabled the domain will be stored in case of a not found url. This allows you to redirect to a different page for different domains(www.example.com/contact and clients.example.com/contact).&lt;br/&gt;&lt;br/&gt;The domain can be removed or added manually when editing the redirect.</key>  
+  <key alias="redirectStoreQueryString">Store querystring for  not found urls</key>
+  <key alias="redirectStoreQueryStringDescription">When enabled the querystring from the original request will be stored in case of a not found url. This allows you to redirect the same page with a different querystring to a different umbraco page. For example /page.php?id=234 redirect to /news/ and page.php?id=432 redirects to /contact/&lt;br/&gt;&lt;br/&gt;The querystring can be removed or added manually when editing the redirect.</key>  
+  <key alias="redirectForwardQueryString">Forward querystring</key>
+  <key alias="redirectForwardQueryStringDescription">When enabled the querystring from the original request will be forwarded to the redirect page.</key>  
+  <key alias="redirectWhenNodeExists">Redirect when node exists</key>
+  <key alias="redirectWhenNodeExistsDescription">When enabled Seochecker will check for a redirect, even when the page exists. When not selected SEOChecker only checks for a redirect when the requested page could not be found.</key>  
+  </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Send every</key>

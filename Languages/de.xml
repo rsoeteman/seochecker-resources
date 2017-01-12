@@ -21,6 +21,7 @@
   <key alias="Tree_Queue">Zu überprüfende Elemente</key>
   <key alias="Tree_Notifications">Meine Benachrichtigungen</key>
   <key alias="Tree_Settings">Einstellungen</key>
+  <key alias="Tree_Settings_GeneralSettings">General settings</key>
   <key alias="Tree_Settings_Email">E-Mail Einstellungen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">E-Mails zu geplante Aufgaben</key>
   <key alias="Tree_Settings_Email_UserNotification">E-Mails zu Benutzer Benachrichtigungen</key>
@@ -84,6 +85,34 @@
 	<key alias="notificationHeader">Domain Einstellungen</key>
 	<key alias="notificationDescription">Domain Einstellungen wurden gespeichert</key>
   </area>   
+    <area alias="seoCheckerConfigSettings">
+	<key alias="title">Allgemeine einstellungen</key>
+  <key alias="validationSettingsTab">Validation settings</key>
+  <key alias="redirectSettingsTab">Weiterleitungs-Einstellungen</key>
+  <key alias="urlRewritingSettingsTab">URL Rewriting</key>
+  <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="validateAfterPublish">Seite beim Veröffentlichen überprüfen</key>
+  <key alias="validateAfterPublishDescription">Wenn gewählt, wird die Seite nach dem Veröffentlichen überprüft und Auffälligkeiten werden der Problemliste hinzugefügt.</key>
+  <key alias="validateEmptyAltAttributeOnImages">Alt-Attribute in der Vorlage überprüfen</key>
+  <key alias="validateEmptyAltAttributeOnImagesDescription">Standardmäßig werden nur leere Alt-Attribute in den vom Benutzer bearbeiteten Inhalten überprüft. Wenn diese Option gewählt ist, werden auch Bilder der Vorlage überprüft.</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemap">umbracoNaviHide (Versteckte Inhalte) ausschließen</key>
+  <key alias="excludeUmbracoNaviHideXmlSitemapDescription">Wenn gewählt, werden alle versteckten Inhalte (und Kindelemente) mit der Eigenschaft umbracoNaviHide bei der Erstellung der Xml-Sitemap ausgeschlossen.</key>
+  <key alias="rewriteWWWPrefix">www im Domainnamen</key>
+  <key alias="rewriteWWWPrefixDescription">Suchmaschinen behandeln URLs mit und ohne www unterschiedlich. Dies verursacht Probleme mit doppeltem Inhalt. Wählen Sie nur dann ignorieren, wenn Sie dieses Problem anderweitig lösen.</key>
+  <key alias="rewriteWWWOptionTrue">www zu URLs hinzufügen (www.example.com)</key>
+  <key alias="rewriteWWWOptionFalse">www aus URLs entfernen (example.com)</key>
+  <key alias="rewriteWWWOptionIgnore">Ignorieren (nicht empfohlen)</key>
+  <key alias="rewriteTrailingSlash">Schrägstrich am Ende</key>
+  <key alias="rewriteTrailingSlashDescription">Suchmaschinen behandeln URLs mit und ohne Schrägstrich am Ende als Unterschiedlich. Dies kann Probleme mit doppeltem Inhalt verursachen. Wählen Sie nur dann ignorieren, wenn Sie dieses Problem anderweitig lösen.</key>
+  <key alias="redirectStoreDomain">Domain nicht gefundener Adressen merken</key>
+  <key alias="redirectStoreDomainDescription">Wenn gewählt, wird bei nicht gefundenen Adressen die ursprüngliche Domain übernommen. So können Sie zu verschiedenen Seiten für verschiedene Domains weiterleiten (www.beispiel.de/kontakt und kunden.beispiel.de/konakt).&lt;br/&gt;&lt;br/&gt;Die Domain kann manuell entfernt oder hinzugefügt werden, wenn eine Weiterleitung bearbeitet wird.</key>  
+  <key alias="redirectStoreQueryString">Querystring nicht gefundener Adressen merken</key>
+  <key alias="redirectStoreQueryStringDescription">Wenn gewählt, wird bei nicht gefundenen Adressen der Querystring der ursprünglichen Anfrage übernommen. So können Sie von gleichen Seite mit unterschiedlichem Querystring zu verschiedenen Umbraco Seiten weiterleiten. Zum Beispiel von /seite.php?id=234 zu /aktuelles/ und seite.php?id=567 zu /kontakt/&lt;br/&gt;&lt;br/&gt;</key>  
+  <key alias="redirectForwardQueryString">Querystring weiterleiten</key>
+  <key alias="redirectForwardQueryStringDescription">Wenn gewählt, wird der Querystring der ursprünglichen Anfrage auch an die weitergeleitete Adresse angehängt.</key>  
+    <key alias="redirectWhenNodeExists">Weiterleiten, wenn Seite existiert</key>
+  <key alias="redirectWhenNodeExistsDescription">Wenn gewählt, wird auch dann weitergeleitet wenn eine passende Seite existiert. Wenn nicht gewählt, wird nur dann weitergeleitet, wenn keine passende Seite existiert.</key>  
+  </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
 	<key alias="sendDays">Send every</key>
