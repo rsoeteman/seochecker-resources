@@ -26,6 +26,7 @@
   <key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
   <key alias="Tree_Settings_Email_UserNotification">Notificatie emails</key>
   <key alias="Tree_Settings_Domain">Domein instellingen</key>
+  <key alias="Tree_Settings_Documenttype">Document type instellingen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
@@ -85,6 +86,48 @@
 	<key alias="notificationHeader">Domein instellingen</key>
 	<key alias="notificationDescription">Domein instellingen zijn opgeslagen</key>
   </area>   
+    <area alias="seoCheckerDocumentTypeSettings">
+	<key alias="title">Document type eigenschappen bewerken</key>
+	<key alias="metadataSettingsTab">Standaard Metadata eigenschappen</key>
+	<key alias="robotsSettingsTab">Robot instellingen</key>
+	<key alias="xmlSitemapSettingsTab">Sitemap.xml instellingen</key>
+	<key alias="defaultTitleProperties">Standaard SEO titel eigenschappen</key>
+	<key alias="defaultTitlePropertiesDescription">Wanneer de SEO titel leeg is zal SEOChecker de geselecteerde properties gebruiken om de SEO titel te vullen. Gebruik in ieder geval de node naam omdat deze altijd gevuld is.</key>
+  	<key alias="defaultDescriptionProperties">Default SEO omschrijving properties</key>
+	<key alias="defaultDescriptionPropertiesDescription">Wanneer de SEO omschrijving niet is ingevuld zal SEOChecker de geselecteerde properties gebruiken om de SEO omschrijving te vullen. Alleen de eerste paragraaf van een tekstveld wordt gebruikt.</key>
+	<key alias="titleTemplate">SEO titel template</key>
+	<key alias="titleTemplateDescription">Gebruik een template om de SEO titel in een specifiek formaat te tonen met gebruik van het SEO datatype en de SEO Checker library&lt;br/&gt;
+Voorbeeld&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | SEO Checker&lt;br/&gt;
+[#@seoTitle] | [$siteName] © 2013&lt;br/&gt;&lt;br/&gt;
+Placeholder syntax&lt;br/&gt;
+[# propertyAlias]&lt;br/&gt;
+[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
+standaard properties:&lt;br/&gt;
+@nodeName (naam van de pagina)&lt;br/&gt;
+@seoTitle (de SEO titel)</key>
+<key alias="robotsIndex">Robots Index</key>
+  <key alias="robotsIndexDescription">Geeft een indicatie aan zoekmachines wat te doen met een pagina  gebaseerd op dit document type.&lt;br/&gt;&lt;br/&gt;
+index: neem het document op in de index&lt;br/&gt;
+noindex: neem het document niet op in de index</key>
+  <key alias="robotsFollow">Robots Follow</key>
+  <key alias="robotsFollowDescription">Geeft een indicatie aan zoekmachines wat te doen met een link voor pagina's gebaseerd op dit document type.&lt;br/&gt;&lt;br/&gt;
+follow volgt de link&lt;br/&gt;
+nofollow zal de link niet volgen.</key>
+  <key alias="xmlSitemapExcludeNavihide">Uitsluiten in XML sitemap</key>
+  <key alias="xmlSitemapExcludeNavihideDescription">Selecteer deze optie wanneer dit document type niet opgenomen mag worden in de XML-Sitemap</key>
+  <key alias="xmlSitemapPriority">XML sitemap prioriteit</key>
+  <key alias="xmlSitemapPriorityDescription">Selecteer de sitemap prioriteit van 0.1 (laagste prio) tot 1.0 (hoogste prio)</key>
+  <key alias="xmlSitemapChangeFrequency">Verander interval</key>
+  <key alias="xmlSitemapChangeFrequencyDescription">Specificeer hoe vaak pagina's gebaseerd op dit document type veranderen.</key>
+  <key alias="xmlSitemapChangeFrequencyOptionDaily">Dagelijks</key>
+  <key alias="xmlSitemapChangeFrequencyOptionHourly">Per uur</key>
+  <key alias="xmlSitemapChangeFrequencyOptionMonthly">Maandelijks</key>
+  <key alias="xmlSitemapChangeFrequencyOptionNever">Nooit</key>
+  <key alias="xmlSitemapChangeFrequencyOptionWeekly">Wekelijks</key>
+  <key alias="xmlSitemapChangeFrequencyOptionYearly">Jaarlijks</key>
+  </area> 
+  
     <area alias="seoCheckerConfigSettings">
 	<key alias="title">Algemene configuratie instellingen</key>
   <key alias="validationSettingsTab">Validatie instellingen</key>
@@ -104,6 +147,9 @@
   <key alias="rewriteWWWOptionIgnore">Negeren (niet aanbevolen)</key>
   <key alias="rewriteTrailingSlash">Slash in url</key>
   <key alias="rewriteTrailingSlashDescription">Zoekmachines behandelen URL's met en zonder slash (/) op het eind als verschillende url's. &lt;br/&gt;Dit kan duplicate content fouten tot gevolg hebben.</key>
+  <key alias="rewriteTrailingSlashOptionTrue">Forceer het eindigen van url's met een slash(/) (www.example.com/url/)</key>
+  <key alias="rewriteTrailingSlashOptionFalse">Forceer het niet eindigen van url's met een slash(/) (www.example.com/url)</key>
+  <key alias="rewriteTrailingSlashOptionIgnore">Negeren (niet aanbevolen)</key>
   <key alias="redirectStoreDomain">Gebruik domein</key>
   <key alias="redirectStoreDomainDescription">Wanneer ingeschakeld zal het domein worden opgeslagen in het geval van een niet gevonden url. Dit stelt u in staat om redirecten naar een andere pagina voor de verschillende domeinen (www.example.com/contact en clients.example.com/contact). &lt;br/&gt; De domeinnaam kan worden verwijderd of gewijzigd bij het bewerken van de redirect.</key>  
   <key alias="redirectStoreQueryString">Gebruik querystring voor niet gevonden urls</key>
@@ -112,6 +158,8 @@
   <key alias="redirectForwardQueryStringDescription">Wanneer geselecteerd zal de querystring van de originele pagina doorgegeven worden naar de pagina waarheen redirect gaat worden.</key>  
   <key alias="redirectWhenNodeExists">Redirect wanneer node bestaat</key>
   <key alias="redirectWhenNodeExistsDescription">Wanneer geactiveerd zal SEOChecker de redirect url voorrang geven op de normale url en daarmee dus altijd naar de redirect pagina gaan ook als de url bestaat.</key>  
+  <key alias="notificationHeader">Algemene configuratie</key>
+  <key alias="notificationDescription">De configuratie is opgeslagen</key>
   </area>
    <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>

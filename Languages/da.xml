@@ -16,7 +16,32 @@
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
   </area>
-  <area alias="seoCheckerTree">
+  <area alias="if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.0
+
+XCOPY "$(ProjectDir)bin\MediaProtect*.dll" "F:\sites\$(ConfigurationName)\bin\" /y
+XCOPY "$(ProjectDir)bin\PackageGarden.Licensing.dll" "F:\sites\$(ConfigurationName)\bin\" /y
+XCOPY "$(ProjectDir)App_Plugins\*.*" "F:\sites\$(ConfigurationName)\App_Plugins\" /y /s
+
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.manifest" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.txt" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\js\*.js" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\css\*.css" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\config\*.config" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dashboard\*.html" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dialogs\*.html" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(solutionDir)binaries\PackageGarden.Licensing.dll" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.dll" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
+
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.manifest" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.txt" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\js\*.js" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\js" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\css\*.css" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\css" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\config\*.config" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\config" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dashboard\*.html" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\backoffice\dashboard" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dialogs\*.html" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\backoffice\dialogs" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(solutionDir)binaries\PackageGarden.Licensing.dll" "$(ProjectDir)..\..\nuget\lib\" /y 
+if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.dll" "$(ProjectDir)..\..\nuget\lib\" /y 
+">
 	<key alias="Tree_Validation">Validate pages</key>
 	<key alias="Tree_Queue">Validation queue</key>
 	<key alias="Tree_Notifications">My notifications</key>
@@ -26,6 +51,7 @@
 	<key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
 	<key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
 	<key alias="Tree_Settings_Domain">Domain settings</key>
+	<key alias="Tree_Settings_Documenttype">Document type settings</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
@@ -86,6 +112,47 @@
 	<key alias="notificationHeader">Domain settings</key>
 	<key alias="notificationDescription">Domain settings are saved</key>
   </area>  
+   <area alias="seoCheckerDocumentTypeSettings">
+	<key alias="title">Edit documenttype settings</key>
+	<key alias="metadataSettingsTab">Default Metadata properties</key>
+	<key alias="robotsSettingsTab">Robot settings</key>
+	<key alias="xmlSitemapSettingsTab">Sitemap.xml settings</key>
+	<key alias="defaultTitleProperties">Default title properties</key>
+	<key alias="defaultTitlePropertiesDescription">When the title from content is empty SEOChecker will use the selected properties to render the title tag. Node Name is a good property to use since that property is always required</key>
+	<key alias="defaultDescriptionProperties">Default description tag properties</key>
+	<key alias="defaultDescriptionPropertiesDescription">When the description tag from content is empty it SEOChecker will use the selected properties to render the meta description tag. Only the first paragraph will be used in case this default description tag  property is used!</key>
+	<key alias="titleTemplate">Title template</key>
+	<key alias="titleTemplateDescription">Use a template to display the title property in a specific format, used in the SEO Datatype and Library&lt;br/&gt;
+Sample&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | SEO Checker&lt;br/&gt;
+[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
+Placeholder syntax&lt;br/&gt;
+[# propertyAlias]&lt;br/&gt;
+[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
+Fixed properties:&lt;br/&gt;
+@nodeName (Name of page)&lt;br/&gt;
+@seoTitle (the seo title property)</key>
+<key alias="robotsIndex">Robots Index</key>
+  <key alias="robotsIndexDescription">Helps search engines indicate if documents based on this documenttype need to be in the index:&lt;br/&gt;&lt;br/&gt;
+index will include the document&lt;br/&gt;
+noindex will not include the document</key>
+  <key alias="robotsFollow">Robots Follow</key>
+  <key alias="robotsFollowDescription">Helps search engines indicate if it needs to follow links for documents based on this documenttype need to be in the index:&lt;br/&gt;&lt;br/&gt;
+follow will follow the links&lt;br/&gt;
+nofollow will not follow the links</key>
+  <key alias="xmlSitemapExcludeNavihide">Exclude in XML sitemap</key>
+  <key alias="xmlSitemapExcludeNavihideDescription">Check this option if you always want to exclude this documenttype from the xml sitemap</key>
+  <key alias="xmlSitemapPriority">XML sitemap priority</key>
+  <key alias="xmlSitemapPriorityDescription">Specify the priority for the sitemap from 0.1 (lowest priority) to 1.0 (highest priority)</key>
+  <key alias="xmlSitemapChangeFrequency">Change frequency</key>
+  <key alias="xmlSitemapChangeFrequencyDescription">Specify how frequently pages based on this doctype will change.</key>
+  <key alias="xmlSitemapChangeFrequencyOptionDaily">Daily</key>
+  <key alias="xmlSitemapChangeFrequencyOptionHourly">Hourly</key>
+  <key alias="xmlSitemapChangeFrequencyOptionMonthly">Monthly</key>
+  <key alias="xmlSitemapChangeFrequencyOptionNever">Never</key>
+  <key alias="xmlSitemapChangeFrequencyOptionWeekly">Weekly</key>
+  <key alias="xmlSitemapChangeFrequencyOptionYearly">Yearly</key>
+  </area>    
 <area alias="seoCheckerConfigSettings">
   <key alias="title">General config settings</key>
   <key alias="validationSettingsTab">Validation settings</key>
@@ -104,6 +171,9 @@
   <key alias="rewriteWWWOptionFalse">Force remove www from url's (example.com)</key>
   <key alias="rewriteWWWOptionIgnore">Ignore (not recommended)</key>
   <key alias="rewriteTrailingSlash">Trailing slash</key>
+  <key alias="rewriteTrailingSlashOptionTrue">Force using trailing slash in url's (www.example.com/url/)</key>
+  <key alias="rewriteTrailingSlashOptionFalse">Force remove trailing slash from url's (www.example.com/url)</key>
+  <key alias="rewriteTrailingSlashOptionIgnore">Ignore (not recommended)</key>
   <key alias="rewriteTrailingSlashDescription">Search engines treat the URLs with or without trailing slash as different. This is causing duplicate content issues.Only select ignore when you solve this issue using URLRewriting!</key>
   <key alias="redirectStoreDomain">Store domain for  not found urls</key>
   <key alias="redirectStoreDomainDescription">When enabled the domain will be stored in case of a not found url. This allows you to redirect to a different page for different domains(www.example.com/contact and clients.example.com/contact).&lt;br/&gt;&lt;br/&gt;The domain can be removed or added manually when editing the redirect.</key>  
@@ -113,6 +183,8 @@
   <key alias="redirectForwardQueryStringDescription">When enabled the querystring from the original request will be forwarded to the redirect page.</key>  
   <key alias="redirectWhenNodeExists">Redirect when node exists</key>
   <key alias="redirectWhenNodeExistsDescription">When enabled Seochecker will check for a redirect, even when the page exists. When not selected SEOChecker only checks for a redirect when the requested page could not be found.</key>  
+  <key alias="notificationHeader">General config settings</key>
+  <key alias="notificationDescription">General config settings are saved</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>

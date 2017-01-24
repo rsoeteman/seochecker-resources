@@ -26,6 +26,7 @@
   <key alias="Tree_Settings_Email_ScheduledTask">E-Mails zu geplante Aufgaben</key>
   <key alias="Tree_Settings_Email_UserNotification">E-Mails zu Benutzer Benachrichtigungen</key>
   <key alias="Tree_Settings_Domain">Domain Einstellungen</key>
+  <key alias="Tree_Settings_Documenttype">Einstellungen für Dokumenttypen</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
@@ -85,6 +86,47 @@
 	<key alias="notificationHeader">Domain Einstellungen</key>
 	<key alias="notificationDescription">Domain Einstellungen wurden gespeichert</key>
   </area>   
+    <area alias="seoCheckerDocumentTypeSettings">
+	<key alias="title">Dokumenttyp Einstellungen</key>
+	<key alias="metadataSettingsTab">Standard SEO Eigenschaften</key>
+	<key alias="robotsSettingsTab">Robots Einstellungen</key>
+	<key alias="xmlSitemapSettingsTab">Sitemap.xml Einstellungen</key>
+	<key alias="defaultTitleProperties">Standard Titel Eigenschaften</key>
+	<key alias="defaultTitlePropertiesDescription">Wenn der Titel des Inhalts leer ist, werden die gewählten Eigenschaften zur Erstellung des Title-Tags verwendet. Der Dokument-Name (@nodeName) ist eine gute Möglichkeit, da er immer gefüllt werden muss.</key>
+  	<key alias="defaultDescriptionProperties">Standard Beschreibungs-Felder</key>
+	<key alias="defaultDescriptionPropertiesDescription">Wenn die Beschreibungs-Eigenschaft des Inhalts leer ist, werden die gewählten Eigenschaften zur Erstellung des Description Meta-Tags verwendet. Nur der erste Absatz einer Eigenschaft wird verwendet.</key>
+	<key alias="titleTemplate">Titel Vorlage</key>
+	<key alias="titleTemplateDescription">Nutzen Sie eine Vorlage, um den Titel in einem im SEO Datentyp und in der Bibliothek in einem speziellen Format anzuzeigen.&lt;br/&gt;
+Beispiel&lt;br/&gt;&lt;br&gt;
+[#@seoTitle] | SEO Checker&lt;br/&gt;
+[#@seoTitle] | [$siteName] © 2013&lt;br/&gt;&lt;br/&gt;
+Platzhalter Syntax&lt;br/&gt;
+[# propertyAlias]&lt;br/&gt;
+[$ propertyAlias] (rekursiv)&lt;br/&gt;&lt;br/&gt;
+Feste Eigenschaften:&lt;br/&gt;
+@nodeName (Name der Seite)&lt;br/&gt;
+@seoTitle (SEO Titel Eigenschaft)</key>
+<key alias="robotsIndex">Robots Index</key>
+  <key alias="robotsIndexDescription">Gibt an, ob Suchmaschinen Seiten mit diesem Dokumenttyp in den Index aufnehmen sollen:&lt;br/&gt;&lt;br/&gt;
+index: Seite indizieren&lt;br/&gt;
+noindex: Seite nicht indizieren</key>
+  <key alias="robotsFollow">Follow-Tag für Robots</key>
+  <key alias="robotsFollowDescription">Gibt an, ob Suchmaschinen den Links, die auf einer Seite mit diesem Dokumenttyp verwendet werden, folgen sollen:&lt;br/&gt;&lt;br/&gt;
+follow: Links folgen&lt;br/&gt;
+nofollow: Links ignorieren</key>
+  <key alias="xmlSitemapExcludeNavihide">Aus der XML-Sitemap auschließen</key>
+  <key alias="xmlSitemapExcludeNavihideDescription">Wenn gewählt, wird dieser Dokumenttyp bei der Erstellung der XML-Sitemap immer ausgeschlossen.</key>
+  <key alias="xmlSitemapPriority">Sitemap Priorität</key>
+  <key alias="xmlSitemapPriorityDescription">Prirität für die XML-Sitemap festlegen; von 0.1 (niedrigste Priorität) bis 1.0 (höchste Priorität)</key>
+  <key alias="xmlSitemapChangeFrequency">Änderungshäufigkeit</key>
+  <key alias="xmlSitemapChangeFrequencyDescription">Geben Sie an, wie häufig sich Seiten ändern, die auf diesem Dokumenttyp basieren.</key>
+  <key alias="xmlSitemapChangeFrequencyOptionDaily">Täglich</key>
+  <key alias="xmlSitemapChangeFrequencyOptionHourly">Stündlich</key>
+  <key alias="xmlSitemapChangeFrequencyOptionMonthly">Monatlich</key>
+  <key alias="xmlSitemapChangeFrequencyOptionNever">Nie</key>
+  <key alias="xmlSitemapChangeFrequencyOptionWeekly">Wöchentlich</key>
+  <key alias="xmlSitemapChangeFrequencyOptionYearly">Jährlich</key>
+  </area> 
     <area alias="seoCheckerConfigSettings">
 	<key alias="title">Allgemeine einstellungen</key>
   <key alias="validationSettingsTab">Validation settings</key>
@@ -104,6 +146,9 @@
   <key alias="rewriteWWWOptionIgnore">Ignorieren (nicht empfohlen)</key>
   <key alias="rewriteTrailingSlash">Schrägstrich am Ende</key>
   <key alias="rewriteTrailingSlashDescription">Suchmaschinen behandeln URLs mit und ohne Schrägstrich am Ende als Unterschiedlich. Dies kann Probleme mit doppeltem Inhalt verursachen. Wählen Sie nur dann ignorieren, wenn Sie dieses Problem anderweitig lösen.</key>
+  <key alias="rewriteTrailingSlashOptionTrue">Schrägstrich am Ende der URLs hinzufügen (www.example.com/url/)</key>
+  <key alias="rewriteTrailingSlashOptionFalse">Schrägstrichs am Ende der URLs entfernen (www.example.com/url)</key>
+  <key alias="rewriteTrailingSlashOptionIgnore">Ignorieren (nicht empfohlen)</key>
   <key alias="redirectStoreDomain">Domain nicht gefundener Adressen merken</key>
   <key alias="redirectStoreDomainDescription">Wenn gewählt, wird bei nicht gefundenen Adressen die ursprüngliche Domain übernommen. So können Sie zu verschiedenen Seiten für verschiedene Domains weiterleiten (www.beispiel.de/kontakt und kunden.beispiel.de/konakt).&lt;br/&gt;&lt;br/&gt;Die Domain kann manuell entfernt oder hinzugefügt werden, wenn eine Weiterleitung bearbeitet wird.</key>  
   <key alias="redirectStoreQueryString">Querystring nicht gefundener Adressen merken</key>
@@ -112,6 +157,8 @@
   <key alias="redirectForwardQueryStringDescription">Wenn gewählt, wird der Querystring der ursprünglichen Anfrage auch an die weitergeleitete Adresse angehängt.</key>  
     <key alias="redirectWhenNodeExists">Weiterleiten, wenn Seite existiert</key>
   <key alias="redirectWhenNodeExistsDescription">Wenn gewählt, wird auch dann weitergeleitet wenn eine passende Seite existiert. Wenn nicht gewählt, wird nur dann weitergeleitet, wenn keine passende Seite existiert.</key>  
+  <key alias="notificationHeader">Gespeichert</key>
+  <key alias="notificationDescription">Konfiguration wurde erfolgreich gespeichert</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
