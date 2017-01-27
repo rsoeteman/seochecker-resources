@@ -114,9 +114,12 @@ if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.
   </area>  
    <area alias="seoCheckerDocumentTypeSettings">
 	<key alias="title">Edit documenttype settings</key>
-	<key alias="metadataSettingsTab">Default Metadata properties</key>
+	<key alias="metadataSettingsTab">Metadata settings</key>
+	<key alias="opengraphSettingsTab">Opengraph settings</key>
+	<key alias="twittercardSettingsTab">Twittercard settings</key>
 	<key alias="robotsSettingsTab">Robot settings</key>
 	<key alias="xmlSitemapSettingsTab">Sitemap.xml settings</key>
+	<key alias="metadataDatatypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 	<key alias="defaultTitleProperties">Default title properties</key>
 	<key alias="defaultTitlePropertiesDescription">When the title from content is empty SEOChecker will use the selected properties to render the title tag. Node Name is a good property to use since that property is always required</key>
 	<key alias="defaultDescriptionProperties">Default description tag properties</key>
@@ -152,6 +155,23 @@ nofollow will not follow the links</key>
   <key alias="xmlSitemapChangeFrequencyOptionNever">Never</key>
   <key alias="xmlSitemapChangeFrequencyOptionWeekly">Weekly</key>
   <key alias="xmlSitemapChangeFrequencyOptionYearly">Yearly</key>
+   <key alias="defaultOGTitleProperties">Default og:title properties</key>
+	<key alias="defaultOGTitlePropertiesDescription">When the og:title is empty SEOChecker will use the selected properties to render the og:title tag. Node Name is a good property to use since that property is always required&lt;br/&gt;When empty the SEO title is used</key>
+	<key alias="defaultOGDescriptionProperties">Default og:description tag properties</key>
+	<key alias="defaultOGDescriptionPropertiesDescription">When the og:description tag from content is empty it SEOChecker will use the selected properties to render the og:description tag. Only the first paragraph will be used in case this default description tag  property is used!&lt;br/&gt;When empty the SEO description is used</key>
+	<key alias="defaultOGImageProperties">Default og:image properties</key>
+	<key alias="defaultOGImagePropertiesDescription">When the og:image is not set SEOChecker will use the selected properties to render the og:image tag.</key>
+  <key alias="ogTemplate">OG:Title template</key>
+	<key alias="ogtitleTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
+Sample&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | SEO Checker&lt;br/&gt;
+[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
+Placeholder syntax&lt;br/&gt;
+[# propertyAlias]&lt;br/&gt;
+[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
+Fixed properties:&lt;br/&gt;
+@nodeName (Name of page)&lt;br/&gt;
+@seoTitle (the seo title property)&lt;br/&gt;When empty the SEO template is used</key>
   </area>    
 <area alias="seoCheckerConfigSettings">
   <key alias="title">General config settings</key>
