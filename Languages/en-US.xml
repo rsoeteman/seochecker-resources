@@ -109,6 +109,27 @@ Placeholder syntax&lt;br/&gt;
 Fixed properties:&lt;br/&gt;
 @nodeName (Name of page)&lt;br/&gt;
 @seoTitle (the seo title property)</key>
+<key alias="defaultTwitterTitleProperties">Default twitter:title properties</key>
+	<key alias="defaultTwitterTitlePropertiesDescription">When the twitter:title is empty SEOChecker will use the selected properties to render the twitter:title tag. Node Name is a good property to use since that property is always required&lt;br/&gt;When empty the SEO title is used</key>
+	<key alias="defaultTwitterDescriptionProperties">Default twitter:description tag properties</key>
+	<key alias="defaultTwitterDescriptionPropertiesDescription">When the twitter:description tag from content is empty it SEOChecker will use the selected properties to render the twitter:description tag. Only the first paragraph will be used in case this default description tag  property is used!&lt;br/&gt;When empty the SEO description is used</key>
+	<key alias="defaultTwitterImageProperties">Default twitter:image properties</key>
+	<key alias="defaultTwitterImagePropertiesDescription">When the twitter:image is not set SEOChecker will use the selected properties to render the twitter:image tag.</key>
+	<key alias="defaultTwitterCardType">Twitter Card type</key>
+	<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
+	<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
+	<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
+	<key alias="twitterTemplate">twitter:Title template</key>
+	<key alias="twitterTemplateDescription">Use a template to display the twitetr:Title property in a specific format, used in the Twitter Datatype and Library&lt;br/&gt;
+Sample&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | SEO Checker&lt;br/&gt;
+[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
+Placeholder syntax&lt;br/&gt;
+[# propertyAlias]&lt;br/&gt;
+[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
+Fixed properties:&lt;br/&gt;
+@nodeName (Name of page)&lt;br/&gt;
+@seoTitle (the seo title property)&lt;br/&gt;When empty the SEO template is used</key>
 <key alias="robotsIndex">Robots Index</key>
   <key alias="robotsIndexDescription">Helps search engines indicate if documents based on this documenttype need to be in the index:&lt;br/&gt;&lt;br/&gt;
 index will include the document&lt;br/&gt;
