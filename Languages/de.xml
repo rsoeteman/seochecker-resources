@@ -88,6 +88,7 @@
   </area>   
     <area alias="seoCheckerDocumentTypeSettings">
 	<key alias="title">Dokumenttyp Einstellungen</key>
+	<key alias="dataTypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 	<key alias="metadataSettingsTab">Metadata Eigenschaften</key>
 	<key alias="opengraphSettingsTab">Opengraph settings</key>
 	<key alias="twittercardSettingsTab">Twittercard settings</key>
@@ -119,6 +120,7 @@ Feste Eigenschaften:&lt;br/&gt;
 	<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
 	<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
 	<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
+	<key alias="defaultTwitterCardTypeRequired">Twitter card type is required</key>
 	<key alias="twitterTemplate">twitter:Title template</key>
 	<key alias="twitterTemplateDescription">Use a template to display the twitetr:Title property in a specific format, used in the Twitter Datatype and Library&lt;br/&gt;
 Sample&lt;br/&gt;&lt;br/&gt;
@@ -174,6 +176,7 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectSettingsTab">Weiterleitungs-Einstellungen</key>
   <key alias="urlRewritingSettingsTab">URL Rewriting</key>
   <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="socialTab">Social</key>
   <key alias="validateAfterPublish">Seite beim Veröffentlichen überprüfen</key>
   <key alias="validateAfterPublishDescription">Wenn gewählt, wird die Seite nach dem Veröffentlichen überprüft und Auffälligkeiten werden der Problemliste hinzugefügt.</key>
   <key alias="validateEmptyAltAttributeOnImages">Alt-Attribute in der Vorlage überprüfen</key>
@@ -198,8 +201,8 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectForwardQueryStringDescription">Wenn gewählt, wird der Querystring der ursprünglichen Anfrage auch an die weitergeleitete Adresse angehängt.</key>  
     <key alias="redirectWhenNodeExists">Weiterleiten, wenn Seite existiert</key>
   <key alias="redirectWhenNodeExistsDescription">Wenn gewählt, wird auch dann weitergeleitet wenn eine passende Seite existiert. Wenn nicht gewählt, wird nur dann weitergeleitet, wenn keine passende Seite existiert.</key>  
-  <key alias="notificationHeader">Gespeichert</key>
-  <key alias="notificationDescription">Konfiguration wurde erfolgreich gespeichert</key>
+    <key alias="twitterAccount">Twitter account</key>
+  <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
@@ -211,5 +214,17 @@ Fixed properties:&lt;br/&gt;
 	<key alias="fridayOption">Freitag</key>	
 	<key alias="saturdayOption">Samstag</key>	
 	<key alias="sundayOption">Sonntag</key>
+  </area>
+  <area alias="seoCheckerDataType">
+	<key alias="googleSnippet">Google Vorschau</key>
+	<key alias="focusKeyword">Haupt-Keyword</key>
+	<key alias="focusKeywordDescription">Mit diesem Keyword soll Ihre Seite gut gefunden werden, zum Beispiel:&lt;br/&gt;Umbraco Editor</key>
+	<key alias="seoTitle">SEO Titel</key>
+	<key alias="seoTitleDescription">Ohne Eingabe wird das standardmäßige Titel-Feld für diesen Dokumenttyp verwendet.</key>
+	<key alias="seoKeywords">SEO Keywords</key>
+	<key alias="seoKeywordsDescription">Die Keywords werden von den meisten Suchmaschinen ignoriert!</key>
+	<key alias="seoDescription">SEO Beschreibung</key>
+	<key alias="seoDescriptionDescription">Ohne Eingabe wird das standardmäßige Beschreibungs-Feld für diesen Dokumenttyp verwendet.</key>
+	<key alias="validationResult">Ergebnis der Validierung</key>
   </area>
 </language>

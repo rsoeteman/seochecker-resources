@@ -87,7 +87,8 @@
 	<key alias="notificationDescription">Domein instellingen zijn opgeslagen</key>
   </area>   
     <area alias="seoCheckerDocumentTypeSettings">
-	<key alias="title">Document type eigenschappen bewerken</key>
+	<key alias="title">Document type eigenschappen</key>
+	<key alias="dataTypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 	<key alias="metadataSettingsTab">Metadata instellingen</key>
 	<key alias="opengraphSettingsTab">Opengraph settings</key>
 	<key alias="twittercardSettingsTab">Twittercard settings</key>
@@ -117,6 +118,7 @@ standaard properties:&lt;br/&gt;
 	<key alias="defaultTwitterImagePropertiesDescription">When the twitter:image is not set SEOChecker will use the selected properties to render the twitter:image tag.</key>
 	<key alias="defaultTwitterCardType">Twitter Card type</key>
 	<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
+	<key alias="defaultTwitterCardTypeRequired">Twitter card type is required</key>
 	<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
 	<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
 	<key alias="twitterTemplate">twitter:Title template</key>
@@ -175,6 +177,7 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectSettingsTab">Redirect instellingen</key>
   <key alias="urlRewritingSettingsTab">URL Rewriting</key>
   <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="socialTab">Social</key>
   <key alias="validateAfterPublish">Valideer na publiceren</key>
   <key alias="validateAfterPublishDescription">Wanneer geselecteerd zal de pagina na publiceren gevalideerd worden en issues te zien zijn in de issues lijst.</key>
   <key alias="validateEmptyAltAttributeOnImages">Valideer alt attributen in templates</key>
@@ -199,8 +202,8 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectForwardQueryStringDescription">Wanneer geselecteerd zal de querystring van de originele pagina doorgegeven worden naar de pagina waarheen redirect gaat worden.</key>  
   <key alias="redirectWhenNodeExists">Redirect wanneer node bestaat</key>
   <key alias="redirectWhenNodeExistsDescription">Wanneer geactiveerd zal SEOChecker de redirect url voorrang geven op de normale url en daarmee dus altijd naar de redirect pagina gaan ook als de url bestaat.</key>  
-  <key alias="notificationHeader">Algemene configuratie</key>
-  <key alias="notificationDescription">De configuratie is opgeslagen</key>
+    <key alias="twitterAccount">Twitter account</key>
+  <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
    <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
@@ -212,5 +215,17 @@ Fixed properties:&lt;br/&gt;
 	<key alias="fridayOption">Vrijdag</key>		
 	<key alias="saturdayOption">Zaterdag</key>
 	<key alias="sundayOption">Zondag</key>
+  </area>
+  <area alias="seoCheckerDataType">
+	<key alias="googleSnippet">Google voorbeeld</key>
+	<key alias="focusKeyword">SEO Zoekwoord</key>
+	<key alias="focusKeywordDescription">Het zoekwoord waar u de pagina op gevonden wilt laten worden, BV:&lt;br/&gt;Umbraco beheerder</key>
+	<key alias="seoTitle">SEO titel</key>
+	<key alias="seoTitleDescription">Wanneer leeg, zal SEO checker de ingestelde standaard velden gebruiken.</key>
+	<key alias="seoKeywords">SEO zoekwoorden</key>
+	<key alias="seoKeywordsDescription">De SEO zoekwoorden worden genegeerd door meeste zoekmachines</key>
+	<key alias="seoDescription">SEO omschrijving</key>
+	<key alias="seoDescriptionDescription">Wanneer leeg, zal SEO checker de ingestelde standaard velden gebruiken.</key>
+	<key alias="validationResult">Validatie resultaat</key>
   </area>
 </language>

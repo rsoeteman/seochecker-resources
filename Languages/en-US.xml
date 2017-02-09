@@ -87,7 +87,8 @@
 	<key alias="notificationDescription">Domain settings are saved</key>
   </area>  
     <area alias="seoCheckerDocumentTypeSettings">
-	<key alias="title">Edit documenttype settings</key>
+	<key alias="title">Documenttype settings</key>
+	<key alias="dataTypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 	<key alias="metadataSettingsTab">Metadata settings</key>
 	<key alias="opengraphSettingsTab">Opengraph settings</key>
 	<key alias="twittercardSettingsTab">Twittercard settings</key>
@@ -117,6 +118,7 @@ Fixed properties:&lt;br/&gt;
 	<key alias="defaultTwitterImagePropertiesDescription">When the twitter:image is not set SEOChecker will use the selected properties to render the twitter:image tag.</key>
 	<key alias="defaultTwitterCardType">Twitter Card type</key>
 	<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
+	<key alias="defaultTwitterCardTypeRequired">Twitter card type is required</key>
 	<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
 	<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
 	<key alias="twitterTemplate">twitter:Title template</key>
@@ -174,6 +176,7 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectSettingsTab">Redirect settings</key>
   <key alias="urlRewritingSettingsTab">URL Rewriting</key>
   <key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+  <key alias="socialTab">Social</key>
   <key alias="validateAfterPublish">Validate a page when published</key>
   <key alias="validateAfterPublishDescription">When selected the page will be validated after publish and issues will be added to the issues list</key>
   <key alias="validateEmptyAltAttributeOnImages">Validate alt attributes on template</key>
@@ -198,8 +201,8 @@ Fixed properties:&lt;br/&gt;
   <key alias="redirectForwardQueryStringDescription">When enabled the querystring from the original request will be forwarded to the redirect page.</key>  
   <key alias="redirectWhenNodeExists">Redirect when node exists</key>
   <key alias="redirectWhenNodeExistsDescription">When enabled Seochecker will check for a redirect, even when the page exists. When not selected SEOChecker only checks for a redirect when the requested page could not be found.</key>  
-  <key alias="notificationHeader">General config settings</key>
-  <key alias="notificationDescription">General config settings are saved</key>
+    <key alias="twitterAccount">Twitter account</key>
+  <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
@@ -211,5 +214,17 @@ Fixed properties:&lt;br/&gt;
 	<key alias="fridayOption">Friday</key>	
 	<key alias="saturdayOption">Saturday</key>	
 	<key alias="sundayOption">Sunday</key>
+  </area>
+  <area alias="seoCheckerDataType">
+	<key alias="googleSnippet">Snippet preview</key>
+	<key alias="focusKeyword">Focus keyword</key>
+	<key alias="focusKeywordDescription">The keyword you want to rank this page for, example:&lt;br/&gt;Umbraco editor</key>
+	<key alias="seoTitle">SEO title</key>
+	<key alias="seoTitleDescription">When left empty the configured SEO title property for the document type will be used</key>
+	<key alias="seoKeywords">SEO keywords</key>
+	<key alias="seoKeywordsDescription">The keywords tag will be ignored by most search engines!</key>
+	<key alias="seoDescription">SEO description</key>
+	<key alias="seoDescriptionDescription">When left empty the configured SEO description property for the document type will be used</key>
+	<key alias="validationResult">Validation result</key>
   </area>
 </language>
