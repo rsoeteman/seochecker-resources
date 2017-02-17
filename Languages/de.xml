@@ -15,11 +15,17 @@
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
+	<key alias="deleteConfirm">Wollen Sie sicher löschen?</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Seiten überprüfen</key>
   <key alias="Tree_Queue">Zu überprüfende Elemente</key>
   <key alias="Tree_Notifications">Meine Benachrichtigungen</key>
+  <key alias="Tree_RedirectManager">Weiterleitungen</key>
+  <key alias="Tree_Issues">Fehler</key>
+  <key alias="Tree_Issues_ValidationIssues">Fehler bei der Validierung</key>
+  <key alias="Tree_Issues_InboundlinkIssues">Fehler bei eingehenden Links</key>
+  <key alias="Tree_Issues_ConfigurationIssues">Konfigurationsprobleme</key>
   <key alias="Tree_Settings">Einstellungen</key>
   <key alias="Tree_Settings_GeneralSettings">General settings</key>
   <key alias="Tree_Settings_Email">E-Mail Einstellungen</key>
@@ -27,6 +33,7 @@
   <key alias="Tree_Settings_Email_UserNotification">E-Mails zu Benutzer Benachrichtigungen</key>
   <key alias="Tree_Settings_Domain">Domain Einstellungen</key>
   <key alias="Tree_Settings_Documenttype">Einstellungen für Dokumenttypen</key>
+  <key alias="Tree_Settings_SecuritySettings">Usertype permissions</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
@@ -204,6 +211,9 @@ Fixed properties:&lt;br/&gt;
     <key alias="twitterAccount">Twitter account</key>
   <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
+    <area alias="seoCheckerPermissionSettings">
+	<key alias="title">Permission settings</key>
+  </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
 	<key alias="sendDays">Send every</key>
@@ -226,5 +236,57 @@ Fixed properties:&lt;br/&gt;
 	<key alias="seoDescription">SEO Beschreibung</key>
 	<key alias="seoDescriptionDescription">Ohne Eingabe wird das standardmäßige Beschreibungs-Feld für diesen Dokumenttyp verwendet.</key>
 	<key alias="validationResult">Ergebnis der Validierung</key>
+	<key alias="seoValidateButton">Validate SEO</key>
+  </area>
+  <area alias="redirectDataType">
+  <key alias="overviewNoResult">Keine Weiterleitungen vorhanden</key>
+  <key alias="overviewTitle">Weiterleitungen verwalten</key>
+  <key alias="overviewIntro">Erstellen, bearbeiten oder löschen Sie Weiterleitungen für diese Seite.</key>
+  <key alias="overviewUrlHeader">URL</key>
+  <key alias="overviewRedirectHeader">Weiterleten zu</key>
+  <key alias="overviewLastReferer">Letzte Herkunft</key>
+  <key alias="overviewAccessedHeader">Aufgerufen</key>
+  <key alias="overviewLastTimeAccessedHeader">Letzter Aufruf</key>
+  <key alias="overviewCreateButton">Weiterleitung erstellen</key>
+  <key alias="editTitle">Weiterleitung bearbeiten</key>
+  <key alias="editIntro">Bearbeiten Sie die alte URL, die auf diese Seite weiterleitet.</key>
+  <key alias="editSpeechBubbleHeader">Gespeichert</key>
+  <key alias="editSpeechBubbleBody">Die Objekte werden aktualisiert</key>
+  <key alias="editUrlRequiredError">Die alte URL wird benötigt</key>
+  <key alias="editurlExistsError">Die alte URL existiert bereits in der Datenbank. Sie können eine URL nur einmal angeben.</key>
+  <key alias="editOldUrlField">Alte URL</key>
+  <key alias="editOldUrlFieldDescription">Die alte Adresse, von der aus sie weiterleiten wollen.</key>
+  <key alias="editRedirectRequiredError">Eine URL auf die Sie weiterleiten möchten wird benötigt. Wählen Sie eine Seite aus oder tragen Sie eine Adresse in das Textfeld ein.</key>
+  <key alias="editRedirectNodeField">Weiterleiten zur Seite</key>
+  <key alias="editRedirectNodeFieldDescription">Wählen Se eine Seite, auf die Sie weiterleiten wollen. Wenn die Seite nicht aus der Liste ausgewählt werden kann, benutzen Sie das Textfeld.</key>
+  <key alias="editRedirectUrlField">Oder weiterleiten zur Adresse</key>
+  <key alias="editRedirectUrlFieldDescription">Geben Sie die Adresse an, auf die Sie weiterleiten wollen. Benutzen Sie dieses Feld nur, wenn die Seite nicht ausgewählt werden kann.</key>
+  <key alias="editAdvancedSettings">Erweiterte Einstellungen</key>
+  <key alias="editExactDomainMatchField">Domain</key>
+  <key alias="editExactDomainMatchFieldDescription">Nur weiterleiten, wenn die URL von angegebenen Domain kommt</key>
+  <key alias="editExactQuerystringMatchField">Querystring</key>
+  <key alias="editExactQuerystringMatchFieldDescription">Nur weiterleiten, wenn der Querystring der URL den angegebenen Parametern entspricht</key>
+  <key alias="notificationDeleteTitle">Weiterleitung gelöscht</key>
+  <key alias="notificationDeleteDescription">Die Weiterleitung wurde gelöscht</key>
+  <key alias="notificationSaveTitle">Weiterleitung gespeichert</key>
+  <key alias="notificationSaveDescription">Die Weiterleitung wurde gespeichert</key>
+  </area>
+      <area alias="seoCheckerRobotsTxtDataType">
+	<key alias="robotsIndex">Robots Index</key>
+	<key alias="robotsIndexDescription">Signalisiert Suchmaschinen, dass Inhalte basierend auf diesem Dokumenttyp indiziert werden sollen&lt;br/&gt;&lt;br/&gt;
+inherit: Im Dokumenttyp konfigurierten Wert verwenden
+index: Dokument in den Index aufnehmen
+noindex: Dokument nicht in den Index aufnehmen</key>
+	<key alias="robotsNoFollow">Robots Follow</key>
+	<key alias="robotsNoFollowDescription">Signalisiert Suchmaschinen, dass sie Links in Inhalten basierend auf diesem Dokumenttyp folgen sollen&lt;br/&gt;&lt;br/&gt;
+inherit: Im Dokumenttyp konfigurierten Wert verwenden
+follow: Links folgen
+nofollow: Links nicht folgen</key>
+  </area>
+  <area alias="seoCheckerXmlSitemapDataType">
+	<key alias="xmlSitemapPrio">XML-Sitemap Priorität</key>
+	<key alias="xmlSitemapPrioDescription">Prirität für die XML-Sitemap festlegen; von 0.1 (niedrigste Priorität) bis 1.0 (höchste Priorität)&lt;br/&gt;Inherit verwendet den im Dokumenttyp konfigurierten Wert.</key>
+	<key alias="xmlSitemapChangeFrequency">Änderungshäufigkeit</key>
+	<key alias="xmlSitemapChangeFrequencyDescription">Geben Sie an, wie häufig sich Inhalte basierend auf diesem Dokumenttyp ändern.&lt;br/&gt;Inherit verwendet den im Dokumenttyp konfigurierten Wert.</key>
   </area>
 </language>

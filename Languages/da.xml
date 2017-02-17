@@ -15,35 +15,15 @@
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+	<key alias="deleteConfirm">Er du sikker på at du vil slette?</key>
   </area>
-  <area alias="if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.0
-
-XCOPY "$(ProjectDir)bin\MediaProtect*.dll" "F:\sites\$(ConfigurationName)\bin\" /y
-XCOPY "$(ProjectDir)bin\PackageGarden.Licensing.dll" "F:\sites\$(ConfigurationName)\bin\" /y
-XCOPY "$(ProjectDir)App_Plugins\*.*" "F:\sites\$(ConfigurationName)\App_Plugins\" /y /s
-
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.manifest" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.txt" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\js\*.js" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\css\*.css" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\config\*.config" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dashboard\*.html" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dialogs\*.html" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(solutionDir)binaries\PackageGarden.Licensing.dll" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.dll" "$(ProjectDir)..\..\Package\05387784-43c6-4486-8df7-874524a22c37\" /y
-
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.manifest" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\*.txt" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\js\*.js" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\js" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\css\*.css" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\css" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\config\*.config" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\config" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dashboard\*.html" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\backoffice\dashboard" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)app_plugins\mediaprotect\backoffice\dialogs\*.html" "$(ProjectDir)..\..\nuget\content\app_plugins\mediaprotect\backoffice\dialogs" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(solutionDir)binaries\PackageGarden.Licensing.dll" "$(ProjectDir)..\..\nuget\lib\" /y 
-if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.dll" "$(ProjectDir)..\..\nuget\lib\" /y 
-">
+ <area alias="seoCheckerTree">
 	<key alias="Tree_Validation">Validate pages</key>
 	<key alias="Tree_Queue">Validation queue</key>
+	<key alias="Tree_Issues">Issues</key>
+  <key alias="Tree_Issues_ValidationIssues">Validation issues</key>
+  <key alias="Tree_Issues_InboundlinkIssues">Inbound link errors</key>
+  <key alias="Tree_Issues_ConfigurationIssues">Configuration issues</key>
 	<key alias="Tree_Notifications">My notifications</key>
 	<key alias="Tree_Settings">Settings</key>
 	<key alias="Tree_Settings_GeneralSettings">General settings</key>
@@ -52,6 +32,7 @@ if /I "$(ConfigurationName)" == "Release" XCOPY "$(ProjectDir)bin\mediaprotect*.
 	<key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
 	<key alias="Tree_Settings_Domain">Domain settings</key>
 	<key alias="Tree_Settings_Documenttype">Document type settings</key>
+	<key alias="Tree_Settings_SecuritySettings">Usertype permissions</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
@@ -230,6 +211,9 @@ Fixed properties:&lt;br/&gt;
     <key alias="twitterAccount">Twitter account</key>
   <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
+    <area alias="seoCheckerPermissionSettings">
+	<key alias="title">Permission settings</key>
+  </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Send every</key>
@@ -252,5 +236,57 @@ Fixed properties:&lt;br/&gt;
 	<key alias="seoDescription">SEO description</key>
 	<key alias="seoDescriptionDescription">Hvis dette felt er tomt, vil det konfigurerede SEO description felt på dokumentet blive brugt</key>
 	<key alias="validationResult">Validering resultat</key>
+	<key alias="seoValidateButton">Validate SEO</key>
+  </area>
+  <area alias="redirectDataType">
+  <key alias="overviewNoResult">Ingen redirects fundet</key>
+  <key alias="overviewTitle">Administrer redirects</key>
+  <key alias="overviewIntro">Opret, rediger eller slet redirects for denne side.</key>
+  <key alias="overviewUrlHeader">Url</key>
+  <key alias="overviewRedirectHeader">Redirect til</key>
+  <key alias="overviewLastReferer">Sidste referer</key>
+  <key alias="overviewAccessedHeader">Tilgået</key>
+  <key alias="overviewLastTimeAccessedHeader">Sidste gang tilgået</key>
+  <key alias="overviewCreateButton">Opret redirect</key>
+  <key alias="editTitle">Rediger redirect</key>
+  <key alias="editIntro">Rediger den gamle url som redirecter til denne side.</key>
+  <key alias="editSpeechBubbleHeader">Gemt</key>
+  <key alias="editSpeechBubbleBody">Elementerne er opdateret</key>
+  <key alias="editUrlRequiredError">Gammel url er obligatorik</key>
+  <key alias="editurlExistsError">Den gamle url eksisterer allerede i databasen, du kan kun angive den gamle url en gang</key>
+  <key alias="editOldUrlField">Gammel url</key>
+  <key alias="editOldUrlFieldDescription">Den gamle url hvor du vil redirecte fra</key>
+  <key alias="editRedirectRequiredError">En url hvor du vil redirecte til er obligatorisk. Vælg en ved at benytte url vælgeren, eller ved at tilføje en url til redirect til feltet</key>
+  <key alias="editRedirectNodeField">Redirect til node</key>
+  <key alias="editRedirectNodeFieldDescription">Angiv en node du vil redirecte til. Hvis siden du vil redirecte til ikke kan vælges via en node, kan du benytte Redirect til url tekstboksen.</key>
+  <key alias="editRedirectUrlField">Eller redirect til url</key>
+  <key alias="editRedirectUrlFieldDescription">Angiv en url du vil redirecte til. Benyt kun denne hvis den side du vil redirecte til ikke kan vælges via node vælgeren!</key>
+  <key alias="editAdvancedSettings">Avancerede indstillinger</key>
+  <key alias="editExactDomainMatchField">Domæne</key>
+  <key alias="editExactDomainMatchFieldDescription">Redirect kun hvis url'en kommer fra det specificerede domæne</key>
+  <key alias="editExactQuerystringMatchField">Querystring</key>
+  <key alias="editExactQuerystringMatchFieldDescription">Redirect kun hvis querystring'en fra url'en matcher de specificerede querystring parametre.</key>
+  <key alias="notificationDeleteTitle">Redirect slettet</key>
+  <key alias="notificationDeleteDescription">Redirecten er fjernet fra databasen</key>
+  <key alias="notificationSaveTitle">Redirect gem</key>
+  <key alias="notificationSaveDescription">Redirecten er gemt i databasen</key>
+  </area>
+      <area alias="seoCheckerRobotsTxtDataType">
+	<key alias="robotsIndex">Robots Index</key>
+	<key alias="robotsIndexDescription">Fortæller søgemaskinerne om dokumenter baseret på denne dokumenttype skal indekseres:&lt;br/&gt;&lt;br/&gt;
+inherit bruger den indstillede værdi på dokumenttypen.&lt;br/&gt;
+index inkluderer dokumentet i søgeindekset&lt;br/&gt;
+noindex vil ikke inkludere dokumentet i søgeindekset</key>
+	<key alias="robotsNoFollow">Robots Follow</key>
+	<key alias="robotsNoFollowDescription">Fortæller søgemaskinerne om de skal følge links på dokumenter baseret på denne dokumenttype:&lt;br/&gt;&lt;br/&gt;
+inherit bruger den indstillede værdi på dokumenttypen.&lt;br/&gt;
+index vil følge links&lt;br/&gt;
+noindex vil ikke følge links&lt;br/&gt;</key>
+  </area>
+  <area alias="seoCheckerXmlSitemapDataType">
+	<key alias="xmlSitemapPrio">XML sitemap prioritet</key>
+	<key alias="xmlSitemapPrioDescription">Angiv prioriteten til sitemap fra 0.1 (laveste prioritet) til 1.0 (højeste prioritet).&lt;br/&gt;&lt;br/&gt;Inherit vil bruge den konfigurerede værdi på dokumenttypen.</key>
+	<key alias="xmlSitemapChangeFrequency">Ændringsfrekvens</key>
+	<key alias="xmlSitemapChangeFrequencyDescription">Angiv hvor ofte sider baseret på denne dokumenttype bliver ændret.&lt;br/&gt;&lt;br/&gt;Inherit benytter den konfigurerede værdi på dokumenttypen.</key>
   </area>
   </language>

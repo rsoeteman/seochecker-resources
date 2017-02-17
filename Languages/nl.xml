@@ -15,11 +15,17 @@
 	<key alias="requiredSuffix">is verplicht</key>
 	<key alias="invalidSuffix">is niet correct ingevuld</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
+	<key alias="deleteConfirm">Weet u zeker dat u wilt verwijderen?</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Valideer documenten</key>
   <key alias="Tree_Queue">Validatie wachtrij</key>
   <key alias="Tree_Notifications">Mijn notificaties</key>
+  <key alias="Tree_RedirectManager">Redirect instellingen</key>
+  <key alias="Tree_Issues">Issues</key>
+  <key alias="Tree_Issues_ValidationIssues">Validatie fouten</key>
+  <key alias="Tree_Issues_InboundlinkIssues">Inkomende link fouten</key>
+  <key alias="Tree_Issues_ConfigurationIssues">Configuratie fouten</key>
   <key alias="Tree_Settings">Instellingen</key>
   <key alias="Tree_Settings_GeneralSettings">Algemene instellingen</key>
   <key alias="Tree_Settings_Email">Email instellingen</key>
@@ -27,6 +33,7 @@
   <key alias="Tree_Settings_Email_UserNotification">Notificatie emails</key>
   <key alias="Tree_Settings_Domain">Domein instellingen</key>
   <key alias="Tree_Settings_Documenttype">Document type instellingen</key>
+  <key alias="Tree_Settings_SecuritySettings">Gebruikersgroep rechten</key>
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
@@ -205,6 +212,9 @@ Fixed properties:&lt;br/&gt;
     <key alias="twitterAccount">Twitter account</key>
   <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
+  <area alias="seoCheckerPermissionSettings">
+	<key alias="title">Gebruikersrechten instellingen</key>
+  </area>
    <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
 	<key alias="sendDays">Verstuur elke</key>
@@ -227,5 +237,57 @@ Fixed properties:&lt;br/&gt;
 	<key alias="seoDescription">SEO omschrijving</key>
 	<key alias="seoDescriptionDescription">Wanneer leeg, zal SEO checker de ingestelde standaard velden gebruiken.</key>
 	<key alias="validationResult">Validatie resultaat</key>
+	<key alias="seoValidateButton">Valideer SEO</key>
+  </area>
+  <area alias="redirectDataType">
+  <key alias="overviewNoResult">Geen redirects gevonden</key>
+  <key alias="overviewTitle">Bewerk redirects</key>
+  <key alias="overviewIntro">Maak, bewerkt of verwijder redirects naar deze pagina.</key>
+  <key alias="overviewUrlHeader">Url</key>
+  <key alias="overviewRedirectHeader">Redirect naar</key>
+  <key alias="overviewLastReferer">Laatste referentie</key>
+  <key alias="overviewAccessedHeader">Opgevraagd</key>
+  <key alias="overviewLastTimeAccessedHeader">Laatst opgevraagd</key>
+  <key alias="overviewCreateButton">Redirect maken</key>
+  <key alias="editTitle">Wijzig redirect</key>
+  <key alias="editIntro">Wijzig de oude url die naar deze pagina redirect.</key>
+  <key alias="editSpeechBubbleHeader">Opgeslagen</key>
+  <key alias="editSpeechBubbleBody">De geselecteerd items zijn gewijzigd</key>
+  <key alias="editUrlRequiredError">Oude url is verplicht</key>
+  <key alias="editurlExistsError">De url bestaat reeds in de database, een url kan slechts 1 keer voorkomen.</key>
+  <key alias="editOldUrlField">Oude url</key>
+  <key alias="editOldUrlFieldDescription">De oude url waar de redirect vandaan komt.</key>
+  <key alias="editRedirectRequiredError">Een url is verplicht. Selecteer een url via de picker of url tekst veld.</key>
+  <key alias="editRedirectNodeField">Redirect naar node</key>
+  <key alias="editRedirectNodeFieldDescription">Geef de node op waar naartoe verwezen moet worden. Gebruik het tekstveld indien de node niet bestaat.</key>
+  <key alias="editRedirectUrlField">Of redirect naar url</key>
+  <key alias="editRedirectUrlFieldDescription">Specificeer een url waarheen naartoe redirect mag worden. Gebruik dit veld alleen als de redirect niet via de node selectie gemaakt kan worden.</key>
+  <key alias="editAdvancedSettings">Geavanceerde instellingen</key>
+  <key alias="editExactDomainMatchField">Domein</key>
+  <key alias="editExactDomainMatchFieldDescription">Redirect alleen wanneer de url voor het gespecificeerde domain is.</key>
+  <key alias="editExactQuerystringMatchField">Querystring</key>
+  <key alias="editExactQuerystringMatchFieldDescription">Redirect alleen wanneer de querystring overeenkomt met de querystring uit de url</key>
+  <key alias="notificationDeleteTitle">Redirect verwijderd</key>
+  <key alias="notificationDeleteDescription">De redirect is verwijderd.</key>
+  <key alias="notificationSaveTitle">Redirect opslaan</key>
+  <key alias="notificationSaveDescription">De redirect is opgeslagen</key>
+  </area>
+      <area alias="seoCheckerRobotsTxtDataType">
+	<key alias="robotsIndex">Robots Index</key>
+	<key alias="robotsIndexDescription">Helpt zoekmachines beslissen of pagina;s gebaseerd op dit documenttype geindexeerd moeten worden:&lt;br/&gt;&lt;br/&gt;
+inherit gebruikt de waarde gespecificeerd in het document type.&lt;br/&gt;
+index neemt het document op in de index&lt;br/&gt;
+noindex neemt het document niet op in de index</key>
+	<key alias="robotsNoFollow">Robots Follow</key>
+	<key alias="robotsNoFollowDescription">Helpt zoekmachines beslissen of links op pagina's gebaseerd op dit documenttype gevolgd moeten worden:&lt;br/&gt;&lt;br/&gt;
+inherit gebruikt de waarde gespecificeerd in het document type.&lt;br/&gt;
+follow volgt de  links.&lt;br/&gt;
+nofollow volgt de links niet.&lt;br/&gt;</key>
+  </area>
+  <area alias="seoCheckerXmlSitemapDataType">
+	<key alias="xmlSitemapPrio">XML sitemap prioriteit</key>
+	<key alias="xmlSitemapPrioDescription">Specificeer de prioeriteit voor de XML Sitemap  van 0.1 (laagtse prioriteit) tot 1.0 (hoogste prioriteit).&lt;br/&gt;&lt;br/&gt;Inherit gebruikt de geconfigureerde waarde op het document type.</key>
+	<key alias="xmlSitemapChangeFrequency">Veranderd</key>
+	<key alias="xmlSitemapChangeFrequencyDescription">Specificeer hoe vaak pagina's gebaseerd op dit document type zullen wijzigen.&lt;br/&gt;&lt;br/&gt;Inherit gebruikt de geconfigureerde waarde op het document type.</key>
   </area>
 </language>
