@@ -46,8 +46,7 @@
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validation queue</key>
-    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; documents are queued for validation. The overview below shows the first 100 documents that are queued.</key>
-    <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Below you find the &lt;strong&gt;{0} documents&lt;/strong&gt; that are queued for validation.</key>
+        <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Below you find the &lt;strong&gt;{0} documents&lt;/strong&gt; that are queued for validation.</key>
     <key alias="clearQueue">Clear all</key>
     <key alias="gridTitle">Document</key>
     <key alias="gridUrl">Url</key>
@@ -213,6 +212,11 @@ Fixed properties:&lt;br/&gt;
   </area>
     <area alias="seoCheckerPermissionSettings">
 	<key alias="title">Permission settings</key>
+	<key alias="intro">Give usertypes access to certain area's of the SEOChecker section. Administrators will always have full control.</key>
+	<key alias="validationOption">Validation</key>
+	<key alias="redirectmanagementOption">Manage redirects</key>
+	<key alias="issuesOption">Issue management</key>
+	<key alias="settingsOption">Settings</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>

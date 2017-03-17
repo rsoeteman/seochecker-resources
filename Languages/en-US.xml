@@ -47,7 +47,6 @@
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validation queue</key>
-    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; documents are queued for validation. The overview below shows the first 100 documents that are queued.</key>
     <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Below you find the &lt;strong&gt;{0} documents&lt;/strong&gt; that are queued for validation.</key>
     <key alias="clearQueue">Clear all</key>
     <key alias="gridTitle">Document</key>
@@ -214,6 +213,11 @@ Fixed properties:&lt;br/&gt;
   </area>
     <area alias="seoCheckerPermissionSettings">
 	<key alias="title">Permission settings</key>
+	<key alias="intro">Give usertypes access to certain area's of the SEOChecker section. Administrators will always have full control.</key>
+	<key alias="validationOption">Validation</key>
+	<key alias="redirectmanagementOption">Manage redirects</key>
+	<key alias="issuesOption">Issue management</key>
+	<key alias="settingsOption">Settings</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
@@ -290,4 +294,15 @@ nofollow will not follow the links.&lt;br/&gt;</key>
 	<key alias="xmlSitemapChangeFrequency">Change frequency</key>
 	<key alias="xmlSitemapChangeFrequencyDescription">Specify how frequently pages based on this doctype will change.&lt;br/&gt;&lt;br/&gt;Inherit will use the configured value on the document type.</key>
   </area>
-</language>
+  <area alias="seoCheckerValidationIssues">
+     <key alias="title">Validation issues</key>
+   <key alias="intro">In the overview below you can see all validation issues SEO Checker found while validating pages. Solve these issues by editing the document, or template.</key>
+   <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
+  <key alias="noResult">No validation issues found</key>
+  <key alias="validationQueueMessage">SEOChecker is still validating pages. Currently there are &lt;strong&gt;{0} pages&lt;/strong&gt; in the validation queue.</key>
+  <key alias="overviewIssueDocument">Document</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+  </area>
+  </language>
+

@@ -47,7 +47,6 @@
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Warteschlange für die Seitenüberprüfung</key>
-    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; Dokumente warten auf eine Überprüfung. Die Übersicht zeigt ihnen die ersten 100 Dokumente der Warteschlange an.</key>
     <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Im Folgenden finden Sie &lt;strong&gt;{0} Seiten&lt;/strong&gt;, die auf eine Überprüfung warten.</key>
     <key alias="clearQueue">Clear all</key>
     <key alias="gridTitle">Document</key>
@@ -213,6 +212,11 @@ Fixed properties:&lt;br/&gt;
   </area>
     <area alias="seoCheckerPermissionSettings">
 	<key alias="title">Permission settings</key>
+	<key alias="intro">Give usertypes access to certain area's of the SEOChecker section. Administrators will always have full control.</key>
+	<key alias="validationOption">Validation</key>
+	<key alias="redirectmanagementOption">Manage redirects</key>
+	<key alias="issuesOption">Issue management</key>
+	<key alias="settingsOption">Settings</key>
   </area>
   <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Uhrzeit</key>
@@ -288,5 +292,12 @@ nofollow: Links nicht folgen</key>
 	<key alias="xmlSitemapPrioDescription">Prirität für die XML-Sitemap festlegen; von 0.1 (niedrigste Priorität) bis 1.0 (höchste Priorität)&lt;br/&gt;Inherit verwendet den im Dokumenttyp konfigurierten Wert.</key>
 	<key alias="xmlSitemapChangeFrequency">Änderungshäufigkeit</key>
 	<key alias="xmlSitemapChangeFrequencyDescription">Geben Sie an, wie häufig sich Inhalte basierend auf diesem Dokumenttyp ändern.&lt;br/&gt;Inherit verwendet den im Dokumenttyp konfigurierten Wert.</key>
+  </area>
+   <area alias="seoCheckerValidationIssues">
+      <key alias="title">Validierungsfehler</key>
+   <key alias="intro">Im folgenden Überblick finden Sie alle Validerungsfehler, die SEO Checker gefunden hat. Lösunen Sie die Probleme, indem Sie die Inhalte oder das Template bearbeiten.</key>
+   <key alias="noAdminWarning">SEO Checker hat Fehler in diesem Template gefunden, die behoben werden müssen. Wenn Sie auf diesen bereich keinen Zugriff haben, geben Sie diese Information an Ihren Entwickler weiter.</key>
+  <key alias="noResult">Keine Validierungsfehler gefunden</key>
+  <key alias="validationQueueMessage">SEO Checker ist noch mit der Validierung der Seiten beschäftigt. Derzeit sind &lt;strong&gt;{0} Seiten&lt;/strong&gt; in der Warteschlange.</key>
   </area>
 </language>

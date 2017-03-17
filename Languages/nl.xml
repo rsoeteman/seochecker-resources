@@ -47,7 +47,6 @@
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validatie wachtrij</key>
-    <key alias="introFirst100Documents">&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;{0}&lt;/strong&gt; documenten wachten op validatie. Dit overzicht zal alleen de eerste 100 documenten tonen.</key>
     <key alias="introDocuments">&lt;br/&gt;&lt;br/&gt;Onderstaand vind u &lt;strong&gt;{0} documenten&lt;/strong&gt; die wachten op validatie.</key>
     <key alias="clearQueue">Clear all</key>
     <key alias="gridTitle">Document</key>
@@ -212,8 +211,13 @@ Fixed properties:&lt;br/&gt;
     <key alias="twitterAccount">Twitter account</key>
   <key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
   </area>
-  <area alias="seoCheckerPermissionSettings">
-	<key alias="title">Gebruikersrechten instellingen</key>
+      <area alias="seoCheckerPermissionSettings">
+	<key alias="title">Permission settings</key>
+	<key alias="intro">Give usertypes access to certain area's of the SEOChecker section. Administrators will always have full control.</key>
+	<key alias="validationOption">Validation</key>
+	<key alias="redirectmanagementOption">Manage redirects</key>
+	<key alias="issuesOption">Issue management</key>
+	<key alias="settingsOption">Settings</key>
   </area>
    <area alias="seoCheckernotificationOptions">
 	<key alias="executeTime">Time</key>
@@ -289,5 +293,12 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
 	<key alias="xmlSitemapPrioDescription">Specificeer de prioeriteit voor de XML Sitemap  van 0.1 (laagtse prioriteit) tot 1.0 (hoogste prioriteit).&lt;br/&gt;&lt;br/&gt;Inherit gebruikt de geconfigureerde waarde op het document type.</key>
 	<key alias="xmlSitemapChangeFrequency">Veranderd</key>
 	<key alias="xmlSitemapChangeFrequencyDescription">Specificeer hoe vaak pagina's gebaseerd op dit document type zullen wijzigen.&lt;br/&gt;&lt;br/&gt;Inherit gebruikt de geconfigureerde waarde op het document type.</key>
+  </area>
+   <area alias="seoCheckerValidationIssues">
+   <key alias="title">Validatie fouten</key>
+   <key alias="intro">In onderstaand overzicht vind u alle fouten die SEO checker heeft gevonden tijdens het valideren van de pagina's. Los de issues op door het document of de template te bewerken.</key>
+   <key alias="noAdminWarning">SEO checker heeft wat issues gevonden die in de template opgelost moet worden. U heeft geen rechten tot de template sectie, vraag een ontwikkelaar deze issues op te lossen.</key>
+  <key alias="noResult">Geen validatie issues gevonden</key>
+  <key alias="validationQueueMessage">SEOChecker is nog steeds pagina's aan het valideren. Momenteel staan er &lt;strong&gt;{0} pagina's&lt;/strong&gt; in de validatie wachtrij.</key>
   </area>
 </language>
