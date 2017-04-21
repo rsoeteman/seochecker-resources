@@ -12,10 +12,12 @@
     <key alias="nodePickerChoose">Wählen...</key>
 	<key alias="notificationError">Error</key>
 	<key alias="notificationSaved">Saved</key>
+	<key alias="notificationProcessed">Processed</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="deleteConfirm">Wollen Sie sicher löschen?</key>
+	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Seiten überprüfen</key>
@@ -26,7 +28,11 @@
   <key alias="Tree_Issues_ValidationIssues">Fehler bei der Validierung</key>
   <key alias="Tree_Issues_InboundlinkIssues">Fehler bei eingehenden Links</key>
   <key alias="Tree_Issues_ConfigurationIssues">Konfigurationsprobleme</key>
+  <key alias="Tree_Issues_IgnoredValidationIssues">Ignorierte Validierungsfehler</key>
+  <key alias="Tree_Issues_IgnoredInboundlinkIssues">Ignorierte Fehler eingehender Links</key>
+  <key alias="Tree_Issues_IgnoredConfigurationIssues">Ignorierte Konfigurationsprobleme</key>
   <key alias="Tree_Settings">Einstellungen</key>
+  <key alias="Tree_Settings_IgnoreList">Ignorierte Probleme</key>
   <key alias="Tree_Settings_GeneralSettings">General settings</key>
   <key alias="Tree_Settings_Email">E-Mail Einstellungen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">E-Mails zu geplante Aufgaben</key>
@@ -295,9 +301,25 @@ nofollow: Links nicht folgen</key>
   </area>
    <area alias="seoCheckerValidationIssues">
       <key alias="title">Validierungsfehler</key>
-   <key alias="intro">Im folgenden Überblick finden Sie alle Validerungsfehler, die SEO Checker gefunden hat. Lösunen Sie die Probleme, indem Sie die Inhalte oder das Template bearbeiten.</key>
    <key alias="noAdminWarning">SEO Checker hat Fehler in diesem Template gefunden, die behoben werden müssen. Wenn Sie auf diesen bereich keinen Zugriff haben, geben Sie diese Information an Ihren Entwickler weiter.</key>
   <key alias="noResult">Keine Validierungsfehler gefunden</key>
   <key alias="validationQueueMessage">SEO Checker ist noch mit der Validierung der Seiten beschäftigt. Derzeit sind &lt;strong&gt;{0} Seiten&lt;/strong&gt; in der Warteschlange.</key>
+   <key alias="overviewIssueDocument">Document</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+  </area>
+   <area alias="seoCheckerConfigurationIssues">
+  <key alias="title">Konfigurationsprobleme</key>
+  <key alias="noResult">Keine Konfigurationsprobleme gefunden</key>
+  <key alias="overviewIssueTitle">Issue</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+  </area>
+    <area alias="seoCheckerBulkActions">
+	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>
+  <key alias="bulkActionDeleteExecuted">Die gewählten Einträge wurden gelöscht.</key>
+  <key alias="bulkActionIgnoreListExecuted">Die gewählten Einträge wurden zu den ignorierten Problemen hinzugefügt.</key>
+  <key alias="bulkActionRevalidate">Seiten, die die gewählten Probleme enthalten, werden überprüft.</key>
+  <key alias="bulkActionRevalidateCurrentPage">&lt;strong&gt;'{0}'&lt;/strong&gt; wird validiert.</key>
   </area>
 </language>

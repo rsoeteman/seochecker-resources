@@ -12,10 +12,12 @@
     <key alias="nodePickerChoose">Selecteer...</key>
 	<key alias="notificationError">Fout</key>
 	<key alias="notificationSaved">Saved</key>
+	<key alias="notificationProcessed">Processed</key>
 	<key alias="requiredSuffix">is verplicht</key>
 	<key alias="invalidSuffix">is niet correct ingevuld</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="deleteConfirm">Weet u zeker dat u wilt verwijderen?</key>
+	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Valideer documenten</key>
@@ -26,7 +28,11 @@
   <key alias="Tree_Issues_ValidationIssues">Validatie fouten</key>
   <key alias="Tree_Issues_InboundlinkIssues">Inkomende link fouten</key>
   <key alias="Tree_Issues_ConfigurationIssues">Configuratie fouten</key>
+  <key alias="Tree_Issues_IgnoredValidationIssues">Genegeerde validatie fouten</key>
+  <key alias="Tree_Issues_IgnoredInboundlinkIssues">Genegeerde inkomende link fouten</key>
+  <key alias="Tree_Issues_IgnoredConfigurationIssues">Genegeerde configuratie fouten</key>
   <key alias="Tree_Settings">Instellingen</key>
+  <key alias="Tree_Settings_IgnoreList"></key>
   <key alias="Tree_Settings_GeneralSettings">Algemene instellingen</key>
   <key alias="Tree_Settings_Email">Email instellingen</key>
   <key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
@@ -296,9 +302,27 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   </area>
    <area alias="seoCheckerValidationIssues">
    <key alias="title">Validatie fouten</key>
-   <key alias="intro">In onderstaand overzicht vind u alle fouten die SEO checker heeft gevonden tijdens het valideren van de pagina's. Los de issues op door het document of de template te bewerken.</key>
    <key alias="noAdminWarning">SEO checker heeft wat issues gevonden die in de template opgelost moet worden. U heeft geen rechten tot de template sectie, vraag een ontwikkelaar deze issues op te lossen.</key>
   <key alias="noResult">Geen validatie issues gevonden</key>
   <key alias="validationQueueMessage">SEOChecker is nog steeds pagina's aan het valideren. Momenteel staan er &lt;strong&gt;{0} pagina's&lt;/strong&gt; in de validatie wachtrij.</key>
+   <key alias="overviewIssueDocument">Document</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+   </area>
+    <area alias="seoCheckerConfigurationIssues">
+  <key alias="title">Configuratie fouten</key>
+  <key alias="noResult">Er zijn geen configuratie issues gevonden</key>
+  <key alias="overviewIssueTitle">Issue</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+  <key alias="bulkActionDeleteConfirmMessage"></key>
+  <key alias="bulkActionDeleteExecuted"></key>
+  </area>
+  <area alias="seoCheckerBulkActions">
+   <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
+  <key alias="bulkActionDeleteExecuted">De geselecteerde items zijn verwijderd.</key>
+  <key alias="bulkActionIgnoreListExecuted">De geselecteerde items zijn toegevoegd aan de te negeren lijst</key>
+  <key alias="bulkActionRevalidate">Pagina's aan het valideren die de geselecteerde issues bevatten.</key>
+  <key alias="bulkActionRevalidateCurrentPage">Valideren van &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   </area>
 </language>

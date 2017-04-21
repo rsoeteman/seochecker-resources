@@ -11,10 +11,12 @@
     <key alias="nodePickerChoose">Select...</key>
 	<key alias="notificationError">Error</key>
 	<key alias="notificationSaved">Saved</key>
+	<key alias="notificationProcessed">Processed</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="deleteConfirm">Are you sure you want to delete?</key>
+	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
   </area>
   <area alias="seoCheckerTree">
   <key alias="defaultTab">Default</key>
@@ -296,9 +298,22 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerValidationIssues">
      <key alias="title">Validation issues</key>
-   <key alias="intro">In the overview below you can see all validation issues SEO Checker found while validating pages. Solve these issues by editing the document, or template.</key>
    <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
   <key alias="noResult">No validation issues found</key>
   <key alias="validationQueueMessage">SEOChecker is still validating pages. Currently there are &lt;strong&gt;{0} pages&lt;/strong&gt; in the validation queue.</key>
+  </area>
+  <area alias="seoCheckerConfigurationIssues">
+  <key alias="title"></key>
+  <key alias="noResult"></key>
+  <key alias="overviewIssueTitle"></key>
+  <key alias="overviewIssueDescription"></key>
+  <key alias="overviewIssueCategory"></key>
+  </area>
+    <area alias="seoCheckerBulkActions">
+	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
+  <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
+  <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
+  <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
+  <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   </area>
 </language>

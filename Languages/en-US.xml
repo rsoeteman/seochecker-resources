@@ -11,10 +11,12 @@
     <key alias="nodePickerChoose">Select...</key>
 	<key alias="notificationError">Error</key>
 	<key alias="notificationSaved">Saved</key>
+	<key alias="notificationProcessed">Processed</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="deleteConfirm">Are you sure you want to delete?</key>
+	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
   </area>
   <area alias="seoCheckerTree">
   <key alias="defaultTab">Default</key>
@@ -25,9 +27,13 @@
   <key alias="Tree_Issues_ValidationIssues">Validation issues</key>
   <key alias="Tree_Issues_InboundlinkIssues">Inbound link errors</key>
   <key alias="Tree_Issues_ConfigurationIssues">Configuration issues</key>
+  <key alias="Tree_Issues_IgnoredValidationIssues">Ignored validation issues</key>
+  <key alias="Tree_Issues_IgnoredInboundlinkIssues">Ignored inbound link errors</key>
+  <key alias="Tree_Issues_IgnoredConfigurationIssues">Ignored configuration issues</key>
   <key alias="Tree_Notifications">My notifications</key>
   <key alias="Tree_Settings">Settings</key>
   <key alias="Tree_Settings_GeneralSettings">General settings</key>
+  <key alias="Tree_Settings_IgnoreList">Ignore list</key>
   <key alias="Tree_Settings_Email">Email settings</key>
   <key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
   <key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
@@ -296,13 +302,26 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerValidationIssues">
      <key alias="title">Validation issues</key>
-   <key alias="intro">In the overview below you can see all validation issues SEO Checker found while validating pages. Solve these issues by editing the document, or template.</key>
    <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
   <key alias="noResult">No validation issues found</key>
   <key alias="validationQueueMessage">SEOChecker is still validating pages. Currently there are &lt;strong&gt;{0} pages&lt;/strong&gt; in the validation queue.</key>
   <key alias="overviewIssueDocument">Document</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  </area>
+   <area alias="seoCheckerConfigurationIssues">
+  <key alias="title">Configuration issues</key>
+  <key alias="noResult">No configuration issues found</key>
+  <key alias="overviewIssueTitle">Issue</key>
+  <key alias="overviewIssueDescription">Description</key>
+  <key alias="overviewIssueCategory">Category</key>
+  </area>
+    <area alias="seoCheckerBulkActions">
+	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
+  <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
+  <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
+  <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
+  <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   </area>
   </language>
 

@@ -12,10 +12,12 @@
 	<key alias="nodePickerChoose">Vælg...</key>
 	<key alias="notificationError">Error</key>
 	<key alias="notificationSaved">Saved</key>
+	<key alias="notificationProcessed">Processed</key>
 	<key alias="requiredSuffix">is required</key>
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="deleteConfirm">Er du sikker på at du vil slette?</key>
+	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
   </area>
  <area alias="seoCheckerTree">
 	<key alias="Tree_Validation">Validate pages</key>
@@ -24,9 +26,10 @@
   <key alias="Tree_Issues_ValidationIssues">Validation issues</key>
   <key alias="Tree_Issues_InboundlinkIssues">Inbound link errors</key>
   <key alias="Tree_Issues_ConfigurationIssues">Configuration issues</key>
-	<key alias="Tree_Notifications">My notifications</key>
+  	<key alias="Tree_Notifications">My notifications</key>
 	<key alias="Tree_Settings">Settings</key>
 	<key alias="Tree_Settings_GeneralSettings">General settings</key>
+	<key alias="Tree_Settings_IgnoreList">Ignore list</key>
     <key alias="Tree_Settings_Email">Email settings</key>
 	<key alias="Tree_Settings_Email_ScheduledTask">Scheduled task emails</key>
 	<key alias="Tree_Settings_Email_UserNotification">Notification emails</key>
@@ -292,5 +295,26 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 	<key alias="xmlSitemapPrioDescription">Angiv prioriteten til sitemap fra 0.1 (laveste prioritet) til 1.0 (højeste prioritet).&lt;br/&gt;&lt;br/&gt;Inherit vil bruge den konfigurerede værdi på dokumenttypen.</key>
 	<key alias="xmlSitemapChangeFrequency">Ændringsfrekvens</key>
 	<key alias="xmlSitemapChangeFrequencyDescription">Angiv hvor ofte sider baseret på denne dokumenttype bliver ændret.&lt;br/&gt;&lt;br/&gt;Inherit benytter den konfigurerede værdi på dokumenttypen.</key>
+	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
+  </area>
+  <area alias="seoCheckerValidationIssues">
+     <key alias="title">Validation issues</key>
+   <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
+  <key alias="noResult">No validation issues found</key>
+  <key alias="validationQueueMessage">SEOChecker is still validating pages. Currently there are &lt;strong&gt;{0} pages&lt;/strong&gt; in the validation queue.</key>
+  </area>
+   <area alias="seoCheckerConfigurationIssues">
+  <key alias="title"></key>
+  <key alias="noResult"></key>
+  <key alias="overviewIssueTitle"></key>
+  <key alias="overviewIssueDescription"></key>
+  <key alias="overviewIssueCategory"></key>
+  </area>
+  <area alias="seoCheckerBulkActions">
+	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
+  <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
+  <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
+  <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
+  <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   </area>
   </language>
