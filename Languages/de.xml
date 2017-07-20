@@ -78,7 +78,7 @@
 	<key alias="notificationDescription">Ändern Sie die Einstellung für E-Mails, die bei einer Benachrichtigung an den Benutzer gesendet werden.</key>
 	<key alias="settingsSaved">Fehler beim Speichern der E-Mail Einstellungen.</key>
 	<key alias="fromName">Absendername</key>
-	<key alias="fromAddress">Absenderadresse<</key>
+	<key alias="fromAddress">Absenderadresse</key>
 	<key alias="emailSubject">Email subject</key>
 	<key alias="emailTemplate">Vorlage wählen</key>
 	<key alias="emailTemplateDescription">Wählen Sie ein Razor Template zur Ausgabe der E-Mail Nachricht</key>
@@ -314,6 +314,37 @@ nofollow: Links nicht folgen</key>
   <key alias="overviewIssueTitle">Issue</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  </area>
+    <area alias="seoCheckerRedirectManager">
+  <key alias="title">Weiterleitungen verwalten</key>
+  <key alias="showcontentOption">Inhalt anzeigen</key>
+  <key alias="showMediaOption">Medien anzeigen</key>
+   <key alias="overviewNoResult">Keine Weiterleitungen vorhanden</key>
+  <key alias="overviewTitle">Weiterleitungen verwalten</key>
+  <key alias="overviewIntro">Erstellen, bearbeiten oder löschen Sie Weiterleitungen für diese Seite.</key>
+  <key alias="overviewUrlHeader">URL</key>
+  <key alias="overviewRedirectHeader">Weiterleten zu</key>
+  <key alias="overviewLastReferer">Letzte Herkunft</key>
+  <key alias="overviewAccessedHeader">Aufgerufen</key>
+  <key alias="overviewLastTimeAccessedHeader">Letzter Aufruf</key>
+  <key alias="overviewAccessedFormat">{0} mal</key>
+  </area>
+  <area alias="seoCheckerRedirectManagerEditDialog">
+  <key alias="title">Weiterleitung bearbeiten</key>
+  <key alias="oldUrl">Alte URL</key>
+  <key alias="oldDescription">Die alte Adresse, von der aus sie weiterleiten wollen.</key>
+  <key alias="redirectToNode">Weiterleiten zur Seite</key>
+  <key alias="redirectToNodeDescription">Wählen Se eine Seite, auf die Sie weiterleiten wollen. Wenn die Seite nicht aus der Liste ausgewählt werden kann, benutzen Sie das Textfeld.</key>
+  <key alias="redirectToUrl">Oder weiterleiten zur Adresse</key>
+  <key alias="redirectToUrlDescription">Geben Sie die Adresse an, auf die Sie weiterleiten wollen. Benutzen Sie dieses Feld nur, wenn die Seite nicht ausgewählt werden kann.</key>
+  <key alias="wildcardUrl">Platzhalter URL</key>
+  <key alias="wildcardDescription">Wenn gewählt, werden untergeordnete Seiten der alten Url auch zur gewählten Zielseite weitergeleitet. Z.b. zeigen dann sowohl /aktuelles also auch /aktuelles/meldung zur gewählten Seite.</key>
+  <key alias="domain">Domain</key>
+  <key alias="domainDescription">Nur weiterleiten, wenn die URL von angegebenen Domain kommt</key>
+  <key alias="querystring">Querystring</key>
+  <key alias="querystringDescription">Nur weiterleiten, wenn der Querystring der URL den angegebenen Parametern entspricht</key>
+  <key alias="basicSettings">Einstellungen</key>
+  <key alias="advancedSettings">Erweiterte Einstellungen</key>
   </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>

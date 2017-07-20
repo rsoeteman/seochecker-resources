@@ -310,6 +310,37 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="overviewIssueDescription"></key>
   <key alias="overviewIssueCategory"></key>
   </area>
+    <area alias="seoCheckerRedirectManager">
+  <key alias="title">Administrer redirects</key>
+  <key alias="showcontentOption">Show content</key>
+  <key alias="showMediaOption">Show media</key>
+  <key alias="overviewNoResult">Ingen redirects fundet</key>
+  <key alias="overviewTitle">Administrer redirects</key>
+  <key alias="overviewIntro">Opret, rediger eller slet redirects for denne side.</key>
+  <key alias="overviewUrlHeader">Url</key>
+  <key alias="overviewRedirectHeader">Redirect til</key>
+  <key alias="overviewLastReferer">Sidste referer</key>
+  <key alias="overviewAccessedHeader">Tilgået</key>
+  <key alias="overviewLastTimeAccessedHeader">Sidste gang tilgået</key>
+  <key alias="overviewAccessedFormat">{0} time(s)</key>
+  </area>
+  <area alias="seoCheckerRedirectManagerEditDialog">
+  <key alias="title">Rediger redirect</key>
+  <key alias="oldUrl">Gammel url</key>
+  <key alias="oldDescription">Den gamle url hvor du vil redirecte fra</key>
+  <key alias="redirectToNode">Redirect til node</key>
+  <key alias="redirectToNodeDescription">Angiv en node du vil redirecte til. Hvis siden du vil redirecte til ikke kan vælges via en node, kan du benytte Redirect til url tekstboksen.</key>
+  <key alias="redirectToUrl">Eller redirect til url</key>
+  <key alias="redirectToUrlDescription">Angiv en url du vil redirecte til. Benyt kun denne hvis den side du vil redirecte til ikke kan vælges via node vælgeren!</key>
+  <key alias="wildcardUrl">Wildcard url</key>
+  <key alias="wildcardDescription">When selected all underlying pages of the old url will also map to the redirected node. If url was /news then news/newsitem will also redirect to the selected node.</key>
+  <key alias="domain">Domæne</key>
+  <key alias="domainDescription">Redirect kun hvis url'en kommer fra det specificerede domæne</key>
+  <key alias="querystring">Querystring</key>
+  <key alias="querystringDescription">Redirect kun hvis querystring'en fra url'en matcher de specificerede querystring parametre.</key>
+<key alias="basicSettings">Basic settings</key>
+  <key alias="advancedSettings">Advanced settings</key>
+  </area>
   <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
