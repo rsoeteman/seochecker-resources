@@ -312,6 +312,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Administrer redirects</key>
+  <key alias="createButton">Opret redirect</key>
   <key alias="showcontentOption">Show content</key>
   <key alias="showMediaOption">Show media</key>
   <key alias="overviewNoResult">Ingen redirects fundet</key>
@@ -326,6 +327,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Rediger redirect</key>
+  <key alias="createtitle">Opret redirect</key>
   <key alias="oldUrl">Gammel url</key>
   <key alias="oldDescription">Den gamle url hvor du vil redirecte fra</key>
   <key alias="redirectToNode">Redirect til node</key>
@@ -340,6 +342,9 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="querystringDescription">Redirect kun hvis querystring'en fra url'en matcher de specificerede querystring parametre.</key>
 <key alias="basicSettings">Basic settings</key>
   <key alias="advancedSettings">Advanced settings</key>
+  <key alias="editUrlRequiredError">Gammel url er obligatorik</key>
+  <key alias="editRedirectRequiredError">En url hvor du vil redirecte til er obligatorisk. Vælg en ved at benytte url vælgeren, eller ved at tilføje en url til redirect til feltet</key>
+  <key alias="editUrlExistsError">Den gamle url eksisterer allerede i databasen, du kan kun angive den gamle url en gang</key>
   </area>
   <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>

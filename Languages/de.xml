@@ -317,6 +317,7 @@ nofollow: Links nicht folgen</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Weiterleitungen verwalten</key>
+  <key alias="createButton">Weiterleitung erstellen</key>
   <key alias="showcontentOption">Inhalt anzeigen</key>
   <key alias="showMediaOption">Medien anzeigen</key>
    <key alias="overviewNoResult">Keine Weiterleitungen vorhanden</key>
@@ -331,6 +332,7 @@ nofollow: Links nicht folgen</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Weiterleitung bearbeiten</key>
+  <key alias="createtitle">Weiterleitung erstellen</key>
   <key alias="oldUrl">Alte URL</key>
   <key alias="oldDescription">Die alte Adresse, von der aus sie weiterleiten wollen.</key>
   <key alias="redirectToNode">Weiterleiten zur Seite</key>
@@ -345,6 +347,9 @@ nofollow: Links nicht folgen</key>
   <key alias="querystringDescription">Nur weiterleiten, wenn der Querystring der URL den angegebenen Parametern entspricht</key>
   <key alias="basicSettings">Einstellungen</key>
   <key alias="advancedSettings">Erweiterte Einstellungen</key>
+  <key alias="editUrlRequiredError">Die alte URL wird benötigt</key>
+  <key alias="editRedirectRequiredError">Eine URL auf die Sie weiterleiten möchten wird benötigt. Wählen Sie eine Seite aus oder tragen Sie eine Adresse in das Textfeld ein.</key>
+  <key alias="editUrlExistsError">Die alte URL existiert bereits in der Datenbank. Sie können eine URL nur einmal angeben.</key>
   </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>

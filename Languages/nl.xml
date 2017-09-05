@@ -320,6 +320,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Bewerk redirects</key>
+  <key alias="createButton">Redirect maken</key>
   <key alias="showcontentOption">Toon content</key>
   <key alias="showMediaOption">Toon media</key>
   <key alias="overviewNoResult">Geen redirects gevonden</key>
@@ -334,6 +335,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Wijzig redirect</key>
+  <key alias="createtitle">Redirect maken</key>
   <key alias="oldUrl">Oude url</key>
   <key alias="oldDescription">De oude url waar de redirect vandaan komt.</key>
   <key alias="redirectToNode">Redirect naar node</key>
@@ -348,6 +350,9 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   <key alias="querystringDescription">Redirect alleen wanneer de querystring overeenkomt met de querystring uit de url</key>
   <key alias="basicSettings">Standaard</key>
   <key alias="advancedSettings">Geavanceerd</key>
+  <key alias="editUrlRequiredError">Oude url is verplicht</key>
+  <key alias="editRedirectRequiredError">Een url is verplicht. Selecteer een url via de picker of url tekst veld.</key>
+  <key alias="editUrlExistsError">De url bestaat reeds in de database, een url kan slechts 1 keer voorkomen.</key>
   </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>

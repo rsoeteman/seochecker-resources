@@ -318,6 +318,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerRedirectManager">
   <key alias="title">Manage redirects</key>
+  <key alias="createButton">Create redirect</key>
   <key alias="showcontentOption">Show content</key>
   <key alias="showMediaOption">Show media</key>
   <key alias="overviewNoResult">No redirects found</key>
@@ -332,6 +333,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Edit redirect</key>
+  <key alias="createtitle">Create redirect</key>
   <key alias="oldUrl">Old url</key>
   <key alias="oldDescription">The old redirect where you want to redirect from.</key>
   <key alias="redirectToNode">Redirect to node</key>
@@ -346,6 +348,9 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="querystringDescription">Only redirect when the querystring from the url matches the specified querystring parameter(s)</key>
   <key alias="basicSettings">Basic settings</key>
   <key alias="advancedSettings">Advanced settings</key>
+  <key alias="editUrlRequiredError">Old url is required</key>
+  <key alias="editRedirectRequiredError">A url where you want to redirect to is required. Pick one using the url picker, or add a url to the  redirect to url field</key>
+  <key alias="editUrlExistsError">The old url already exists in the database, you can only specify the old url once</key>
   </area>
     <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
