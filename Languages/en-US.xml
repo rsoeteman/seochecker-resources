@@ -318,6 +318,9 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerRedirectManager">
   <key alias="title">Manage redirects</key>
+  <key alias="inboundLinkIssuesTitle">Inbound link errors</key>
+  <key alias="ignoredInboundLinkIssuesTitle">Ignored inbound link errors</key>
+  <key alias="ignoredInboundLinkIssuesNoResult">No ignored inbound link errors found</key>
   <key alias="createButton">Create redirect</key>
   <key alias="showcontentOption">Show content</key>
   <key alias="showMediaOption">Show media</key>
@@ -330,6 +333,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="overviewAccessedHeader">Accessed</key>
   <key alias="overviewLastTimeAccessedHeader">Last time accessed</key>
   <key alias="overviewAccessedFormat">{0} time(s)</key>
+  <key alias="inboundLinkErrorMessage">The link to &lt;a href="/{0}" target="_blank" title="{0}" &gt;{0}&lt;/a&gt; is broken.</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Edit redirect</key>

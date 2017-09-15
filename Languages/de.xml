@@ -317,10 +317,13 @@ nofollow: Links nicht folgen</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Weiterleitungen verwalten</key>
+  <key alias="inboundLinkIssuesTitle">Fehler bei eingehenden Links</key>
+  <key alias="ignoredInboundLinkIssuesTitle">Ignorierte Fehler eingehender Links</key>
   <key alias="createButton">Weiterleitung erstellen</key>
   <key alias="showcontentOption">Inhalt anzeigen</key>
   <key alias="showMediaOption">Medien anzeigen</key>
    <key alias="overviewNoResult">Keine Weiterleitungen vorhanden</key>
+   <key alias="ignoredInboundLinkIssuesNoResult">Keine ignorierten Konfigurationsprobleme gefunden</key>
   <key alias="overviewTitle">Weiterleitungen verwalten</key>
   <key alias="overviewIntro">Erstellen, bearbeiten oder löschen Sie Weiterleitungen für diese Seite.</key>
   <key alias="overviewUrlHeader">URL</key>
@@ -329,10 +332,11 @@ nofollow: Links nicht folgen</key>
   <key alias="overviewAccessedHeader">Aufgerufen</key>
   <key alias="overviewLastTimeAccessedHeader">Letzter Aufruf</key>
   <key alias="overviewAccessedFormat">{0} mal</key>
+  <key alias="inboundLinkErrorMessage">Der Link zu &lt;a href="/{0}" target="_blank" title="{0}" &gt;{0}&lt;/a&gt; ist fehlerhaft.</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Weiterleitung bearbeiten</key>
-  <key alias="createtitle">Weiterleitung erstellen</key>
+    <key alias="createtitle">Weiterleitung erstellen</key>
   <key alias="oldUrl">Alte URL</key>
   <key alias="oldDescription">Die alte Adresse, von der aus sie weiterleiten wollen.</key>
   <key alias="redirectToNode">Weiterleiten zur Seite</key>

@@ -312,10 +312,13 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Administrer redirects</key>
+  <key alias="inboundLinkIssuesTitle">Inbound link errors</key>
+  <key alias="ignoredInboundLinkIssuesTitle">Ignored inbound link errors</key>
   <key alias="createButton">Opret redirect</key>
   <key alias="showcontentOption">Show content</key>
   <key alias="showMediaOption">Show media</key>
   <key alias="overviewNoResult">Ingen redirects fundet</key>
+  <key alias="ignoredInboundLinkIssuesNoResult">No ignored inbound link errors found</key>
   <key alias="overviewTitle">Administrer redirects</key>
   <key alias="overviewIntro">Opret, rediger eller slet redirects for denne side.</key>
   <key alias="overviewUrlHeader">Url</key>
@@ -324,6 +327,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="overviewAccessedHeader">Tilgået</key>
   <key alias="overviewLastTimeAccessedHeader">Sidste gang tilgået</key>
   <key alias="overviewAccessedFormat">{0} time(s)</key>
+  <key alias="inboundLinkErrorMessage">The link to &lt;a href="/{0}" target="_blank" title="{0}" &gt;{0}&lt;/a&gt; is broken.</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Rediger redirect</key>

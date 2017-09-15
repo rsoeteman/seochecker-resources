@@ -320,10 +320,13 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Bewerk redirects</key>
+  <key alias="inboundLinkIssuesTitle">Inkomende link fouten</key>
+  <key alias="ignoredInboundLinkIssuesTitle">Te negeren inkomende link fouten</key>
   <key alias="createButton">Redirect maken</key>
   <key alias="showcontentOption">Toon content</key>
   <key alias="showMediaOption">Toon media</key>
   <key alias="overviewNoResult">Geen redirects gevonden</key>
+  <key alias="ignoredInboundLinkIssuesNoResult">Geen te negeren configuratie fouten gevonden</key>
   <key alias="overviewTitle">Bewerk redirects</key>
   <key alias="overviewIntro">Maak, bewerkt of verwijder redirects naar deze pagina.</key>
   <key alias="overviewUrlHeader">Url</key>
@@ -332,6 +335,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   <key alias="overviewAccessedHeader">Opgevraagd</key>
   <key alias="overviewLastTimeAccessedHeader">Laatst opgevraagd</key>
   <key alias="overviewAccessedFormat">{0} keer</key>
+  <key alias="inboundLinkErrorMessage">De link naar &lt;a href="/{0}" target="_blank" title="{0}" &gt;{0}&lt;/a&gt; werkt niet.</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Wijzig redirect</key>
