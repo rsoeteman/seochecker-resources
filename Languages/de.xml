@@ -324,6 +324,7 @@ nofollow: Links nicht folgen</key>
   <key alias="showMediaOption">Medien anzeigen</key>
    <key alias="overviewNoResult">Keine Weiterleitungen vorhanden</key>
    <key alias="ignoredInboundLinkIssuesNoResult">Keine ignorierten Konfigurationsprobleme gefunden</key>
+   <key alias="InboundLinkIssuesNoResult">Keine Probleme mit eingehenden Links gefunden</key>
   <key alias="overviewTitle">Weiterleitungen verwalten</key>
   <key alias="overviewIntro">Erstellen, bearbeiten oder löschen Sie Weiterleitungen für diese Seite.</key>
   <key alias="overviewUrlHeader">URL</key>
@@ -355,11 +356,25 @@ nofollow: Links nicht folgen</key>
   <key alias="editRedirectRequiredError">Eine URL auf die Sie weiterleiten möchten wird benötigt. Wählen Sie eine Seite aus oder tragen Sie eine Adresse in das Textfeld ein.</key>
   <key alias="editUrlExistsError">Die alte URL existiert bereits in der Datenbank. Sie können eine URL nur einmal angeben.</key>
   </area>
+  <area alias="seoCheckerExportRedirects">
+  <key alias="exportOptionButton">Weiterleitungen exportieren</key>
+  <key alias="exportButton">Exportieren</key>
+  <key alias="title">Weiterleitungen exportieren</key>
+  <key alias="exportField">Daten für den Export</key>
+  <key alias="redirectsAndInboundLinksExportOption">Weiterleitungen und fehlerhafte Links</key>
+  <key alias="redirectsExportOption">Weiterleitungen</key>
+  <key alias="inboundlinksExportOption">Fehlerhafte Links</key>
+  <key alias="contentTypeField">Inhalte für den Export</key>
+  <key alias="contentAndMediaContentTypeOption">Inhalte und Medien</key>
+  <key alias="contentContentTypeOption">Inhalte</key>
+  <key alias="mediaContentTypeOption">Medien</key>
+  </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>
   <key alias="bulkActionDeleteExecuted">Die gewählten Einträge wurden gelöscht.</key>
   <key alias="bulkActionIgnoreListExecuted">Die gewählten Einträge wurden zu den ignorierten Problemen hinzugefügt.</key>
   <key alias="bulkActionRevalidate">Seiten, die die gewählten Probleme enthalten, werden überprüft.</key>
   <key alias="bulkActionRevalidateCurrentPage">&lt;strong&gt;'{0}'&lt;/strong&gt; wird validiert.</key>
+  <key alias="bulkActionIgnoreOption">Dieses Problem in Zukunft ignorieren</key>
   </area>
 </language>

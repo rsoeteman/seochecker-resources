@@ -319,6 +319,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="showMediaOption">Show media</key>
   <key alias="overviewNoResult">Ingen redirects fundet</key>
   <key alias="ignoredInboundLinkIssuesNoResult">No ignored inbound link errors found</key>
+  <key alias="InboundLinkIssuesNoResult">No inbound link errors found</key>
   <key alias="overviewTitle">Administrer redirects</key>
   <key alias="overviewIntro">Opret, rediger eller slet redirects for denne side.</key>
   <key alias="overviewUrlHeader">Url</key>
@@ -350,11 +351,25 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="editRedirectRequiredError">En url hvor du vil redirecte til er obligatorisk. Vælg en ved at benytte url vælgeren, eller ved at tilføje en url til redirect til feltet</key>
   <key alias="editUrlExistsError">Den gamle url eksisterer allerede i databasen, du kan kun angive den gamle url en gang</key>
   </area>
+  <area alias="seoCheckerExportRedirects">
+  <key alias="exportOptionButton">Export redirects</key>
+  <key alias="exportButton">Export</key>
+  <key alias="title">Redirect export</key>
+  <key alias="exportField">Data to export</key>
+  <key alias="redirectsAndInboundLinksExportOption">Redirects and broken links</key>
+  <key alias="redirectsExportOption">Redirects</key>
+  <key alias="inboundlinksExportOption">Broken links</key>
+  <key alias="contentTypeField">Contenttypes to export</key>
+  <key alias="contentAndMediaContentTypeOption">Content and media</key>
+  <key alias="contentContentTypeOption">Content</key>
+  <key alias="mediaContentTypeOption">Media</key>
+  </area>
   <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
+  <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>
   </area>
   </language>

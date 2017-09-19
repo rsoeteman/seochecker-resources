@@ -322,6 +322,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   <key alias="title">Bewerk redirects</key>
   <key alias="inboundLinkIssuesTitle">Inkomende link fouten</key>
   <key alias="ignoredInboundLinkIssuesTitle">Te negeren inkomende link fouten</key>
+  <key alias="InboundLinkIssuesNoResult">Geen inbound link fouten gevonden</key>
   <key alias="createButton">Redirect maken</key>
   <key alias="showcontentOption">Toon content</key>
   <key alias="showMediaOption">Toon media</key>
@@ -358,11 +359,25 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   <key alias="editRedirectRequiredError">Een url is verplicht. Selecteer een url via de picker of url tekst veld.</key>
   <key alias="editUrlExistsError">De url bestaat reeds in de database, een url kan slechts 1 keer voorkomen.</key>
   </area>
+  <area alias="seoCheckerExportRedirects">
+  <key alias="exportOptionButton">Exporteer redirects</key>
+  <key alias="exportButton">Exporteren</key>
+  <key alias="title">Redirects exporteren</key>
+  <key alias="exportField">Data om te exporteren</key>
+  <key alias="redirectsAndInboundLinksExportOption">Redirects en broken links</key>
+  <key alias="redirectsExportOption">Redirects</key>
+  <key alias="inboundlinksExportOption">Broken links</key>
+  <key alias="contentTypeField">Content types voor export</key>
+  <key alias="contentAndMediaContentTypeOption">Content en media</key>
+  <key alias="contentContentTypeOption">Content</key>
+  <key alias="mediaContentTypeOption">Media</key>
+  </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
   <key alias="bulkActionDeleteExecuted">De geselecteerde items zijn verwijderd.</key>
   <key alias="bulkActionIgnoreListExecuted">De geselecteerde items zijn toegevoegd aan de te negeren lijst</key>
   <key alias="bulkActionRevalidate">Pagina's aan het valideren die de geselecteerde issues bevatten.</key>
   <key alias="bulkActionRevalidateCurrentPage">Valideren van &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
+  <key alias="bulkActionIgnoreOption">Negeer dit issue de volgende keer.</key>
   </area>
 </language>

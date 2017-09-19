@@ -321,6 +321,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="inboundLinkIssuesTitle">Inbound link errors</key>
   <key alias="ignoredInboundLinkIssuesTitle">Ignored inbound link errors</key>
   <key alias="ignoredInboundLinkIssuesNoResult">No ignored inbound link errors found</key>
+  <key alias="InboundLinkIssuesNoResult">No inbound link errors found</key>
   <key alias="createButton">Create redirect</key>
   <key alias="showcontentOption">Show content</key>
   <key alias="showMediaOption">Show media</key>
@@ -333,7 +334,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="overviewAccessedHeader">Accessed</key>
   <key alias="overviewLastTimeAccessedHeader">Last time accessed</key>
   <key alias="overviewAccessedFormat">{0} time(s)</key>
-  <key alias="inboundLinkErrorMessage">The link to &lt;a href="/{0}" target="_blank" title="{0}" &gt;{0}&lt;/a&gt; is broken.</key>
+  <key alias="inboundLinkErrorMessage">The link to &lt;a href="/{0}" class="seocheckerErrorLink" target="_blank" title="{0}" &gt; {0} &lt;/a&gt; is broken.</key>
   </area>
   <area alias="seoCheckerRedirectManagerEditDialog">
   <key alias="title">Edit redirect</key>
@@ -356,12 +357,28 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="editRedirectRequiredError">A url where you want to redirect to is required. Pick one using the url picker, or add a url to the  redirect to url field</key>
   <key alias="editUrlExistsError">The old url already exists in the database, you can only specify the old url once</key>
   </area>
+  <area alias="seoCheckerExportRedirects">
+  <key alias="exportOptionButton">Export redirects</key>
+  <key alias="exportButton">Export</key>
+  <key alias="title">Redirect export</key>
+  <key alias="exportField">Data to export</key>
+  <key alias="redirectsAndInboundLinksExportOption">Redirects and broken links</key>
+  <key alias="redirectsExportOption">Redirects</key>
+  <key alias="inboundlinksExportOption">Broken links</key>
+  <key alias="contentTypeField">Contenttypes to export</key>
+  <key alias="contentAndMediaContentTypeOption">Content and media</key>
+  <key alias="contentContentTypeOption">Content</key>
+  <key alias="mediaContentTypeOption">Media</key>
+  </area>
     <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
+  <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>
   </area>
   </language>
 
+
+  
