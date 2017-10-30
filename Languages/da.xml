@@ -364,6 +364,12 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="contentContentTypeOption">Content</key>
   <key alias="mediaContentTypeOption">Media</key>
   </area>
+   <area alias="seoCheckerImportRedirects">
+   <key alias="title"></key>
+   <key alias="uploadButton"></key>
+   <key alias="uploadFileField"></key>
+   <key alias="fileRequiredError"></key>
+   </area>
   <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>

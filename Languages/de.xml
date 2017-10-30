@@ -369,6 +369,12 @@ nofollow: Links nicht folgen</key>
   <key alias="contentContentTypeOption">Inhalte</key>
   <key alias="mediaContentTypeOption">Medien</key>
   </area>
+  <area alias="seoCheckerImportRedirects">
+   <key alias="title">>Weiterleitungen importieren</key>
+   <key alias="uploadButton">Hochladen</key>
+   <key alias="uploadFileField">Wählen Sie eine Datei zum Import</key>
+   <key alias="fileRequiredError">Sie haben keine Datei für den Import gewählt</key>
+   </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>
   <key alias="bulkActionDeleteExecuted">Die gewählten Einträge wurden gelöscht.</key>

@@ -372,6 +372,12 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   <key alias="contentContentTypeOption">Content</key>
   <key alias="mediaContentTypeOption">Media</key>
   </area>
+  <area alias="seoCheckerImportRedirects">
+   <key alias="title">Importeer redirects</key>
+   <key alias="uploadButton">Upload</key>
+   <key alias="uploadFileField">Selecteer een bestand om te importeren</key>
+   <key alias="fileRequiredError">Geen bestand geselecteerd voor import.</key>
+   </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
   <key alias="bulkActionDeleteExecuted">De geselecteerde items zijn verwijderd.</key>
