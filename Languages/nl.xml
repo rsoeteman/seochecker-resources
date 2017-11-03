@@ -374,9 +374,12 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
   </area>
   <area alias="seoCheckerImportRedirects">
    <key alias="title">Importeer redirects</key>
+   <key alias="importOptionButton">Importeer redirects</key>
    <key alias="uploadButton">Upload</key>
    <key alias="uploadFileField">Selecteer een bestand om te importeren</key>
    <key alias="fileRequiredError">Geen bestand geselecteerd voor import.</key>
+    <key alias="importProvider">Selecteer het type bestand</key>
+   <key alias="importProviderDescription">Selecteer het type bestand dat u wilt gebruiken voor de redirect import</key>
    </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
