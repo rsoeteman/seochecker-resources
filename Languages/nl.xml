@@ -380,6 +380,9 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
    <key alias="fileRequiredError">Geen bestand geselecteerd voor import.</key>
     <key alias="importProvider">Selecteer het type bestand</key>
    <key alias="importProviderDescription">Selecteer het type bestand dat u wilt gebruiken voor de redirect import</key>
+   <key alias="csvFieldSeparator">Scheidings teken</key>
+   <key alias="csvTextIndicator">Tekst indicatie</key>
+   <key alias="csvTextIndicatorNoIndicatorOption">Geen tekst indicatie</key>
    </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>

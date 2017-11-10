@@ -378,7 +378,9 @@ nofollow will not follow the links.&lt;br/&gt;</key>
    <key alias="fileRequiredError">No file specified to import</key>
    <key alias="importProvider">Select the file type</key>
    <key alias="importProviderDescription">Select the type of file you want to import the redirects from</key>
-
+   <key alias="csvFieldSeparator">Field Separator</key>
+   <key alias="csvTextIndicator">Text Indicator</key>
+   <key alias="csvTextIndicatorNoIndicatorOption">No text indicator</key>
    </area>
     <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>

@@ -372,6 +372,9 @@ noindex vil ikke følge links&lt;br/&gt;</key>
    <key alias="fileRequiredError"></key>
     <key alias="importProvider"></key>
    <key alias="importProviderDescription"></key>
+   <key alias="csvFieldSeparator"></key>
+   <key alias="csvTextIndicator"></key>
+   <key alias="csvTextIndicatorNoIndicatorOption"></key>
 
    </area>
   <area alias="seoCheckerBulkActions">

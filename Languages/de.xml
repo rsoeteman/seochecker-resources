@@ -377,6 +377,9 @@ nofollow: Links nicht folgen</key>
    <key alias="fileRequiredError">Sie haben keine Datei für den Import gewählt</key>
     <key alias="importProvider">Wählen Sie den Dateityp</key>
    <key alias="importProviderDescription">Geben Sie an, aus welcher Art von Datei Sie die Weiterleitungen importieren wollen.</key>
+   <key alias="csvFieldSeparator">Feld-Trennzeichen</key>
+   <key alias="csvTextIndicator">Text Indikator</key>
+   <key alias="csvTextIndicatorNoIndicatorOption">Kein Text Indikator</key>
 
    </area>
     <area alias="seoCheckerBulkActions">
