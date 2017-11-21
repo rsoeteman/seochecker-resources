@@ -17,6 +17,7 @@
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="deleteConfirm">Are you sure you want to delete?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
+	<key alias="currentSelectedFile">Selected file:</key>
   </area>
   <area alias="seoCheckerTree">
   <key alias="defaultTab">Default</key>
@@ -374,13 +375,24 @@ nofollow will not follow the links.&lt;br/&gt;</key>
    <key alias="importOptionButton">Import redirects</key>
    <key alias="title">Import redirects</key>
    <key alias="uploadButton">Upload</key>
+   <key alias="importButton">Import</key>
    <key alias="uploadFileField">Select a file to import</key>
    <key alias="fileRequiredError">No file specified to import</key>
+   <key alias="fileExtensionError">The file extension '{0}' can't be used for importing redirects. Try default Csv or Excel extensions.</key>
    <key alias="importProvider">Select the file type</key>
    <key alias="importProviderDescription">Select the type of file you want to import the redirects from</key>
    <key alias="csvFieldSeparator">Field Separator</key>
    <key alias="csvTextIndicator">Text Indicator</key>
    <key alias="csvTextIndicatorNoIndicatorOption">No text indicator</key>
+   <key alias="excelWorksheetOption">Select Excel worksheet</key>
+   <key alias="mappingSourceColumn">Source url column</key>
+   <key alias="mappingSourceColumnDescription">Choose the column from the datasource you want to use as the url you want to redirect from.</key>
+   <key alias="mappingTargetColumn">Target url column</key>
+   <key alias="mappingTargetColumnDescription">Choose the column from the datasource you want to use as the url you want to redirect to.</key>
+   <key alias="mapAgainstNode">Try to map target url against a node</key>
+   <key alias="mapAgainstNodeDescription">When checked the import process will try to map the target url against a node.</key>
+   <key alias="onlyImportWhenMatchNode">Only import when target url matches node</key>
+   <key alias="onlyImportWhenMatchNodeDescription">When checked the node will only be imported when it can be mapped against a node.</key>
    </area>
     <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>

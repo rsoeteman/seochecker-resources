@@ -18,6 +18,7 @@
 	<key alias="invalidSuffix">is invalid</key>
 	<key alias="deleteConfirm">Wollen Sie sicher löschen?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
+	<key alias="currentSelectedFile">Gewählte Datei:</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Seiten überprüfen</key>
@@ -373,14 +374,24 @@ nofollow: Links nicht folgen</key>
    <key alias="title">Weiterleitungen importieren</key>
    <key alias="importOptionButton">Weiterleitungen importieren</key>
    <key alias="uploadButton">Hochladen</key>
+   <key alias="importButton">Importieren</key>
    <key alias="uploadFileField">Wählen Sie eine Datei zum Import</key>
+   <key alias="fileExtensionError">Die Dateiendung '{0}' kann nicht zum Import von Weiterleitungen benutzt werden. Verwenden Sie csv oder Excel Dateien.</key>
    <key alias="fileRequiredError">Sie haben keine Datei für den Import gewählt</key>
     <key alias="importProvider">Wählen Sie den Dateityp</key>
    <key alias="importProviderDescription">Geben Sie an, aus welcher Art von Datei Sie die Weiterleitungen importieren wollen.</key>
    <key alias="csvFieldSeparator">Feld-Trennzeichen</key>
    <key alias="csvTextIndicator">Text Indikator</key>
    <key alias="csvTextIndicatorNoIndicatorOption">Kein Text Indikator</key>
-
+   <key alias="excelWorksheetOption">Wählen Sie eine Excel Tabelle</key>
+	<key alias="mappingSourceColumn">Spalte der Ursprungsadresse</key>
+   <key alias="mappingSourceColumnDescription">Wählen Sie die Spalte mit der Adresse, von der aus weitergeleitet werden soll.</key>
+   <key alias="mappingTargetColumn">Spalte der Zieladresse</key>
+   <key alias="mappingTargetColumnDescription">Wählen Sie die Spalte mit der Adresse, an die weitergeleitet werden soll.</key>
+   <key alias="mapAgainstNode">Versuchen, die Zieladresse einer Seite zuzuordnen</key>
+   <key alias="mapAgainstNodeDescription">Wenn gewählt, wird beim Import versucht, die Zieladresse einer Umbraco Seite zuzuordnen.</key>
+   <key alias="onlyImportWhenMatchNode">Nur importieren, wenn die Ziel-URL einer Seite zugeordnet werden kann</key>
+   <key alias="onlyImportWhenMatchNodeDescription">Wenn gewhält, werden nur Einträge importiert, die einer Seite zugeordnet werden können.</key>
    </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>

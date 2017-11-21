@@ -18,6 +18,7 @@
 	<key alias="crudLicenseError">Sorry you can't update without fixing the license issue first.</key>
 	<key alias="deleteConfirm">Weet u zeker dat u wilt verwijderen?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
+	<key alias="currentSelectedFile">Geselecteerd bestand:</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Valideer documenten</key>
@@ -376,13 +377,24 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
    <key alias="title">Importeer redirects</key>
    <key alias="importOptionButton">Importeer redirects</key>
    <key alias="uploadButton">Upload</key>
+   <key alias="importButton">Importeren</key>
    <key alias="uploadFileField">Selecteer een bestand om te importeren</key>
    <key alias="fileRequiredError">Geen bestand geselecteerd voor import.</key>
+   <key alias="fileExtensionError">De extension '{0}' kan niet gebruikt worden voor het importeren van redirects. Gebruik Csv of Excel extensie.</key>
     <key alias="importProvider">Selecteer het type bestand</key>
    <key alias="importProviderDescription">Selecteer het type bestand dat u wilt gebruiken voor de redirect import</key>
    <key alias="csvFieldSeparator">Scheidings teken</key>
    <key alias="csvTextIndicator">Tekst indicatie</key>
    <key alias="csvTextIndicatorNoIndicatorOption">Geen tekst indicatie</key>
+   <key alias="excelWorksheetOption">Selecteer het Excel werkblad</key>
+    <key alias="mappingSourceColumn">Oude url kolom</key>
+   <key alias="mappingSourceColumnDescription">Selecteer de kolom van het bestand wat de oude url bevat.</key>
+   <key alias="mappingTargetColumn">Redirect url kolom</key>
+   <key alias="mappingTargetColumnDescription">Selecteer een kolom uit het bestand wat de redirect bevat.</key>
+   <key alias="mapAgainstNode">Probeer de redirect tegen een node te mappen</key>
+   <key alias="mapAgainstNodeDescription">Wanneer aangevinkt zal tijdens de import geprobeerd worden om tegen een node aan te mappen.</key>
+   <key alias="onlyImportWhenMatchNode">Importeer alleen wanneer de redirect met een node overeen komt.</key>
+   <key alias="onlyImportWhenMatchNodeDescription">Wanneer deze optie aangevinkt is zal de redirect alleen geimporteerd worden als er daadwerkelijk een node gevonden kan worden.</key>
    </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
