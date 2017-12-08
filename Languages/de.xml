@@ -318,6 +318,8 @@ nofollow: Links nicht folgen</key>
   <key alias="overviewIssueTitle">Issue</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  <key alias="ignoredTitle">Ignorierte Konfigurationsprobleme</key>
+  <key alias="noIgnoredResult">Keine ignorierten Konfigurationsprobleme gefunden</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Weiterleitungen verwalten</key>

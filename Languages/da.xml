@@ -313,6 +313,8 @@ noindex vil ikke følge links&lt;br/&gt;</key>
   <key alias="overviewIssueTitle"></key>
   <key alias="overviewIssueDescription"></key>
   <key alias="overviewIssueCategory"></key>
+   <key alias="ignoredTitle">Ignored configuration issues</key>
+  <key alias="noIgnoredResult">No ignored configuration issues found</key>
   </area>
     <area alias="seoCheckerRedirectManager">
   <key alias="title">Administrer redirects</key>
@@ -400,7 +402,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
-  <key alias="bulkActionRemovedIgnoreListExecuted">The selected items are removed to the ignorelist.</key>
+  <key alias="bulkActionRemovedIgnoreListExecuted">The selected items are removed from the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>
