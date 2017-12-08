@@ -18,6 +18,7 @@
 	<key alias="deleteConfirm">Are you sure you want to delete?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
 	<key alias="currentSelectedFile">Selected file:</key>
+	<key alias="close">Close</key>
   </area>
   <area alias="seoCheckerTree">
   <key alias="defaultTab">Default</key>
@@ -309,6 +310,8 @@ nofollow will not follow the links.&lt;br/&gt;</key>
   <key alias="overviewIssueDocument">Document</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  <key alias="ignoredTitle">Ignored validation issues</key>
+  <key alias="ignorednoResult">No ignored validation issues found</key>
   </area>
    <area alias="seoCheckerConfigurationIssues">
   <key alias="title">Configuration issues</key>
@@ -393,11 +396,18 @@ nofollow will not follow the links.&lt;br/&gt;</key>
    <key alias="mapAgainstNodeDescription">When checked the import process will try to map the target url against a node.</key>
    <key alias="onlyImportWhenMatchNode">Only import when target url matches node</key>
    <key alias="onlyImportWhenMatchNodeDescription">When checked the node will only be imported when it can be mapped against a node.</key>
+   <key alias="redirectImportedResultMessage">The redirects are imported into your Umbraco environment.</key>
+   <key alias="sourceAndTargetMappingError">Source column cannot be the same as target</key>
+   <key alias="ExportErrorsButton">Export errors</key>
+   <key alias="ImportedResult">Imported redirects</key>
+   <key alias="ImportedErrors">Import errors</key>
+   <key alias="ImportedErrorsDescription">The number of redirects that could not be imported. Use the 'Export errors' button to export the errors to a new Excel file.</key>
    </area>
     <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
+  <key alias="bulkActionRemovedIgnoreListExecuted">The selected items are removed to the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>

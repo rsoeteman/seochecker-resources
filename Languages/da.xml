@@ -19,6 +19,7 @@
 	<key alias="deleteConfirm">Er du sikker på at du vil slette?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
 	<key alias="currentSelectedFile"></key>
+	<key alias="close">Close</key>
   </area>
  <area alias="seoCheckerTree">
 	<key alias="Tree_Validation">Validate pages</key>
@@ -303,6 +304,8 @@ noindex vil ikke følge links&lt;br/&gt;</key>
    <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
   <key alias="noResult">No validation issues found</key>
   <key alias="validationQueueMessage">SEOChecker is still validating pages. Currently there are &lt;strong&gt;{0} pages&lt;/strong&gt; in the validation queue.</key>
+  <key alias="ignoredTitle">Ignored validation issues</key>
+  <key alias="ignorednoResult">No ignored validation issues found</key>
   </area>
    <area alias="seoCheckerConfigurationIssues">
   <key alias="title"></key>
@@ -386,11 +389,18 @@ noindex vil ikke følge links&lt;br/&gt;</key>
    <key alias="mapAgainstNodeDescription"></key>
    <key alias="onlyImportWhenMatchNode"></key>
    <key alias="onlyImportWhenMatchNodeDescription"></key>
+    <key alias="redirectImportedResultMessage"></key>
+	<key alias="sourceAndTargetMappingError">Source column cannot be the same as target</key>
+   <key alias="ExportErrorsButton"></key>
+   <key alias="ImportedResult"></key>
+   <key alias="ImportedErrors"></key>
+   <key alias="ImportedErrorsDescription"></key>
    </area>
   <area alias="seoCheckerBulkActions">
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
+  <key alias="bulkActionRemovedIgnoreListExecuted">The selected items are removed to the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>

@@ -19,6 +19,7 @@
 	<key alias="deleteConfirm">Weet u zeker dat u wilt verwijderen?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
 	<key alias="currentSelectedFile">Geselecteerd bestand:</key>
+	<key alias="close">Sluiten</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Valideer documenten</key>
@@ -309,6 +310,8 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
    <key alias="overviewIssueDocument">Document</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  <key alias="ignoredTitle">Te negeren validatie fouten</key>
+  <key alias="ignorednoResult">Geen te negeren validatie fouten gevonden</key>
    </area>
     <area alias="seoCheckerConfigurationIssues">
   <key alias="title">Configuratie fouten</key>
@@ -395,11 +398,18 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
    <key alias="mapAgainstNodeDescription">Wanneer aangevinkt zal tijdens de import geprobeerd worden om tegen een node aan te mappen.</key>
    <key alias="onlyImportWhenMatchNode">Importeer alleen wanneer de redirect met een node overeen komt.</key>
    <key alias="onlyImportWhenMatchNodeDescription">Wanneer deze optie aangevinkt is zal de redirect alleen geimporteerd worden als er daadwerkelijk een node gevonden kan worden.</key>
+    <key alias="redirectImportedResultMessage">De redirects zijn geimporteerd</key>
+	<key alias="sourceAndTargetMappingError">Oude url kolom kan niet hetzelfde zijn als redirect kolom</key>
+   <key alias="ExportErrorsButton">Exporteer fouten</key>
+   <key alias="ImportedResult">De redirects zijn geimporteerd</key>
+   <key alias="ImportedErrors">Import fouten</key>
+   <key alias="ImportedErrorsDescription">Een aantal redirects konden niet geimporteerd worden. Gebruik de 'Export fouten' knop om de foutieve records als een nieuw Excel bestand te exporteren.</key>
    </area>
   <area alias="seoCheckerBulkActions">
    <key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
   <key alias="bulkActionDeleteExecuted">De geselecteerde items zijn verwijderd.</key>
   <key alias="bulkActionIgnoreListExecuted">De geselecteerde items zijn toegevoegd aan de te negeren lijst</key>
+  <key alias="bulkActionRemovedIgnoreListExecuted">De geselecteerde items zijn verwijderd van de te negeren lijst.</key>
   <key alias="bulkActionRevalidate">Pagina's aan het valideren die de geselecteerde issues bevatten.</key>
   <key alias="bulkActionRevalidateCurrentPage">Valideren van &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   <key alias="bulkActionIgnoreOption">Negeer dit issue de volgende keer.</key>

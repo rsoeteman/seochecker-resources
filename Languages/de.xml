@@ -19,6 +19,7 @@
 	<key alias="deleteConfirm">Wollen Sie sicher löschen?</key>
 	<key alias="bulkActionIgnore">Ignore this issue next time.</key>
 	<key alias="currentSelectedFile">Gewählte Datei:</key>
+	<key alias="close">Schließen</key>
   </area>
     <area alias="seoCheckerTree">
   <key alias="Tree_Validation">Seiten überprüfen</key>
@@ -308,6 +309,8 @@ nofollow: Links nicht folgen</key>
    <key alias="overviewIssueDocument">Document</key>
   <key alias="overviewIssueDescription">Description</key>
   <key alias="overviewIssueCategory">Category</key>
+  <key alias="ignoredTitle">Ignorierte Validierungsfehler</key>
+  <key alias="ignorednoResult">Keine igonrierten Validierungsprobleme gefunden.</key>
   </area>
    <area alias="seoCheckerConfigurationIssues">
   <key alias="title">Konfigurationsprobleme</key>
@@ -392,11 +395,18 @@ nofollow: Links nicht folgen</key>
    <key alias="mapAgainstNodeDescription">Wenn gewählt, wird beim Import versucht, die Zieladresse einer Umbraco Seite zuzuordnen.</key>
    <key alias="onlyImportWhenMatchNode">Nur importieren, wenn die Ziel-URL einer Seite zugeordnet werden kann</key>
    <key alias="onlyImportWhenMatchNodeDescription">Wenn gewhält, werden nur Einträge importiert, die einer Seite zugeordnet werden können.</key>
+    <key alias="redirectImportedResultMessage">Die Weiterleitungen werden importiert.</key>
+   <key alias="ExportErrorsButton">Fehler exportieren</key>
+   <key alias="sourceAndTargetMappingError">Source column cannot be the same as target</key>
+   <key alias="ImportedResult">Die Weiterleitungen werden importiert.</key>
+   <key alias="ImportedErrors">Import Fehler</key>
+   <key alias="ImportedErrorsDescription">Anzahl der Weiterleitungen, die nicht importiert werden konnten. Verwenden Sie den 'Fehler exportieren' Button um die Fehler in eine neue Excel Datei zu exportieren.</key>
    </area>
     <area alias="seoCheckerBulkActions">
 	 <key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>
   <key alias="bulkActionDeleteExecuted">Die gewählten Einträge wurden gelöscht.</key>
   <key alias="bulkActionIgnoreListExecuted">Die gewählten Einträge wurden zu den ignorierten Problemen hinzugefügt.</key>
+  <key alias="bulkActionRemovedIgnoreListExecuted">Die gewählten Einträge  wurden zu den ignorierten Problemen gelöscht</key>
   <key alias="bulkActionRevalidate">Seiten, die die gewählten Probleme enthalten, werden überprüft.</key>
   <key alias="bulkActionRevalidateCurrentPage">&lt;strong&gt;'{0}'&lt;/strong&gt; wird validiert.</key>
   <key alias="bulkActionIgnoreOption">Dieses Problem in Zukunft ignorieren</key>
