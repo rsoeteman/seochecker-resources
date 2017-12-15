@@ -41,6 +41,7 @@
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
+	<key alias="scheduledValidationTitle"></key>
     <key alias="validationIntro">Add the selected documents to validation queue. Only documents that are published and have a template assigned will be validated!</key>
     <key alias="rootNode">Start location</key>
     <key alias="validateChildren">Include children</key>
@@ -48,6 +49,17 @@
 	<key alias="notificationHeader">Pages added</key>
 	<key alias="notificationDescription">The selected page(s) are added to the validation queue</key>
 	<key alias="rootnodeValidationError">Select a start location</key>
+	<key alias="scheduleButton">Schedule</key>
+	<key alias="scheduledTaskName">Scheduled task name</key>
+	<key alias="scheduledTaskNotifyEmailAddress">Notify emailaddress</key>
+	<key alias="scheduledTaskNotifyEmailAddressDescription">To specify more than one emailaddress use a comma seperated list of email addresses.</key>
+	<key alias="scheduledTaskValidateEvery">Validate every</key>
+		<key alias="scheduledTaskConfigWarning">The email configuration for scheduled validation is not set. Without configuring the email, a confirmation email cannot be send when the scheduled validation task is finished. Configure the scheduled validation &lt;a href="settings/emailsettings.aspx?alias=scheduledtask"&gt;email here.&lt;/a&gt;</key>
+	<key alias="scheduledTaskNotifyNameRequired">Scheduled task name is required</key>
+	<key alias="scheduledTaskNotifyEmailAddressRequired">Notify emailaddress is required</key>
+	<key alias="scheduledTaskNotifyEmailAddressInvalid">One or more email addresses are invalid</key>
+	<key alias="scheduledTaskDaysRequired">Select at least one day</key>
+	
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validation queue</key>

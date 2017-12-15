@@ -45,6 +45,7 @@
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Seiten überprüfen</key>
+	<key alias="scheduledValidationTitle">Geplante Überprüfung</key>
     <key alias="validationIntro">Adds the selected documents to validation queue. Only documents that are published and have a template assigned will be validated</key>
     <key alias="rootNode">Ausgangspunkt</key>
     <key alias="validateChildren">Untergeordnete Elemente einschließen</key>
@@ -52,6 +53,16 @@
 	<key alias="notificationHeader">Pages added</key>
 	<key alias="notificationDescription">The selected page(s) are added to the validation queue</key>
 	<key alias="rootnodeValidationError">Select a start location</key>
+	<key alias="scheduleButton">Schedule</key>
+	<key alias="scheduledTaskName">Name des Zeitplans</key>
+	<key alias="scheduledTaskNotifyEmailAddress">E-Mail-Adresse für Benachrichtigungen</key>
+	<key alias="scheduledTaskNotifyEmailAddressDescription">Geben Sie eine oder mehrerere, durch Komma getrennte, E-Mail-Adressen an.</key>
+	<key alias="scheduledTaskValidateEvery">Intervall</key>
+	<key alias="scheduledTaskConfigWarning">Es wurden keine E-Mail Einstellungen für geplante Überprüfungen vorgenommen. Ohne diese kann keine E-Mail Bestätigung gesendet werden, wenn eine geplante Aufgabe abgeschlossen wurde. &lt;a href="settings/emailsettings.aspx?alias=scheduledtask"&gt;Bearbeiten Sie die Konfiguration hier&lt;/a&gt;.</key>
+	<key alias="scheduledTaskNotifyNameRequired">Ein Name für die geplante Aufgabe wird benötigt.</key>
+	<key alias="scheduledTaskNotifyEmailAddressRequired">Eine E-Mail-Adresse für Benachrichtigungen wird benötigt</key>
+	<key alias="scheduledTaskNotifyEmailAddressInvalid">Eine oder mehrere E-Mail-Adressen für Benachrichtigungen sind ungültig</key>
+	<key alias="scheduledTaskDaysRequired">Wählen Sie mindestens einen Tag</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Warteschlange für die Seitenüberprüfung</key>

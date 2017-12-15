@@ -45,6 +45,7 @@
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Valideer documenten</key>
+	<key alias="scheduledValidationTitle">Geplande validatie</key>
     <key alias="validationIntro">Voeg de geselecteerde documenten toe aan de validatie wachtrij. Alleen documenten die gepubliceerd zijn en een geldige template gekoppeld hebben worden gevalideerd.</key>
     <key alias="rootNode">Start locatie</key>
     <key alias="validateChildren">Inclusief kinderen</key>
@@ -52,6 +53,16 @@
 	<key alias="notificationHeader">Pagina's toegevoegd</key>
 	<key alias="notificationDescription">De pagina's zijn toegevoegd aan de validatie wachtrij</key>
 	<key alias="rootnodeValidationError">Selecteer een start locatie</key>
+	<key alias="scheduleButton">Schedule</key>
+	<key alias="scheduledTaskName">Geplande taak naam</key>
+	<key alias="scheduledTaskNotifyEmailAddress">Notificatie emailadres</key>
+	<key alias="scheduledTaskNotifyEmailAddressDescription">Gebruik een komma gescheiden lijst van email adressen indien u de email naar meerdere personen wilt versturen.</key>
+	<key alias="scheduledTaskValidateEvery">Interval</key>
+	<key alias="scheduledTaskConfigWarning">De e-mail configuratie voor geplande validatie is niet ingesteld. Zonder het configureren van de e-mail, kan een bevestigingsmail niet worden verstuurd wanneer de geplande validatie taak is voltooid. Configureerde geplande validatie &lt;a href="settings/emailsettings.aspx?alias=scheduledtask"&gt;email hier.&lt;/a&gt;</key>
+	<key alias="scheduledTaskNotifyNameRequired">Taak naam is verplicht</key>
+	<key alias="scheduledTaskNotifyEmailAddressRequired">Email adres is verplicht</key>
+	<key alias="scheduledTaskNotifyEmailAddressInvalid">1 of meer email adressen zijn verkeerd ingevoerd</key>
+	<key alias="scheduledTaskDaysRequired">Selecteer minimaal 1 dag</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validatie wachtrij</key>
