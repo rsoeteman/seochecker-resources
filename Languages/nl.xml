@@ -63,6 +63,8 @@
 	<key alias="scheduledTaskNotifyEmailAddressRequired">Email adres is verplicht</key>
 	<key alias="scheduledTaskNotifyEmailAddressInvalid">1 of meer email adressen zijn verkeerd ingevoerd</key>
 	<key alias="scheduledTaskDaysRequired">Selecteer minimaal 1 dag</key>
+		<key alias="scheduledTaskLastTimeExecuted">Laatste keer uitgevoerd</key>
+	<key alias="scheduledTaskNextRuntime">Volgende uitvoering</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validatie wachtrij</key>

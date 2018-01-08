@@ -41,7 +41,7 @@
   </area>
   <area alias="seoCheckerValidate">
     <key alias="validationTitle">Validate pages</key>
-	<key alias="scheduledValidationTitle"></key>
+	<key alias="scheduledValidationTitle">Scheduled validation</key>
     <key alias="validationIntro">Add the selected documents to validation queue. Only documents that are published and have a template assigned will be validated!</key>
     <key alias="rootNode">Start location</key>
     <key alias="validateChildren">Include children</key>
@@ -59,6 +59,8 @@
 	<key alias="scheduledTaskNotifyEmailAddressRequired">Notify emailaddress is required</key>
 	<key alias="scheduledTaskNotifyEmailAddressInvalid">One or more email addresses are invalid</key>
 	<key alias="scheduledTaskDaysRequired">Select at least one day</key>
+		<key alias="scheduledTaskLastTimeExecuted">Last time executed</key>
+	<key alias="scheduledTaskNextRuntime">Next run time</key>
 	
   </area>
   <area alias="seoCheckerValidationQueue">

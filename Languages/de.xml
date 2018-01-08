@@ -63,6 +63,8 @@
 	<key alias="scheduledTaskNotifyEmailAddressRequired">Eine E-Mail-Adresse für Benachrichtigungen wird benötigt</key>
 	<key alias="scheduledTaskNotifyEmailAddressInvalid">Eine oder mehrere E-Mail-Adressen für Benachrichtigungen sind ungültig</key>
 	<key alias="scheduledTaskDaysRequired">Wählen Sie mindestens einen Tag</key>
+	<key alias="scheduledTaskLastTimeExecuted">Letzte Ausführung</key>
+	<key alias="scheduledTaskNextRuntime">Nächste Ausführung</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Warteschlange für die Seitenüberprüfung</key>

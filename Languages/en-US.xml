@@ -63,6 +63,8 @@
 	<key alias="scheduledTaskNotifyEmailAddressRequired">Notify emailaddress is required</key>
 	<key alias="scheduledTaskNotifyEmailAddressInvalid">One or more email addresses are invalid</key>
 	<key alias="scheduledTaskDaysRequired">Select at least one day</key>
+	<key alias="scheduledTaskLastTimeExecuted">Last time executed</key>
+	<key alias="scheduledTaskNextRuntime">Next run time</key>
   </area>
   <area alias="seoCheckerValidationQueue">
     <key alias="title">Validation queue</key>
