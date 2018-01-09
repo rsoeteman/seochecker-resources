@@ -260,6 +260,14 @@ Fixed properties:&lt;br/&gt;
 	<key alias="seoDescriptionDescription">Hvis dette felt er tomt, vil det konfigurerede SEO description felt på dokumentet blive brugt</key>
 	<key alias="validationResult">Validering resultat</key>
 	<key alias="seoValidateButton">Validate SEO</key>
+			<key alias="newDocumentTitle">Standard SEO title felteterne vil blive brugt efter der er gemt første gang.</key>
+		<key alias="newDocumentDescription">Standard SEO description felterne vil blive brugt efter der er gemt første gang.</key>
+		<key alias="defaultTitle">Tomt title tag</key>
+		<key alias="defaultDescription">SEO description feltet mangler i de oprettede felter eller på templaten.</key>
+		<key alias="reportKeywordUsedSEOTitle">Fokus nøgleordet er ikke brugt i sidens SEO title.</key>
+		<key alias="reportKeywordUsedMetaDescription">Fokus nøgleordet er ikke brugt i sidens SEO description.</key>
+		<key alias="reportKeywordUsedH1">Fokus nøgleordet er ikke brugt i sidens titel (H1).</key>
+		<key alias="reportKeywordUsedBodyText">Fokus nøgleordet er ikke brugt i brødteksten.</key>
   </area>
   <area alias="redirectDataType">
   <key alias="overviewNoResult">Ingen redirects fundet</key>
@@ -313,6 +321,110 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 	<key alias="xmlSitemapChangeFrequencyDescription">Angiv hvor ofte sider baseret på denne dokumenttype bliver ændret.&lt;br/&gt;&lt;br/&gt;Inherit benytter den konfigurerede værdi på dokumenttypen.</key>
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   </area>
+  <area alias="seoCheckerValidationCategories">
+		<key alias="validationCategoryHeadings">Heading issues</key>
+		<key alias="validationCategoryBrokenLinks">Broken links</key>
+		<key alias="validationCategoryBrokenMedia">Broken media</key>
+		<key alias="validationCategoryMetadata">Metadata issues</key>
+		<key alias="validationCategoryContent">Content issues</key>
+		<key alias="validationCategoryGoogle">Google specific issues</key>
+		<key alias="validationCategoryMarkup">Markup issues</key>
+		<key alias="validationCategoryGeneral">General</key>
+		<key alias="validationCategorySEOCheckerConfiguration">SEO Checker configuration</key>
+		<key alias="validationCategoryRewriteConfiguration">Rewrite configuration</key>
+		<key alias="validationCategoryKeyword">Focus keyword issues</key>
+		<key alias="validationCategoryLicense">License issues</key>
+	</area>
+	<area alias="seoCheckerReportIssues">
+	<key alias="reportIssueMetaDescriptionKeywordValidator">SEO description indeholder ikke fokus nøgleordet</key>
+	<key alias="reportIssueDescriptionMaxLengthValidator">SEO description skal ikke være længere end 160 tegn.</key>
+	<key alias="reportIssueSEOTitleFocusKeywordValidator">SEO title indeholder ikke fokus nøgleordet</key>
+	<key alias="reportIssueMaxTitleLengthValidator">SEO title skal ikke være længere end 65 tegn.</key>
+	<key alias="reportIssueUrlKeywordValidator">Url'en indeholder ikke fokus nøgleordet</key>
+	<key alias="reportIssueBrokenLink_404">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
+	<key alias="reportIssueBrokenLink_500">The url &lt;strong&gt;{0}&lt;/strong&gt; throws an exception.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
+	<key alias="reportIssueBrokenLink_502">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt; &lt;br/&gt;Make sure  the domain is correct</key>
+	<key alias="reportIssueBrokenMedia_404">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; is broken.</key>
+	<key alias="reportIssueH1Empty">The H1 tag for this page is empty.</key>
+	<key alias="reportIssueInlineCSSValidator">The template contains inline CSS.</key>
+	<key alias="reportIssueInlineScriptingValidator">Document contains a lot of inline javascript.</key>
+	<key alias="reportIssueLargeCommentValidator">Document contains a lot of comments.</key>
+	<key alias="reportIssueLongViewstateValidator">The viewstate on the page is too long.</key>
+	<key alias="reportIssueMissingAltOnImages">The alt attribute for media item &lt;strong&gt;{0}&lt;/strong&gt; is missing.</key>
+	<key alias="reportIssueMissingDescriptionTag">The Description meta tag  is missing in the template.</key>
+	<key alias="reportIssueMissingGoogleAnalyticsAccount">Google Analytics er ikke sat korrekt op på denne template.</key>
+	<key alias="reportIssueMissingLinkTitle">The title attribute for the link to &lt;strong&gt;{0}&lt;/strong&gt; is missing.</key>
+	<key alias="reportIssueMultipleH1Found">Multiple H1 tags found on this page. Although it's valid, a page should ideally only have one H1 tag. Don't use the H1 tag too much.</key>
+	<key alias="reportIssueRobotsTxtDescription">The robots.txt file can not be found. Enable the auto robots.txt  option in the &lt;a href="../settings/config.aspx"&gt;configuration screen&lt;/a&gt;, or add a robots.txt file to the site.</key>
+	<key alias="reportIssueRobotsTxtExists">Robots.txt file could not be found.</key>
+	<key alias="reportIssueTemplateContainsIFrame">Templaten indeholder en iframe.</key>
+	<key alias="reportIssueTestContentValidator">The document contains "Lorem ipsum" test content.</key>
+	<key alias="reportIssueSEODescriptionMinLengthValidator">The SEO description should be descriptive and should contain at least 50 characters</key>
+	<key alias="reportIssueBrokenMedia_1001">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; is broken. Make sure the the url starts with http(s)://</key>
+	<key alias="reportIssueBrokenMedia_502">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; is broken. Make sure  the url starts with http(s)://</key>
+	<key alias="reportIssueUmbracoItemDescriptionTag">Meta description contains code.</key>
+	<key alias="reportIssueUmbracoItemKeywordsTag">Meta keywords contains code.</key>
+	<key alias="reportIssueBrokenLink_1001">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;. &lt;br/&gt;Make sure the the url starts with http(s)://</key>
+	<key alias="reportIssueBrokenLink_1100">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;. &lt;br/&gt;Make sure the domain name is correct.</key>
+	<key alias="reportIssueEmptyTitle">SEO Title &lt;title&gt; er tom</key>
+	<key alias="reportIssueMultipleTitleTag">Multiple SEO Title tags &amp;lt;title&amp;gt; are found, a page can only have one.</key>
+	<key alias="reportIssueMissingPageTitleTag">The SEO Title &amp;lt;title&amp;gt; is missing in the template.</key>
+	<key alias="reportIssue404PageMissing">Not found page is missing.</key>
+	<key alias="reportIssue404PageMissingDescription">When a page can't be found Users like a friendly not found page, instead of the default ones.&lt;br/&gt;Create a custom not found page and select it in the domain configuration section of SEO Checker.</key>
+	<key alias="reportIssueSeoDataTypeConfigurationValidatorMissing">SEO Datatype missing on&lt;br/&gt;{0}</key>
+	<key alias="reportIssueSeoDataTypeConfigurationValidatorMissingDescription">The SEO Datatype is not configured for document type '{0}'.&lt;br/&gt; It's not possible to give feedback about keyword usage when editing content without this datatype.</key>
+	<key alias="reportIssueEmptyDescriptionTag">SEO description meta tag'et på denne side er tom.</key>
+	<key alias="reportIssueTrimAspxValidator">Aspx Extension</key>
+	<key alias="reportIssueTrimAspxValidatorDescription">The site is configured to use directory url's.&lt;br/&gt;Make sure the URL Module is running or that you use URL rewriting</key>
+	<key alias="reportIssueCanonicalHostname">Canonical hostname</key>
+	<key alias="reportIssueCanonicalHostnameDescription">The url &lt;strong&gt;'{0}'&lt;/strong&gt; can be accessed with and without the www prefix.&lt;br/&gt; This can cause duplicate content issues. Set the www prefix option in the &lt;a href="../settings/config.aspx"&gt;configuration screen&lt;/a&gt;.</key>
+	<key alias="reportIssueCanonicalCanonicalHomePage">Canonical homepage</key>
+	<key alias="reportIssueCanonicalHomePageDescription">The default url &lt;strong&gt;'/'&lt;/strong&gt; can also be accessed by &lt;strong&gt;{0}&lt;/strong&gt; &lt;br/&gt;Make sure the URL Module is running or that you use URL rewriting</key>
+	<key alias="reportIssueLowercaseUrlValidator">Lower case url's</key>
+	<key alias="reportIssueLowercaseUrlValidatorDescription">The url &lt;strong&gt;'{0}'&lt;/strong&gt; can be accessed as uppercase and lowercase&lt;br/&gt;Make sure the URL Module is running or that you use URL rewriting</key>
+	<key alias="reportIssueTrailingSlashValidator">Trailing slash</key>
+	<key alias="reportIssueTrailingSlashValidatorDescription">The url &lt;strong&gt;'{0}'&lt;/strong&gt; can be accessed with and without a trailing slash &lt;br/&gt;Make sure the URL Module is running or that you use URL rewriting</key>
+	<key alias="reportIssueBrokenMedia_1100">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; is broken. Make sure the domain name is correct.</key>
+	<key alias="reportIssueCanonicalDefaultHomePage">Default.aspx</key>
+	<key alias="reportIssueCanonicalDefaultHomePageDescription">he default url &lt;strong&gt;'/'&lt;/strong&gt; can also be accessed by default.aspx &lt;br/&gt;Make sure the URL Module is running or that you use URL rewriting</key>
+	<key alias="reportIssueBrokenCSSUrlValidator">The link to stylesheet &lt;strong&gt;{0}&lt;/strong&gt; is broken.</key>
+	<key alias="reportIssueBrokenJSUrlValidator">The link to Javascript file &lt;strong&gt;{0}&lt;/strong&gt; is broken.</key>
+	<key alias="reportIssueEmptyDocumentValidator">This template only renders empty text</key>
+	<key alias="reportIssueMissingH1TagValidator">H1 element mangler i denne template</key>
+	<key alias="reportIssueLastUpdate">Old Content</key>
+	<key alias="reportIssueLastUpdateDescription">Search engines like fresh content and the newest content item on this site is older than one month.</key>
+	<key alias="reportIssueSEODocumentTypeConfigurationMissing">No documenttypes configured for SEO</key>
+	<key alias="reportIssueSEODocumentTypeConfigurationMissingDescription">It's important to set the SEO settings per documenttype.&lt;br/&gt; These settings are used for rendering Title, Description meta tags and generating sitemaps.&lt;br/&gt; You can edit these settings in the settings tree of the SEO Checker section.</key>
+	<key alias="reportIssueWebsiteNotConfiguredForHost">Hostname configuration issue</key>
+	<key alias="reportIssueWebsiteNotConfiguredForHostDescription">The website is not configured for '&lt;strong&gt;{0}&lt;/strong&gt;'. Visitors might access the website with and without the www prefix.&lt;br/&gt; Update IIS settings so it accepts the url with and without www prefix</key>
+	<key alias="reportIssueFocusKeywordNotSpecified">Fokus nøgleord for denne side er ikke angivet</key>
+	<key alias="reportIssueFocusKeywordNotSpecifiedDescription">For at analysere dit indhold for nøgleord, er det nødvendigt at specificere et fokus nøgleord</key>
+	<key alias="reportIssueH1KeywordFocusKeywordNotFound">Fokus nøgleordet er ikke fundet i sidens titel (H1)</key>
+	<key alias="reportIssueSeoMetaDescriptionMinLengthPageValidatorDescription">The SEO description should be descriptive and should contain at least 80 characters</key>
+	<key alias="reportIssueBodyTextFocusKeywordNotFound">Fokus nøgleordet er ikke fundet i brødteksten</key>
+	<key alias="reportIssueTrialModeDescription">SEO checker found &lt;strong&gt;{0} (other) errors&lt;/strong&gt; on this page. When running in trial mode only keyword usage errors will be reported.</key>
+	<key alias="reportIssueExceptionValidator">Error during validation of document (propably a template error), details are logged in the Umbraco log.</key>
+	<key alias="reportIssueBrokenLink_1011">The link to the url &lt;strong&gt;{0}&lt;/strong&gt; is empty.&lt;br/&gt; Make sure the link contains a url.</key>
+	<key alias="reportIssueBrokenMedia_1011">The reference to the media item &lt;strong&gt;{0}&lt;/strong&gt; is empty.&lt;br/&gt; Make sure the media item contains a url.</key>
+	<key alias="reportIssueRobotsTxtBlockAllRequest">The robots.txt file prevents all pages being indexed.</key>
+	<key alias="reportIssueRobotsTxtBlockAllRequesttDescription">The robots.txt file contains:&lt;br/&gt;&lt;br/&gt;
+User-agent: *&lt;br/&gt;
+Disallow: /&lt;br/&gt;&lt;br/&gt;
+
+And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a specific folder.&lt;br/&gt; This means all pages on the site will not be indexed and will not appear in the search results.</key>
+	<key alias="reportIssueRobotsTxtBlockGoogleRequest">The robots.txt file prevents all pages being indexed by Google.</key>
+	<key alias="reportIssueRobotsTxtBlockGoogleRequestDescription">The robots.txt file contains:&lt;br/&gt;&lt;br/&gt;
+User-agent: Googlebot&lt;br/&gt;
+Disallow: /&lt;br/&gt;&lt;br/&gt;
+
+And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a specific folder.&lt;br/&gt; This means all pages on the site will not be indexed by Googlebot and will not appear in the Google search results.</key>
+	<key alias="reportIssueRootNodeContainsRobotNoFollow">The robots meta tag on the homepage prevents all child pages being indexed.</key>
+	<key alias="reportIssueRootNodeContainsRobotNoFollowDescription">The Robots meta tag (meta name="robots") contains &lt;strong&gt;nofollow&lt;/strong&gt;.&lt;br/&gt; This means search engines will not follow links from the homepage and no child pages will appear in the search results.</key>
+	<key alias="reportIssueNoPublishedParentValidation">Sorry SEO checker can't validate the page because at least one parent should have a published version.</key>
+	<key alias="reportIssueProtectedPageValidator">This page is protected and cannot be validated.</key>
+	<key alias="reportIssueBrokenLink_1103">The link to url &lt;strong&gt;{0}&lt;/strong&gt; timed out.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;.</key>
+	<key alias="reportIssueBrokenMedia_1103">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; timed out.</key>
+	</area>
   <area alias="seoCheckerValidationIssues">
      <key alias="title">Validation issues</key>
    <key alias="noAdminWarning">SEO Checker found some issues that needs to be solved in templates. You don't have access to the template section. Please ask your developer to fix the issues.</key>
