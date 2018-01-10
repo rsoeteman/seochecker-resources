@@ -536,6 +536,7 @@ En bevat geen enkel &lt;strong&gt;Allow&lt;/strong&gt; element dat het indexeren
 		<key alias="bulkActionIgnoreListExecuted">De geselecteerde items zijn toegevoegd aan de te negeren lijst</key>
 		<key alias="bulkActionRemovedIgnoreListExecuted">De geselecteerde items zijn verwijderd van de te negeren lijst.</key>
 		<key alias="bulkActionRevalidate">Pagina's aan het valideren die de geselecteerde issues bevatten.</key>
+		<key alias="bulkActionInitializing">Initialiseren</key>
 		<key alias="bulkActionRevalidateCurrentPage">Valideren van &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
 		<key alias="bulkActionIgnoreOption">Negeer dit issue de volgende keer.</key>
 	</area>

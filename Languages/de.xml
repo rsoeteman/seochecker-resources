@@ -535,6 +535,7 @@ Außerdem ist kein &lt;strong&gt;Allow&lt;/strong&gt;-Eintrag für einen speziel
 		<key alias="bulkActionIgnoreListExecuted">Die gewählten Einträge wurden zu den ignorierten Problemen hinzugefügt.</key>
 		<key alias="bulkActionRemovedIgnoreListExecuted">Die gewählten Einträge  wurden zu den ignorierten Problemen gelöscht</key>
 		<key alias="bulkActionRevalidate">Seiten, die die gewählten Probleme enthalten, werden überprüft.</key>
+		<key alias="bulkActionInitializing">Initializing</key>
 		<key alias="bulkActionRevalidateCurrentPage">&lt;strong&gt;'{0}'&lt;/strong&gt; wird validiert.</key>
 		<key alias="bulkActionIgnoreOption">Dieses Problem in Zukunft ignorieren</key>
 	</area>

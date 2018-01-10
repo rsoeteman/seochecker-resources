@@ -530,6 +530,7 @@ And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a sp
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
   <key alias="bulkActionRemovedIgnoreListExecuted">The selected items are removed from the ignorelist.</key>
   <key alias="bulkActionRevalidate">Revalidating selected item(s)</key>
+  <key alias="bulkActionInitializing">Initializing</key>
   <key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
   <key alias="bulkActionIgnoreOption">Ignore this issue next time</key>
   </area>
