@@ -540,6 +540,14 @@ And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a sp
 		<key alias="bulkActionRevalidateCurrentPage">Validating &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
 		<key alias="bulkActionIgnoreOption">Ignore this issue next time</key>
 	</area>
+	<area alias="seoCheckerHealthChecks">
+		<key alias="inboundLinkErrorsSuccesMessage">Yeah no inbound link errors to fix!</key>
+		<key alias="inboundLinkErrorsFailedMessage">Uh Oh still some inbound link errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+		<key alias="validationErrorsSuccesMessage">Yeah no validation errors to fix!</key>
+		<key alias="validationErrorsFailedMessage">Uh Oh still some validation errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+		<key alias="configurationErrorsSuccesMessage">Yeah no configuration errors to fix!</key>
+		<key alias="configurationErrorsFailedMessage">Uh Oh still some configuration errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+	</area>
 </language>
 
 

@@ -540,4 +540,12 @@ En bevat geen enkel &lt;strong&gt;Allow&lt;/strong&gt; element dat het indexeren
 		<key alias="bulkActionRevalidateCurrentPage">Valideren van &lt;strong&gt;'{0}'&lt;/strong&gt;.</key>
 		<key alias="bulkActionIgnoreOption">Negeer dit issue de volgende keer.</key>
 	</area>
+	<area alias="seoCheckerHealthChecks">
+		<key alias="inboundLinkErrorsSuccesMessage">Yeah no inbound link errors to fix!</key>
+		<key alias="inboundLinkErrorsFailedMessage">Uh Oh still some inbound link errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+		<key alias="validationErrorsSuccesMessage">Yeah no validation errors to fix!</key>
+		<key alias="validationErrorsFailedMessage">Uh Oh still some validation errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+		<key alias="configurationErrorsSuccesMessage">Yeah no configuration errors to fix!</key>
+		<key alias="configurationErrorsFailedMessage">Uh Oh still some configuration errors to fix. Go to the issues section of SEOChecker and fix them there.</key>
+	</area>
 </language>
