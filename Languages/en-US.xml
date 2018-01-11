@@ -230,6 +230,10 @@ Fixed properties:&lt;br/&gt;
 		<key alias="redirectWhenNodeExistsDescription">When enabled Seochecker will check for a redirect, even when the page exists. When not selected SEOChecker only checks for a redirect when the requested page could not be found.</key>  
 		<key alias="twitterAccount">Twitter account</key>
 		<key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
+		<key alias="useTwitter">Enable twitter options</key>
+		<key alias="useTwitterDescription">When selected twittercard properties will be generated and you can specify twittercard properties in SEOChecker datatype</key>
+		<key alias="useFaceBook">Enable Facebook options</key>
+		<key alias="useFaceBookDescription">When selected Opengraph properties will be generated and you can specify facebook properties in SEOChecker datatype</key>
 
 	</area>
 	<area alias="seoCheckerPermissionSettings">

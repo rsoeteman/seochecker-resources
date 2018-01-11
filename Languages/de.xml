@@ -230,6 +230,10 @@ Fixed properties:&lt;br/&gt;
 		<key alias="redirectWhenNodeExistsDescription">Wenn gewählt, wird auch dann weitergeleitet wenn eine passende Seite existiert. Wenn nicht gewählt, wird nur dann weitergeleitet, wenn keine passende Seite existiert.</key>  
 		<key alias="twitterAccount">Twitter account</key>
 		<key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
+			<key alias="useTwitter">Enable twitter options</key>
+		<key alias="useTwitterDescription">When selected twittercard properties will be generated and you can specify twittercard properties in SEOChecker datatype</key>
+		<key alias="useFaceBook">Enable Facebook options</key>
+		<key alias="useFaceBookDescription">When selected Opengraph properties will be generated and you can specify facebook properties in SEOChecker datatype</key>
 	</area>
 	<area alias="seoCheckerPermissionSettings">
 		<key alias="title">Permission settings</key>
