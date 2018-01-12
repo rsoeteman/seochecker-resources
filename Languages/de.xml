@@ -203,6 +203,7 @@ Fixed properties:&lt;br/&gt;
 		<key alias="redirectSettingsTab">Weiterleitungs-Einstellungen</key>
 		<key alias="urlRewritingSettingsTab">URL Rewriting</key>
 		<key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+		<key alias="robotsTab">Robots.txt</key>
 		<key alias="socialTab">Social</key>
 		<key alias="validateAfterPublish">Seite beim Veröffentlichen überprüfen</key>
 		<key alias="validateAfterPublishDescription">Wenn gewählt, wird die Seite nach dem Veröffentlichen überprüft und Auffälligkeiten werden der Problemliste hinzugefügt.</key>
@@ -210,6 +211,12 @@ Fixed properties:&lt;br/&gt;
 		<key alias="validateEmptyAltAttributeOnImagesDescription">Standardmäßig werden nur leere Alt-Attribute in den vom Benutzer bearbeiteten Inhalten überprüft. Wenn diese Option gewählt ist, werden auch Bilder der Vorlage überprüft.</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemap">umbracoNaviHide (Versteckte Inhalte) ausschließen</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemapDescription">Wenn gewählt, werden alle versteckten Inhalte (und Kindelemente) mit der Eigenschaft umbracoNaviHide bei der Erstellung der Xml-Sitemap ausgeschlossen.</key>
+		<key alias="xmlSitemapEnabled">Xml-Sitemap aktivieren</key>
+		<key alias="xmlSitemapEnabledDescription">Wenn gewählt, wird eine dynamische Xml-Sitemap für jede Webseite angelegt. Wenn eine Seitenübersicht über 10.000 Dokumente enthält wird automatisch eine Index-Datei erstellt.</key>
+		<key alias="xmlSitemapPreview">Preview sitemap.xml file</key>
+				<key alias="robotsTxtEnabled">Dynamische robots.txt Datei aktivieren</key>
+		<key alias="robotsTxtEnabledDescription">Wenn gewählt, ist eine dynamische robots.txt für jede Webseite verfügbar.</key>
+		<key alias="robotsTxtPreview">Preview robots.txt file</key>
 		<key alias="rewriteWWWPrefix">www im Domainnamen</key>
 		<key alias="rewriteWWWPrefixDescription">Suchmaschinen behandeln URLs mit und ohne www unterschiedlich. Dies verursacht Probleme mit doppeltem Inhalt. Wählen Sie nur dann ignorieren, wenn Sie dieses Problem anderweitig lösen.</key>
 		<key alias="rewriteWWWOptionTrue">www zu URLs hinzufügen (www.example.com)</key>

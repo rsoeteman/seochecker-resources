@@ -203,6 +203,7 @@ Fixed properties:&lt;br/&gt;
 		<key alias="redirectSettingsTab">Redirect settings</key>
 		<key alias="urlRewritingSettingsTab">URL Rewriting</key>
 		<key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+		<key alias="robotsTab">Robots.txt</key>
 		<key alias="socialTab">Social</key>
 		<key alias="validateAfterPublish">Validate a page when published</key>
 		<key alias="validateAfterPublishDescription">When selected the page will be validated after publish and issues will be added to the issues list</key>
@@ -210,6 +211,12 @@ Fixed properties:&lt;br/&gt;
 		<key alias="validateEmptyAltAttributeOnImagesDescription">By default only empty alt attributes on user edited content will be validated. When this option is enabled the check also occurs on images created in templates.</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemap">Exclude umbracoNaviHide</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemapDescription">When selected all documents (and children) with property umbracoNaviHide set to true will be excluded from the generated Xml Sitemap</key>
+		<key alias="xmlSitemapEnabled">Enable XmlSitemap</key>
+		<key alias="xmlSitemapEnabledDescription">When selected the a dynamic Xml Sitemap will available  for every site in the umbraco installation. When the sitemap contains more than 10000 documents an index file will be created automatically</key>
+		<key alias="xmlSitemapPreview">Preview sitemap.xml file</key>
+		<key alias="robotsTxtEnabled">Enable dynamic robots.txt file</key>
+		<key alias="robotsTxtEnabledDescription">When selected a dynamic robots.txt will be available for every site in the umbraco installation</key>
+		<key alias="robotsTxtPreview">Preview robots.txt file</key>
 		<key alias="rewriteWWWPrefix">www prefix</key>
 		<key alias="rewriteWWWPrefixDescription">Search engines treat the URLs with or without www as different. This is causing duplicate content issues. Only select ignore when you solve this issue using your own URLRewriting module!</key>
 		<key alias="rewriteWWWOptionTrue">Force using www in url's (www.example.com)</key>

@@ -204,6 +204,7 @@ Fixed properties:&lt;br/&gt;
 		<key alias="redirectSettingsTab">Redirect instellingen</key>
 		<key alias="urlRewritingSettingsTab">URL Rewriting</key>
 		<key alias="xmlSitemapSettingsTab">Xml Sitemap</key>
+		<key alias="robotsTab">Robots.txt</key>
 		<key alias="socialTab">Social</key>
 		<key alias="validateAfterPublish">Valideer na publiceren</key>
 		<key alias="validateAfterPublishDescription">Wanneer geselecteerd zal de pagina na publiceren gevalideerd worden en issues te zien zijn in de issues lijst.</key>
@@ -211,6 +212,12 @@ Fixed properties:&lt;br/&gt;
 		<key alias="validateEmptyAltAttributeOnImagesDescription">Standaard worden lege alt attributen alleen voor content items gevalideerd. Wanneer deze optie aanstaat geldt de validatie ook voor templates.</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemap">Exclusief umbracoNaviHide</key>
 		<key alias="excludeUmbracoNaviHideXmlSitemapDescription">Wanneer geselecteerd worden alle documenten en kinderen niet meegenomen in de XML Sitemap.</key>
+		<key alias="xmlSitemapEnabled">Enable XmlSitemap</key>
+		<key alias="xmlSitemapEnabledDescription">When selected the a dynamic Xml Sitemap will available  for every site in the umbraco installation. When the sitemap contains more than 10000 documents an index file will be created automatically</key>
+		<key alias="xmlSitemapPreview">Preview sitemap.xml file</key>
+		<key alias="robotsTxtEnabled">Enable dynamic robots.txt file</key>
+		<key alias="robotsTxtEnabledDescription">When selected a dynamic robots.txt will be available for every site in the umbraco installation</key>
+		<key alias="robotsTxtPreview">Preview robots.txt file</key>
 		<key alias="rewriteWWWPrefix">Forceer www in domeinnaam</key>
 		<key alias="rewriteWWWPrefixDescription">Zoekmachines behandelen url's met en zonder www als verschillende url's.&lt;br/&gt;Dit kan duplicate content fouten tot gevolg hebben.</key>
 		<key alias="rewriteWWWOptionTrue">Forceer het gebruik van www in url's  (www.example.com)</key>
