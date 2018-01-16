@@ -347,6 +347,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
 		<key alias="validationCategoryRewriteConfiguration">Url rewrite configuratie</key>
 		<key alias="validationCategoryKeyword">Zoekwoord fouten</key>
 		<key alias="validationCategoryLicense">Licentie issues</key>
+		<key alias="validationCategorySocial">Social</key>		
 	</area>
 	<area alias="seoCheckerReportIssues">
 	<key alias="reportIssueMetaDescriptionKeywordValidator">Het focus keyword komt niet voor in de SEO omschrijving.</key>

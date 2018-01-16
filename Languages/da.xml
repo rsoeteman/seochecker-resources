@@ -345,6 +345,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 		<key alias="validationCategoryRewriteConfiguration">Rewrite configuration</key>
 		<key alias="validationCategoryKeyword">Focus keyword issues</key>
 		<key alias="validationCategoryLicense">License issues</key>
+		<key alias="validationCategorySocial">Social</key>		
 	</area>
 	<area alias="seoCheckerReportIssues">
 	<key alias="reportIssueMetaDescriptionKeywordValidator">SEO description indeholder ikke fokus nøgleordet</key>

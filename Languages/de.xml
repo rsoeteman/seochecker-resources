@@ -346,6 +346,7 @@ nofollow: Links nicht folgen</key>
 		<key alias="validationCategoryRewriteConfiguration">URL Rewrite Konfiguration</key>
 		<key alias="validationCategoryKeyword">Probleme mit dem Haupt-Keyword</key>
 		<key alias="validationCategoryLicense">Lizenz-Probleme</key>
+		<key alias="validationCategorySocial">Social</key>		
 	</area>
 	<area alias="seoCheckerReportIssues">
 	<key alias="reportIssueMetaDescriptionKeywordValidator">Die Beschreibung für Suchmaschinen enhält das Haupt-Keyword nicht</key>
