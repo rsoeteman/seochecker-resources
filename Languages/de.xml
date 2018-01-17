@@ -437,14 +437,15 @@ Außerdem ist kein &lt;strong&gt;Allow&lt;/strong&gt;-Eintrag für einen speziel
 	<key alias="reportIssueProtectedPageValidator">Diese Seite ist geschützt und kann nicht validiert werden.</key>
 	<key alias="reportIssueBrokenLink_1103">Das Zeitmlimit zum Öffnen der URL &lt;strong&gt;{0}&lt;/strong&gt; wurde überschritten.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;.</key>
 	<key alias="reportIssueBrokenMedia_1103">Das Öffnen des Medien-Objektes &lt;strong&gt;{0}&lt;/strong&gt; hat das Zeitlimit überschritten.</key>
-	<key alias="reportIssueMissingOGTitleProperty">The og:title property is missing in the template. </key>
+		<key alias="reportIssueMissingOGTitleProperty">The og:title property is missing in the template. </key>
 		<key alias="reportIssueMissingOGTypeProperty">The og:type property is missing in the template. </key>
 		<key alias="reportIssueMissingOGDecriptionProperty">The og:description property is missing in the template. </key>
 		<key alias="reportIssueMissingOGUrlProperty">The og:url property is missing in the template. </key>
 		<key alias="reportIssueEmptyOGTitleProperty">The og:title property is empty. </key>
 		<key alias="reportIssueEmptyOGDescriptionProperty">The og:title property is empty. </key>
 		<key alias="reportIssueEmptyOGTypeProperty">The og:url property is empty. </key>
-		<key alias="reportIssueEmptyOGUrlProperty">The og:description property is empty. </key>
+		<key alias="reportIssueEmptyOGUrlProperty">The og:url property is empty. </key>
+		<key alias="reportIssueInvalidOGUrlProperty">The og:url property is relative, make sure url starts with http(s). </key>
 		<key alias="reportIssueMissingTwitterCardDescription">The twitter:description meta tag is missing in the template. </key>
 		<key alias="reportIssueMissingTwitterCardTitle">The twitter:title meta tag is missing in the template. </key>
 		<key alias="reportIssueMissingTwitterCardType">The twitter:card meta tag is missing in the template. </key>
