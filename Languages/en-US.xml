@@ -450,6 +450,10 @@ And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a sp
 		<key alias="reportIssueMissingTwitterCardTitle">The twitter:title meta tag is missing in the template. </key>
 		<key alias="reportIssueMissingTwitterCardType">The twitter:card meta tag is missing in the template. </key>
 		<key alias="reportIssueMissingTwitterCardSite">The twitter:site meta tag is missing in the template. </key>
+		<key alias="reportIssueEmptyTwitterCardDescription">The twitter:description meta tag is empty. </key>
+		<key alias="reportIssueEmptyTwitterCardTitle">The twitter:title meta tag is empty. </key>
+		<key alias="reportIssueEmptyTwitterCardType">The twitter:card meta tag is empty. </key>
+		<key alias="reportIssueEmptyTwitterCardSite">The twitter:site meta tag is empty. </key>
 	</area>
 	<area alias="seoCheckerValidationIssues">
 		<key alias="title">Validation issues</key>
