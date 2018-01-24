@@ -239,6 +239,8 @@ Fixed properties:&lt;br/&gt;
 		<key alias="useTwitterDescription">When selected twittercard properties will be generated and you can specify twittercard properties in SEOChecker datatype</key>
 		<key alias="useFaceBook">Enable Facebook options</key>
 		<key alias="useFaceBookDescription">When selected Opengraph properties will be generated and you can specify facebook properties in SEOChecker datatype</key>
+		<key alias="maxDescriptionLength">Max meta:description length</key>
+		<key alias="maxDescriptionLengthDescription">Leave this option to default ones. Some SEO staff like to use different values but if you are not sure leave it like this.</key>
   </area>
     <area alias="seoCheckerPermissionSettings">
 	<key alias="title">Permission settings</key>
