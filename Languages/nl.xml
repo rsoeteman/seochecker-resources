@@ -117,8 +117,7 @@
 		<key alias="title">Document type eigenschappen</key>
 		<key alias="dataTypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 		<key alias="metadataSettingsTab">Metadata instellingen</key>
-		<key alias="opengraphSettingsTab">Opengraph settings</key>
-		<key alias="twittercardSettingsTab">Twittercard settings</key>
+		<key alias="socialSettingsTab">Social settings</key>
 		<key alias="robotsSettingsTab">Robot instellingen</key>
 		<key alias="xmlSitemapSettingsTab">Sitemap.xml instellingen</key>
 		<key alias="metadataDatatypeMissing">Het SEO Checker datatype ontbreekt op dit document type. SEO Checker kan geen keyword analyze uitvoeren zonder dit data type.</key>
@@ -130,35 +129,27 @@
 		<key alias="titleTemplateDescription">Gebruik een template om de SEO titel in een specifiek formaat te tonen met gebruik van het SEO datatype en de SEO Checker library&lt;br/&gt;
 Voorbeeld&lt;br/&gt;&lt;br/&gt;
 [#@seoTitle] | SEO Checker&lt;br/&gt;
-[#@seoTitle] | [$siteName] © 2013&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
 Placeholder syntax&lt;br/&gt;
 [# propertyAlias]&lt;br/&gt;
 [$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
 standaard properties:&lt;br/&gt;
 @nodeName (naam van de pagina)&lt;br/&gt;
 @seoTitle (de SEO titel)</key>
-		<key alias="defaultTwitterTitleProperties">Default twitter:title properties</key>
-		<key alias="defaultTwitterTitlePropertiesDescription">When the twitter:title is empty SEOChecker will use the selected properties to render the twitter:title tag. Node Name is a good property to use since that property is always required&lt;br/&gt;When empty the SEO title is used</key>
-		<key alias="defaultTwitterDescriptionProperties">Default twitter:description tag properties</key>
-		<key alias="defaultTwitterDescriptionPropertiesDescription">When the twitter:description tag from content is empty it SEOChecker will use the selected properties to render the twitter:description tag. Only the first paragraph will be used in case this default description tag  property is used!&lt;br/&gt;When empty the SEO description is used</key>
-		<key alias="defaultTwitterImageProperties">Default twitter:image properties</key>
-		<key alias="defaultTwitterImagePropertiesDescription">When the twitter:image is not set SEOChecker will use the selected properties to render the twitter:image tag.</key>
+<key alias="ogTemplate">OG:Title template</key>
+		<key alias="ogtitleTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
+		Syntax is the same as the metadata title template. When left empty The metadata template will be used.
+		</key>
+		<key alias="defaultSocialImageProperties">Default image properties</key>
+		<key alias="defaultSocialImagePropertiesDescription">When the image for social media is not set SEOChecker will use the selected properties to render the social media image tags.</key>
 		<key alias="defaultTwitterCardType">Twitter Card type</key>
 		<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
 		<key alias="defaultTwitterCardTypeRequired">Twitter card type is required</key>
 		<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
 		<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
-		<key alias="twitterTemplate">twitter:Title template</key>
-		<key alias="twitterTemplateDescription">Use a template to display the twitetr:Title property in a specific format, used in the Twitter Datatype and Library&lt;br/&gt;
-Sample&lt;br/&gt;&lt;br/&gt;
-[#@seoTitle] | SEO Checker&lt;br/&gt;
-[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
-Placeholder syntax&lt;br/&gt;
-[# propertyAlias]&lt;br/&gt;
-[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
-Fixed properties:&lt;br/&gt;
-@nodeName (Name of page)&lt;br/&gt;
-@seoTitle (the seo title property)&lt;br/&gt;When empty the SEO template is used</key>
+		<key alias="twitterTemplate">Twitter:Title template</key>
+		<key alias="twitterTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
+		Syntax is the same as the metadata title template. When left empty the metadata template will be used.</key>
 		<key alias="robotsIndex">Robots Index</key>
 		<key alias="robotsIndexDescription">Geeft een indicatie aan zoekmachines wat te doen met een pagina  gebaseerd op dit document type.&lt;br/&gt;&lt;br/&gt;
 index: neem het document op in de index&lt;br/&gt;

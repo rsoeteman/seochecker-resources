@@ -117,8 +117,7 @@
 		<key alias="title">Dokumenttyp Einstellungen</key>
 		<key alias="dataTypeMissing">SEO Checker datatype is missing from this document type. SEO Checker cannot analyze keywords when editing content without this data type.</key>
 		<key alias="metadataSettingsTab">Metadata Eigenschaften</key>
-		<key alias="opengraphSettingsTab">Opengraph settings</key>
-		<key alias="twittercardSettingsTab">Twittercard settings</key>
+		<key alias="socialSettingsTab">Social settings</key>
 		<key alias="robotsSettingsTab">Robots Einstellungen</key>
 		<key alias="xmlSitemapSettingsTab">Sitemap.xml Einstellungen</key>
 		<key alias="metadataDatatypeMissing">Die SEO Checker Eigenschaft fehlt bei diesem Dokumenttyp. Ohne diese kann SEO Checker die Keywords bei der Bearbeitung des Inhalts nicht analysieren.</key>
@@ -130,35 +129,27 @@
 		<key alias="titleTemplateDescription">Nutzen Sie eine Vorlage, um den Titel in einem im SEO Datentyp und in der Bibliothek in einem speziellen Format anzuzeigen.&lt;br/&gt;
 Beispiel&lt;br/&gt;&lt;br&gt;
 [#@seoTitle] | SEO Checker&lt;br/&gt;
-[#@seoTitle] | [$siteName] © 2013&lt;br/&gt;&lt;br/&gt;
+[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
 Platzhalter Syntax&lt;br/&gt;
 [# propertyAlias]&lt;br/&gt;
 [$ propertyAlias] (rekursiv)&lt;br/&gt;&lt;br/&gt;
 Feste Eigenschaften:&lt;br/&gt;
 @nodeName (Name der Seite)&lt;br/&gt;
 @seoTitle (SEO Titel Eigenschaft)</key>
-		<key alias="defaultTwitterTitleProperties">Default twitter:title properties</key>
-		<key alias="defaultTwitterTitlePropertiesDescription">When the twitter:title is empty SEOChecker will use the selected properties to render the twitter:title tag. Node Name is a good property to use since that property is always required&lt;br/&gt;When empty the SEO title is used</key>
-		<key alias="defaultTwitterDescriptionProperties">Default twitter:description tag properties</key>
-		<key alias="defaultTwitterDescriptionPropertiesDescription">When the twitter:description tag from content is empty it SEOChecker will use the selected properties to render the twitter:description tag. Only the first paragraph will be used in case this default description tag  property is used!&lt;br/&gt;When empty the SEO description is used</key>
-		<key alias="defaultTwitterImageProperties">Default twitter:image properties</key>
-		<key alias="defaultTwitterImagePropertiesDescription">When the twitter:image is not set SEOChecker will use the selected properties to render the twitter:image tag.</key>
+<key alias="defaultSocialImageProperties">Default image properties</key>
+		<key alias="defaultSocialImagePropertiesDescription">When the image for social media is not set SEOChecker will use the selected properties to render the social media image tags.</key>
+		<key alias="ogTemplate">OG:Title template</key>
+		<key alias="ogtitleTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
+		Syntax is the same as the metadata title template. When left empty The metadata template will be used.
+		</key>
 		<key alias="defaultTwitterCardType">Twitter Card type</key>
 		<key alias="defaultTwitterCardTypeDescription">The type of twitter card to render.</key>
 		<key alias="defaultTwitterCardTypeSummaryOption">Summary</key>
 		<key alias="defaultTwitterCardTypeSummaryLargeImageOption">Summary Card with large image</key>
 		<key alias="defaultTwitterCardTypeRequired">Twitter card type is required</key>
-		<key alias="twitterTemplate">twitter:Title template</key>
-		<key alias="twitterTemplateDescription">Use a template to display the twitetr:Title property in a specific format, used in the Twitter Datatype and Library&lt;br/&gt;
-Sample&lt;br/&gt;&lt;br/&gt;
-[#@seoTitle] | SEO Checker&lt;br/&gt;
-[#@seoTitle] | [$siteName] &amp;copy; 2013&lt;br/&gt;&lt;br/&gt;
-Placeholder syntax&lt;br/&gt;
-[# propertyAlias]&lt;br/&gt;
-[$ propertyAlias] (recursive)&lt;br/&gt;&lt;br/&gt;
-Fixed properties:&lt;br/&gt;
-@nodeName (Name of page)&lt;br/&gt;
-@seoTitle (the seo title property)&lt;br/&gt;When empty the SEO template is used</key>
+		<key alias="twitterTemplate">Twitter:Title template</key>
+		<key alias="twitterTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
+		Syntax is the same as the metadata title template. When left empty the metadata template will be used.</key>
 		<key alias="robotsIndex">Robots Index</key>
 		<key alias="robotsIndexDescription">Gibt an, ob Suchmaschinen Seiten mit diesem Dokumenttyp in den Index aufnehmen sollen:&lt;br/&gt;&lt;br/&gt;
 index: Seite indizieren&lt;br/&gt;
@@ -179,12 +170,8 @@ nofollow: Links ignorieren</key>
 		<key alias="xmlSitemapChangeFrequencyOptionNever">Nie</key>
 		<key alias="xmlSitemapChangeFrequencyOptionWeekly">Wöchentlich</key>
 		<key alias="xmlSitemapChangeFrequencyOptionYearly">Jährlich</key>
-		<key alias="defaultOGTitleProperties">Default og:title properties</key>
-		<key alias="defaultOGTitlePropertiesDescription">When the og:title is empty SEOChecker will use the selected properties to render the og:title tag. Node Name is a good property to use since that property is always required&lt;br/&gt;When empty the SEO title is used</key>
-		<key alias="defaultOGDescriptionProperties">Default og:description tag properties</key>
-		<key alias="defaultOGDescriptionPropertiesDescription">When the og:description tag from content is empty it SEOChecker will use the selected properties to render the og:description tag. Only the first paragraph will be used in case this default description tag  property is used!&lt;br/&gt;When empty the SEO description is used</key>
-		<key alias="defaultOGImageProperties">Default og:image properties</key>
-		<key alias="defaultOGImagePropertiesDescription">When the og:image is not set SEOChecker will use the selected properties to render the og:image tag.</key>
+		<key alias="defaultSocialImageProperties">Default image properties</key>
+		<key alias="defaultSocialImagePropertiesDescription">When the image for social media is not set SEOChecker will use the selected properties to render the social media image tags.</key>
 		<key alias="ogTemplate">OG:Title template</key>
 		<key alias="ogtitleTemplateDescription">Use a template to display the title property in a specific format, used in the Facebook Datatype and Library&lt;br/&gt;
 Sample&lt;br/&gt;&lt;br/&gt;
