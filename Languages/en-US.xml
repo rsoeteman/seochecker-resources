@@ -262,6 +262,13 @@ nofollow will not follow the links</key>
 	</area>
 	<area alias="seoCheckerSocialDataType">
 		<key alias="configurationError">No social networks defined&lt;br/&gt;Enable options in SEOChecker configuration</key>
+		<key alias="socialPreview">Social preview</key>
+		<key alias="socialTitle">Social title</key>
+		<key alias="socialTitleDescription">When left empty the configured Social title property for the document type will be used</key>
+		<key alias="socialImage">Social Image</key>
+		<key alias="socialImageDescription">When left empty the configured Social image property for the document type will be used</key>
+		<key alias="socialDescription">Social description</key>
+		<key alias="socialDescriptionDescription">When left empty the configured Social descriptio property for the document type will be used</key>
 	</area>
 	<area alias="redirectDataType">
 		<key alias="overviewNoResult">No redirects found</key>
