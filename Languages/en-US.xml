@@ -213,6 +213,8 @@ nofollow will not follow the links</key>
 		<key alias="redirectWhenNodeExistsDescription">When enabled Seochecker will check for a redirect, even when the page exists. When not selected SEOChecker only checks for a redirect when the requested page could not be found.</key>  
 		<key alias="twitterAccount">Twitter account</key>
 		<key alias="twitterAccountDescription">Add the twitter account of the organization here. This will be used for twittercard.</key>
+		<key alias="fbAppId">Facebook App Id</key>
+		<key alias="fbAppIdDescription">When specified the Facebook App Id  be rendered as page metadata.</key>
 		<key alias="useTwitter">Enable twitter options</key>
 		<key alias="useTwitterDescription">When selected twittercard properties will be generated and you can specify twittercard properties in SEOChecker datatype</key>
 		<key alias="useFaceBook">Enable Facebook options</key>
@@ -263,12 +265,16 @@ nofollow will not follow the links</key>
 	<area alias="seoCheckerSocialDataType">
 		<key alias="configurationError">No social networks defined&lt;br/&gt;Enable options in SEOChecker configuration</key>
 		<key alias="socialPreview">Social preview</key>
-		<key alias="socialTitle">Social title</key>
-		<key alias="socialTitleDescription">When left empty the configured Social title property for the document type will be used</key>
 		<key alias="socialImage">Social Image</key>
 		<key alias="socialImageDescription">When left empty the configured Social image property for the document type will be used</key>
-		<key alias="socialDescription">Social description</key>
-		<key alias="socialDescriptionDescription">When left empty the configured Social descriptio property for the document type will be used</key>
+		<key alias="socialOGTitle">Facebook title</key>
+		<key alias="socialOGTitleDescription">When left empty the configured Meta title property for the document type will be used</key>
+		<key alias="socialTwitterTitle">Twitter title</key>
+		<key alias="socialTwitterTitleDescription">When left empty the configured Meta title property for the document type will be used</key>
+		<key alias="socialOGDescription">Facebook description</key>
+		<key alias="socialOGDescriptionDescription">When left empty the configured Meta description property for the document type will be used</key>
+		<key alias="socialTwitterDescription">Facebook description</key>
+		<key alias="socialTwitterDescriptionDescription">When left empty the configured Meta description property for the document type will be used</key>
 	</area>
 	<area alias="redirectDataType">
 		<key alias="overviewNoResult">No redirects found</key>
