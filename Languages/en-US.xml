@@ -90,7 +90,7 @@
 		<key alias="scheduledValidationTitle">Scheduled validation email settings</key>
 		<key alias="scheduledValidationDescription">Change email settings for the email that gets sent when a scheduled validation occured and documents are added to the validation queue.</key>
 		<key alias="notificationTitle">User notification email settings</key>
-		<key alias="/umbraco/backoffice/seochecker/seocheckervalidateapi/initialize">Change email settings for the email that gets sent when a notification email is sent to the user.</key>
+		<key alias="notificationDescription">Change email settings for the email that gets sent when a notification email is sent to the user.</key>
 		<key alias="settingsSaved">Email settings are saved.</key>
 		<key alias="fromName">From name</key>
 		<key alias="fromAddress">From address</key>
