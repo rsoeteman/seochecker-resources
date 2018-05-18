@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<language alias="en" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
 	<creator>
 		<name>Soeteman software</name>
 		<link>https://github.com/rsoeteman/seochecker-resources</link>
@@ -90,7 +90,7 @@
 		<key alias="scheduledValidationTitle">Scheduled validation email settings</key>
 		<key alias="scheduledValidationDescription">Change email settings for the email that gets sent when a scheduled validation occured and documents are added to the validation queue.</key>
 		<key alias="notificationTitle">User notification email settings</key>
-		<key alias="/umbraco/backoffice/seochecker/seocheckervalidateapi/initialize">Change email settings for the email that gets sent when a notification email is sent to the user.</key>
+		<key alias="notificationDescription">Change email settings for the email that gets sent when a notification email is sent to the user.</key>
 		<key alias="settingsSaved">Email settings are saved.</key>
 		<key alias="fromName">From name</key>
 		<key alias="fromAddress">From address</key>
@@ -499,7 +499,7 @@ And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a sp
 		<key alias="redirectToUrl">Or redirect to url</key>
 		<key alias="redirectToUrlDescription">Specify the url you want to redirect to. Only use this when the page you want to redirect to can't be selected via the node picker!</key>
 		<key alias="wildcardUrl">Wildcard url</key>
-		<key alias="wildcardDescription">When selected all underlying pages of the old url will also map to the redirected node. If url was /news then news/newsitem will also redirect to the selected node.</key>
+		<key alias="wildcardUrlDescription">When selected all underlying pages of the old url will also map to the redirected node. If url was /news then news/newsitem will also redirect to the selected node.</key>
 		<key alias="domain">Domain</key>
 		<key alias="domainDescription">Only redirect when the url comes from the specified domain</key>
 		<key alias="querystring">Querystring</key>

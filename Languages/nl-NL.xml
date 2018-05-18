@@ -34,7 +34,7 @@
 		<key alias="Tree_Issues_IgnoredInboundlinkIssues">Genegeerde inkomende link fouten</key>
 		<key alias="Tree_Issues_IgnoredConfigurationIssues">Genegeerde configuratie fouten</key>
 		<key alias="Tree_Settings">Instellingen</key>
-		<key alias="Tree_Settings_IgnoreList"></key>
+		<key alias="Tree_Settings_IgnoreList">Negeer lijst</key>
 		<key alias="Tree_Settings_GeneralSettings">Algemene instellingen</key>
 		<key alias="Tree_Settings_Email">Email instellingen</key>
 		<key alias="Tree_Settings_Email_ScheduledTask">Validatie emails</key>
