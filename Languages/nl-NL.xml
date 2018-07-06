@@ -553,6 +553,9 @@ En bevat geen enkel &lt;strong&gt;Allow&lt;/strong&gt; element dat het indexeren
 		<key alias="ImportedErrorsDescription">Een aantal redirects konden niet geimporteerd worden. Gebruik de 'Export fouten' knop om de foutieve records als een nieuw Excel bestand te exporteren.</key>
 	</area>
 	<area alias="seoCheckerBulkActions">
+		<key alias="bulkActionClearAllButton">Alles verwijderen</key>
+		<key alias="bulkActionClearAllConfirmMessage">Klik 'ok' om de alle items te verwijderen van de lijst.</key>
+		<key alias="bulkActionClearAllIssuesExecuted">Alle items zijn verwijderd.</key>
 		<key alias="bulkActionDeleteConfirmMessage">Klik 'ok' om de geselecteerde items te verwijderen van de lijst.</key>
 		<key alias="bulkActionDeleteExecuted">De geselecteerde items zijn verwijderd.</key>
 		<key alias="bulkActionIgnoreListExecuted">De geselecteerde items zijn toegevoegd aan de te negeren lijst</key>

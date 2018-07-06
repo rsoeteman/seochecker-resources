@@ -548,6 +548,9 @@ Außerdem ist kein &lt;strong&gt;Allow&lt;/strong&gt;-Eintrag für einen speziel
 		<key alias="ImportedErrorsDescription">Anzahl der Weiterleitungen, die nicht importiert werden konnten. Verwenden Sie den 'Fehler exportieren' Button um die Fehler in eine neue Excel Datei zu exportieren.</key>
 	</area>
 	<area alias="seoCheckerBulkActions">
+		<key alias="bulkActionClearAllButton">Delete all</key>
+		<key alias="bulkActionClearAllConfirmMessage">Click 'ok' to remove all items from the issuelist.</key>
+		<key alias="bulkActionClearAllIssuesExecuted">All items are deleted.</key>
 		<key alias="bulkActionDeleteConfirmMessage">Klicken Sie 'ok' um die gewählten Einträge von der Fehler-Liste zu löschen.</key>
 		<key alias="bulkActionDeleteExecuted">Die gewählten Einträge wurden gelöscht.</key>
 		<key alias="bulkActionIgnoreListExecuted">Die gewählten Einträge wurden zu den ignorierten Problemen hinzugefügt.</key>

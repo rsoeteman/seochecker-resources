@@ -543,6 +543,9 @@ And doesn't contain any &lt;strong&gt;Allow&lt;/strong&gt; element to index a sp
    <key alias="ImportedErrorsDescription"></key>
    </area>
   <area alias="seoCheckerBulkActions">
+  <key alias="bulkActionClearAllButton">Delete all</key>
+		<key alias="bulkActionClearAllConfirmMessage">Click 'ok' to remove all items from the issuelist.</key>
+		<key alias="bulkActionClearAllIssuesExecuted">All items are deleted.</key>
 	<key alias="bulkActionDeleteConfirmMessage">Click 'ok' to remove the selected items from the issuelist.</key>
   <key alias="bulkActionDeleteExecuted">The selected items are deleted.</key>
   <key alias="bulkActionIgnoreListExecuted">The selected items are added to the ignorelist.</key>
