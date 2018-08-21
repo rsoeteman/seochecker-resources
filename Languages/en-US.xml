@@ -273,7 +273,7 @@ nofollow will not follow the links</key>
 		<key alias="socialTwitterTitleDescription">When left empty the configured Meta title property for the document type will be used</key>
 		<key alias="socialOGDescription">Facebook description</key>
 		<key alias="socialOGDescriptionDescription">When left empty the configured Meta description property for the document type will be used</key>
-		<key alias="socialTwitterDescription">Facebook description</key>
+		<key alias="socialTwitterDescription">Twitter description</key>
 		<key alias="socialTwitterDescriptionDescription">When left empty the configured Meta description property for the document type will be used</key>
 	</area>
 	<area alias="redirectDataType">
