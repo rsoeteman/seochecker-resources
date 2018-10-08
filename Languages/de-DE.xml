@@ -214,6 +214,8 @@ Fixed properties:&lt;br/&gt;
 		<key alias="rewriteTrailingSlashOptionTrue">Schrägstrich am Ende der URLs hinzufügen (www.example.com/url/)</key>
 		<key alias="rewriteTrailingSlashOptionFalse">Schrägstrichs am Ende der URLs entfernen (www.example.com/url)</key>
 		<key alias="rewriteTrailingSlashOptionIgnore">Ignorieren (nicht empfohlen)</key>
+<key alias="enableUrlHistoryTracking">Track url history</key>
+		<key alias="enableUrlHistoryTrackingDescription">When enabled, redirects will be created for media and contect urls when the url changes.</key>
 		<key alias="redirectStoreDomain">Domain nicht gefundener Adressen merken</key>
 		<key alias="redirectStoreDomainDescription">Wenn gewählt, wird bei nicht gefundenen Adressen die ursprüngliche Domain übernommen. So können Sie zu verschiedenen Seiten für verschiedene Domains weiterleiten (www.beispiel.de/kontakt und kunden.beispiel.de/konakt).&lt;br/&gt;&lt;br/&gt;Die Domain kann manuell entfernt oder hinzugefügt werden, wenn eine Weiterleitung bearbeitet wird.</key>  
 		<key alias="redirectStoreQueryString">Querystring nicht gefundener Adressen merken</key>

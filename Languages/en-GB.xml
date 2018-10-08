@@ -203,6 +203,8 @@ nofollow will not follow the links</key>
 		<key alias="rewriteTrailingSlashOptionFalse">Force remove trailing slash from url's (www.example.com/url)</key>
 		<key alias="rewriteTrailingSlashOptionIgnore">Ignore (not recommended)</key>
 		<key alias="rewriteTrailingSlashDescription">Search engines treat the URLs with or without trailing slash as different. This is causing duplicate content issues.Only select ignore when you solve this issue using URLRewriting!</key>
+<key alias="enableUrlHistoryTracking">Track url history</key>
+		<key alias="enableUrlHistoryTrackingDescription">When enabled, redirects will be created for media and contect urls when the url changes.</key>
 		<key alias="redirectStoreDomain">Store domain for  not found urls</key>
 		<key alias="redirectStoreDomainDescription">When enabled the domain will be stored in case of a not found url. This allows you to redirect to a different page for different domains(www.example.com/contact and clients.example.com/contact).&lt;br/&gt;&lt;br/&gt;The domain can be removed or added manually when editing the redirect.</key>  
 		<key alias="redirectStoreQueryString">Store querystring for  not found urls</key>

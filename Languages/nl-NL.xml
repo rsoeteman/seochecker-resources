@@ -219,6 +219,8 @@ Fixed properties:&lt;br/&gt;
 		<key alias="rewriteTrailingSlashOptionTrue">Forceer het eindigen van url's met een slash(/) (www.example.com/url/)</key>
 		<key alias="rewriteTrailingSlashOptionFalse">Forceer het niet eindigen van url's met een slash(/) (www.example.com/url)</key>
 		<key alias="rewriteTrailingSlashOptionIgnore">Negeren (niet aanbevolen)</key>
+<key alias="enableUrlHistoryTracking">Track url history</key>
+		<key alias="enableUrlHistoryTrackingDescription">When enabled, redirects will be created for media and contect urls when the url changes.</key>
 		<key alias="redirectStoreDomain">Gebruik domein</key>
 		<key alias="redirectStoreDomainDescription">Wanneer ingeschakeld zal het domein worden opgeslagen in het geval van een niet gevonden url. Dit stelt u in staat om redirecten naar een andere pagina voor de verschillende domeinen (www.example.com/contact en clients.example.com/contact). &lt;br/&gt; De domeinnaam kan worden verwijderd of gewijzigd bij het bewerken van de redirect.</key>  
 		<key alias="redirectStoreQueryString">Gebruik querystring voor niet gevonden urls</key>
