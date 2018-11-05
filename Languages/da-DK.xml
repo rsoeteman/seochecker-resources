@@ -345,6 +345,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 	<key alias="reportIssueMaxTitleLengthValidator">SEO title skal ikke være længere end 65 tegn.</key>
 	<key alias="reportIssueUrlKeywordValidator">Url'en indeholder ikke fokus nøgleordet</key>
 	<key alias="reportIssueBrokenLink_404">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
+	<key alias="reportIssueBrokenLink_999">The link to url &lt;strong&gt;{0}&lt;/strong&gt; can't be validated.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
 	<key alias="reportIssueBrokenLink_500">The url &lt;strong&gt;{0}&lt;/strong&gt; throws an exception.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
 	<key alias="reportIssueBrokenLink_502">The link to url &lt;strong&gt;{0}&lt;/strong&gt; is broken.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt; &lt;br/&gt;Make sure  the domain is correct</key>
 	<key alias="reportIssueBrokenMedia_404">The reference to media item &lt;strong&gt;{0}&lt;/strong&gt; is broken.</key>

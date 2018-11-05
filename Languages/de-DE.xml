@@ -346,6 +346,7 @@ nofollow: Links nicht folgen</key>
 	<key alias="reportIssueMaxTitleLengthValidator">Der Titel für Suchmaschinen sollte nicht länger als 65 Zeichen sein</key>
 	<key alias="reportIssueUrlKeywordValidator">Die Url enthält das Haupt-Keyword nicht</key>
 	<key alias="reportIssueBrokenLink_404">Der Link zur Adresse &lt;strong&gt;{0}&lt;/strong&gt; ist fehlerhaft.&lt;br /&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
+	<key alias="reportIssueBrokenLink_999">Der Link zur Adresse &lt;strong&gt;{0}&lt;/strong&gt; ist fehlerhaft.&lt;br /&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
 	<key alias="reportIssueBrokenLink_500">The url &lt;strong&gt;{0}&lt;/strong&gt; throws an exception.&lt;br/&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;</key>
 	<key alias="reportIssueBrokenLink_502">Der Link zur Adresse &lt;strong&gt;{0}&lt;/strong&gt; ist fehlerhaft.&lt;br /&gt;Link: &lt;a href="{0}" target="_blank"&gt;{1}&lt;/a&gt;&lt;br /&gt;Stellen Sie sicher, dass die Domain korrekt ist.</key>
 	<key alias="reportIssueBrokenMedia_404">Die Verlinkung zum Medien-Objekt &lt;strong&gt;{0}&lt;/strong&gt; ist fehlerhaft.</key>
