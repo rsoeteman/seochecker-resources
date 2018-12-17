@@ -414,6 +414,7 @@ nofollow volgt de links niet.&lt;br/&gt;</key>
 	<key alias="reportIssueSeoMetaDescriptionMinLengthPageValidatorDescription">De SEO Omschrijving moet beschrijvend zijn en minstens 80 karakters bevatten.</key>
 	<key alias="reportIssueBodyTextFocusKeywordNotFound">Het zoekwoord is niet gevonden in de document tekst.</key>
 	<key alias="reportIssueTrialModeDescription">SEO checker heeft  &lt;strong&gt;{0} (andere) fouten&lt;/strong&gt; gevonden op de pagina. In trial mode worden alleen zoekwoord fouten getoond.</key>
+	<key alias="reportIssueUnpublished">Dit document is niet gepubliceerd en kan daarom niet gevalideerd worden.</key>
 	<key alias="reportIssueExceptionValidator">Fout tijdens het valideren van het document (waarschijnlijk een template fout). De details zijn gelogd in de Umbraco log.</key>
 	<key alias="reportIssueBrokenLink_1011">De link naar url &lt;strong&gt;{0}&lt;/strong&gt; is leeg.&lt;br/&gt; Zorg dat de link een url bevat.</key>
 	<key alias="reportIssueBrokenMedia_1011">De link naar media item &lt;strong&gt;{0}&lt;/strong&gt; is leeg.&lt;br/&gt; Zorg dat de het media item een link bevat.</key>

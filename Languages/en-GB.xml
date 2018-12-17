@@ -413,6 +413,7 @@ nofollow will not follow the links.&lt;br/&gt;</key>
 		<key alias="reportIssueH1KeywordFocusKeywordNotFound">The focus keyword is not found in the page title (H1)</key>
 		<key alias="reportIssueSeoMetaDescriptionMinLengthPageValidatorDescription">The SEO description should be descriptive and should contain at least 80 characters</key>
 		<key alias="reportIssueBodyTextFocusKeywordNotFound">The focus keyword is not found in the body text</key>
+		<key alias="reportIssueUnpublished">The document is unpublished and can't be validated.</key>
 		<key alias="reportIssueTrialModeDescription">SEO checker found &lt;strong&gt;{0} (other) errors&lt;/strong&gt; on this page. When running in trial mode only keyword usage errors will be reported.</key>
 		<key alias="reportIssueExceptionValidator">Error during validation of document (propably a template error), details are logged in the Umbraco log.</key>
 		<key alias="reportIssueBrokenLink_1011">The link to the url &lt;strong&gt;{0}&lt;/strong&gt; is empty.&lt;br/&gt; Make sure the link contains a url.</key>

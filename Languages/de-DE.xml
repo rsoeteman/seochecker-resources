@@ -408,6 +408,7 @@ nofollow: Links nicht folgen</key>
 	<key alias="reportIssueH1KeywordFocusKeywordNotFound">Das Haupt-Keyword wurde nicht im Seitentitel (h1) gefunden</key>
 	<key alias="reportIssueSeoMetaDescriptionMinLengthPageValidatorDescription">Die Beschreibung für Suchmaschinen sollte mindestens 80 Zeichen umfassen.</key>
 	<key alias="reportIssueBodyTextFocusKeywordNotFound">Das Haupt-Keyword kommt im Inhalt der Seite nicht vor.</key>
+	<key alias="reportIssueUnpublished">The document is unpublished and can't be validated.</key>
 	<key alias="reportIssueTrialModeDescription">SEO Checker hat &lt;strong&gt;{0} (andere) Fehler&lt;/strong&gt; auf dieser Seite gefunden. In der Testversion werden nur Fehler in der Keyword-Benutzung angezeigt.</key>
 	<key alias="reportIssueExceptionValidator">Fehler bei der Überprüfung des Inhalts (wahrschenlich ein Vorlagen-Fehler). Details finden Sie im Umbraco Protokoll.</key>
 	<key alias="reportIssueBrokenLink_1011">Der Link zur URL &lt;strong&gt;{0}&lt;/strong&gt; ist leer.&lt;br/&gt;Stellen Sicher, dass der Link eine URL enthält.</key>

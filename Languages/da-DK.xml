@@ -408,6 +408,7 @@ noindex vil ikke følge links&lt;br/&gt;</key>
 	<key alias="reportIssueSeoMetaDescriptionMinLengthPageValidatorDescription">The SEO description should be descriptive and should contain at least 80 characters</key>
 	<key alias="reportIssueBodyTextFocusKeywordNotFound">Fokus nøgleordet er ikke fundet i brødteksten</key>
 	<key alias="reportIssueTrialModeDescription">SEO checker found &lt;strong&gt;{0} (other) errors&lt;/strong&gt; on this page. When running in trial mode only keyword usage errors will be reported.</key>
+	<key alias="reportIssueUnpublished">The document is unpublished and can't be validated.</key>
 	<key alias="reportIssueExceptionValidator">Error during validation of document (propably a template error), details are logged in the Umbraco log.</key>
 	<key alias="reportIssueBrokenLink_1011">The link to the url &lt;strong&gt;{0}&lt;/strong&gt; is empty.&lt;br/&gt; Make sure the link contains a url.</key>
 	<key alias="reportIssueBrokenMedia_1011">The reference to the media item &lt;strong&gt;{0}&lt;/strong&gt; is empty.&lt;br/&gt; Make sure the media item contains a url.</key>
